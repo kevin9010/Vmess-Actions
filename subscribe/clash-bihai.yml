@@ -7,72 +7,66 @@ external-controller: 127.0.0.1:9090
 proxies:
   - {name: _33 |45.40Mb, server: v3.ssrsub.com, port: 8443, type: vmess, uuid: 13b36e17-e869-4b77-bf33-e5a431eac496, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v3.ssrsub.com}, udp: true}
   - {name: _43 |65.36Mb, server: v3.ssrsub.com, port: 8443, type: vmess, uuid: e795f820-9391-4a9d-bfaf-b5329386f82f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v3.ssrsub.com}, udp: true}
-  - {name: 🇦🇺 AU_77 |216.40Mb, server: 1.0.0.1, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: 1.0.0.1}}
-  - {name: CA_276 |96.07Mb, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 192.186.129.66}}
-  - {name: CA_279 |55.48Mb, server: 142.47.217.148, port: 8443, type: vmess, uuid: e795f820-9391-4a9d-bfaf-b5329386f82f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: 142.47.217.148}}
-  - {name: CA_281 |59.50Mb, server: 142.47.217.148, port: 8443, type: vmess, uuid: 13b36e17-e869-4b77-bf33-e5a431eac496, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: 142.47.217.148}}
-  - {name: CA_282 |133.72Mb, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: 🇩🇪 DE_398 |46.78Mb, server: germany-dusseldorf.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: germany-dusseldorf.mah3Hoet.com}}
-  - {name: 🇩🇪 DE_399 |46.09Mb, server: 146.0.42.87, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 146.0.42.87}}
-  - {name: 🇫🇷 FR_461 |45.19Mb, server: 62.210.90.75, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 62.210.90.75}}
-  - {name: 🇫🇷 FR_462 |59.20Mb, server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: ahdaeph8.com}}
-  - {name: GB_514 |46.42Mb, server: 146.70.71.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 146.70.71.2}}
-  - {name: GB_515 |51.22Mb, server: italy-milan.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: italy-milan.mah3Hoet.com}}
-  - {name: GB_516 |51.51Mb, server: 146.70.46.68, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 146.70.46.68}}
-  - {name: GB_517 |48.93Mb, server: switzerland-zurich.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: switzerland-zurich.mah3Hoet.com}}
-  - {name: GB_518 |46.95Mb, server: 146.70.73.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 146.70.73.2}}
-  - {name: GB_519 |51.58Mb, server: uk-manchester.eiw2eemo.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: uk-manchester.eiw2eemo.com}}
-  - {name: IL_569 |40.53Mb, server: 212.80.205.133, port: 31262, type: vmess, uuid: 00415a68-d5eb-4573-b73e-2b21f6b45c5d, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇯🇵 JP_712 |34.77Mb, server: 54.92.121.201, port: 18000, type: vmess, uuid: 00105a67-9b81-3403-9174-42fd3bb64855, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: 54.92.121.201}}
-  - {name: 🇯🇵 JP_716 |34.34Mb, server: 52.198.111.186, port: 18000, type: vmess, uuid: 00105a67-9b81-3403-9174-42fd3bb64855, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: 52.198.111.186}}
-  - {name: 🇰🇷 KR_755 |30.05Mb, server: 13.209.72.32, port: 18000, type: vmess, uuid: 00105a67-9b81-3403-9174-42fd3bb64855, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: 13.209.72.32}}
-  - {name: 🇷🇴 RO_866 |64.98Mb, server: usa-lasvegas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-lasvegas.lvuft.com}}
-  - {name: 🇷🇴 RO_867 |67.46Mb, server: 79.110.54.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 79.110.54.162}}
-  - {name: 🇺🇸 US_1973 |80.94Mb, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 45.35.84.162}}
-  - {name: 🇺🇸 US_1975 |64.09Mb, server: 137.184.3.55, port: 80, type: vmess, uuid: 00105a67-9b81-3403-9174-42fd3bb64855, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: 137.184.3.55}}
-  - {name: 🇺🇸 US_1976 |110.19Mb, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}}
-  - {name: 🇺🇸 US_1977 |42.61Mb, server: 107.148.200.229, port: 10022, type: vmess, uuid: 6e6ce89a-42d5-11ec-ac9d-00163c0ad178, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇺🇸 US_1979 |92.03Mb, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 192.96.204.250}}
-  - {name: 🇺🇸 US_1980 |56.61Mb, server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 209.58.139.41}}
-  - {name: 🇺🇸 US_1985 |56.62Mb, server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}}
-  - {name: 🇺🇸 US_1987 |83.97Mb, server: 104.26.9.74, port: 443, type: vmess, uuid: f6c1babe-416e-47d1-8726-049678e25c7a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sshocean, ws-headers: {Host: 104.26.9.74}}
-  - {name: 🇺🇸 US_1989 |36.41Mb, server: 107.148.200.123, port: 30033, type: vmess, uuid: e85a81e0-12a0-11ec-bc90-00163c1b189e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇺🇸 US_1992 |71.56Mb, server: cc.hciahciphcie.club, port: 443, type: vmess, uuid: 9a297bb1-06e3-4e6f-97fa-3d3202d46596, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /84c3f/, ws-headers: {Host: cc.hciahciphcie.club}}
-  - {name: 🇺🇸 US_1993 |78.47Mb, server: 66.42.103.120, port: 13168, type: vmess, uuid: 11313864-5dc1-11ec-bf54-560003bd2e14, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /eiIRSHuL/, ws-headers: {Host: 66.42.103.120}}
-  - {name: 🇺🇸 US_1995 |44.79Mb, server: 192.74.254.167, port: 500, type: vmess, uuid: 764e808a-115e-11ec-a88f-00163c9f4934, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇺🇸 US_1996 |45.64Mb, server: 143.244.185.97, port: 4216, type: vmess, uuid: 7277f857-33f4-3b9a-afcc-3ee864fa833e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ia35, ws-headers: {Host: 143.244.185.97}}
-  - {name: 🇺🇸 US_1997 |60.54Mb, server: chuch3go.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: chuch3go.com}}
-  - {name: 🇺🇸 US_1998 |85.17Mb, server: amu1ahfi.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: amu1ahfi.com}}
-  - {name: 🇺🇸 US_2000 |71.57Mb, server: 173.82.240.245, port: 443, type: vmess, uuid: 9a297bb1-06e3-4e6f-97fa-3d3202d46596, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /84c3f/, ws-headers: {Host: 173.82.240.245}}
-  - {name: 🇺🇸 US_2001 |107.41Mb, server: 107.161.50.42, port: 22401, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 107.161.50.42}}
-  - {name: 🇺🇸 US_2003 |61.73Mb, server: 154.31.41.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 154.31.41.10}}
-  - {name: 🇺🇸 US_2004 |69.14Mb, server: 137.184.11.8, port: 80, type: vmess, uuid: 00105a67-9b81-3403-9174-42fd3bb64855, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: 137.184.11.8}}
-  - {name: 🇺🇸 US_2005 |41.63Mb, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
-  - {name: 🇺🇸 US_2007 |75.68Mb, server: lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: lvuft.com}}
-  - {name: 🇺🇸 US_2008 |54.43Mb, server: 171.22.127.240, port: 443, type: vmess, uuid: c6aa6b6f-66b2-4755-a12e-48c8836fa0ec, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 171.22.127.240}}
-  - {name: 🇺🇸 US_2010 |63.44Mb, server: 159.203.97.4, port: 80, type: vmess, uuid: 00105a67-9b81-3403-9174-42fd3bb64855, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: 159.203.97.4}}
-  - {name: 🇺🇸 US_2012 |77.89Mb, server: 154.94.214.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 154.94.214.2}}
-  - {name: 🇺🇸 US_2015 |33.60Mb, server: 35.77.96.172, port: 18000, type: vmess, uuid: 00105a67-9b81-3403-9174-42fd3bb64855, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: 35.77.96.172}}
-  - {name: 🇺🇸 US_2016 |91.34Mb, server: 70.39.67.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 70.39.67.130}}
-  - {name: 🇺🇸 US_2017 |57.60Mb, server: 142.4.127.67, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: 142.4.127.67}}
-  - {name: 🇺🇸 US_2026 |66.98Mb, server: 147.182.249.191, port: 30880, type: vmess, uuid: b14e5862-ed44-4ef0-e310-335414d86882, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /114514, ws-headers: {Host: 147.182.249.191}}
-  - {name: 🇩🇪 DE_402 |30.13Mb, server: 5.183.179.138, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true, udp: true}
-  - {name: GB_522 |64.16Mb, server: 109.74.194.189, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 JP_753 |35.41Mb, server: jp11.holiganfan.com, port: 10088, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba, skip-cert-verify: true, udp: true}
-  - {name: 🇳🇱 NL_793 |56.04Mb, server: ned-server-01.selfupay.com, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
-  - {name: 🇳🇱 NL_794 |45.32Mb, server: 89.31.127.151, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
-  - {name: 🇳🇱 NL_795 |58.55Mb, server: ned-server-01.selfupay.com, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
-  - {name: 🇳🇱 NL_797 |42.36Mb, server: 185.171.120.144, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
-  - {name: 🇳🇱 NL_799 |45.97Mb, server: 89.31.127.151, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true, udp: true}
-  - {name: 🇳🇱 NL_801 |44.40Mb, server: 185.171.120.144, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇴 RO_870 |48.72Mb, server: 185.105.191.92, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US_2027 |40.48Mb, server: 72.167.45.6, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US_2028 |44.82Mb, server: 72.167.45.6, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US_2034 |52.82Mb, server: 72.167.45.6, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US_2037 |55.58Mb, server: usa-server-02.selfupay.com, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US_2040 |44.71Mb, server: usa-server-02.selfupay.com, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 DE_396 |47.98Mb, server: 136.243.191.88, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
-  - {name: 🇩🇪 DE_397 |39.29Mb, server: 136.243.191.85, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 🇦🇺 AU_78 |218.12Mb, server: 1.0.0.1, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: 1.0.0.1}}
+  - {name: CA_279 |96.07Mb, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 192.186.129.66}}
+  - {name: CA_282 |55.48Mb, server: 142.47.217.148, port: 8443, type: vmess, uuid: e795f820-9391-4a9d-bfaf-b5329386f82f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: 142.47.217.148}}
+  - {name: CA_283 |59.50Mb, server: 142.47.217.148, port: 8443, type: vmess, uuid: 13b36e17-e869-4b77-bf33-e5a431eac496, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: 142.47.217.148}}
+  - {name: CA_284 |133.72Mb, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: 🇩🇪 DE_404 |46.78Mb, server: germany-dusseldorf.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: germany-dusseldorf.mah3Hoet.com}}
+  - {name: 🇩🇪 DE_405 |46.09Mb, server: 146.0.42.87, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 146.0.42.87}}
+  - {name: 🇫🇷 FR_465 |45.19Mb, server: 62.210.90.75, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 62.210.90.75}}
+  - {name: 🇫🇷 FR_466 |59.20Mb, server: ahdaeph8.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: ahdaeph8.com}}
+  - {name: GB_518 |48.93Mb, server: switzerland-zurich.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: switzerland-zurich.mah3Hoet.com}}
+  - {name: GB_519 |51.51Mb, server: 146.70.46.68, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 146.70.46.68}}
+  - {name: GB_520 |51.22Mb, server: italy-milan.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: italy-milan.mah3Hoet.com}}
+  - {name: GB_522 |46.42Mb, server: 146.70.71.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 146.70.71.2}}
+  - {name: GB_523 |51.58Mb, server: uk-manchester.eiw2eemo.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: uk-manchester.eiw2eemo.com}}
+  - {name: GB_524 |46.95Mb, server: 146.70.73.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 146.70.73.2}}
+  - {name: IL_573 |40.53Mb, server: 212.80.205.133, port: 31262, type: vmess, uuid: 00415a68-d5eb-4573-b73e-2b21f6b45c5d, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇯🇵 JP_715 |34.34Mb, server: 52.198.111.186, port: 18000, type: vmess, uuid: 00105a67-9b81-3403-9174-42fd3bb64855, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: 52.198.111.186}}
+  - {name: 🇷🇴 RO_870 |64.98Mb, server: usa-lasvegas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-lasvegas.lvuft.com}}
+  - {name: 🇷🇴 RO_871 |67.46Mb, server: 79.110.54.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 79.110.54.162}}
+  - {name: 🇺🇸 US_1969 |80.94Mb, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 45.35.84.162}}
+  - {name: 🇺🇸 US_1970 |110.19Mb, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}}
+  - {name: 🇺🇸 US_1971 |42.61Mb, server: 107.148.200.229, port: 10022, type: vmess, uuid: 6e6ce89a-42d5-11ec-ac9d-00163c0ad178, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇺🇸 US_1973 |92.03Mb, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 192.96.204.250}}
+  - {name: 🇺🇸 US_1974 |56.61Mb, server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 209.58.139.41}}
+  - {name: 🇺🇸 US_1979 |56.62Mb, server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}}
+  - {name: 🇺🇸 US_1980 |83.97Mb, server: 104.26.9.74, port: 443, type: vmess, uuid: f6c1babe-416e-47d1-8726-049678e25c7a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sshocean, ws-headers: {Host: 104.26.9.74}}
+  - {name: 🇺🇸 US_1983 |36.41Mb, server: 107.148.200.123, port: 30033, type: vmess, uuid: e85a81e0-12a0-11ec-bc90-00163c1b189e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇺🇸 US_1984 |78.47Mb, server: 66.42.103.120, port: 13168, type: vmess, uuid: 11313864-5dc1-11ec-bf54-560003bd2e14, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /eiIRSHuL/, ws-headers: {Host: 66.42.103.120}}
+  - {name: 🇺🇸 US_1985 |71.56Mb, server: cc.hciahciphcie.club, port: 443, type: vmess, uuid: 9a297bb1-06e3-4e6f-97fa-3d3202d46596, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /84c3f/, ws-headers: {Host: cc.hciahciphcie.club}}
+  - {name: 🇺🇸 US_1987 |44.79Mb, server: 192.74.254.167, port: 500, type: vmess, uuid: 764e808a-115e-11ec-a88f-00163c9f4934, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇺🇸 US_1988 |45.64Mb, server: 143.244.185.97, port: 4216, type: vmess, uuid: 7277f857-33f4-3b9a-afcc-3ee864fa833e, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ia35, ws-headers: {Host: 143.244.185.97}}
+  - {name: 🇺🇸 US_1989 |60.54Mb, server: chuch3go.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: chuch3go.com}}
+  - {name: 🇺🇸 US_1990 |85.17Mb, server: amu1ahfi.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: amu1ahfi.com}}
+  - {name: 🇺🇸 US_1992 |71.57Mb, server: 173.82.240.245, port: 443, type: vmess, uuid: 9a297bb1-06e3-4e6f-97fa-3d3202d46596, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /84c3f/, ws-headers: {Host: 173.82.240.245}}
+  - {name: 🇺🇸 US_1994 |344.22Mb, server: 159.203.100.185, port: 80, type: vmess, uuid: 00105a67-9b81-3403-9174-42fd3bb64855, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: 159.203.100.185}}
+  - {name: 🇺🇸 US_1995 |107.41Mb, server: 107.161.50.42, port: 22401, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 107.161.50.42}}
+  - {name: 🇺🇸 US_1996 |61.73Mb, server: 154.31.41.10, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 154.31.41.10}}
+  - {name: 🇺🇸 US_1999 |41.63Mb, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
+  - {name: 🇺🇸 US_2000 |75.68Mb, server: lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: lvuft.com}}
+  - {name: 🇺🇸 US_2001 |54.43Mb, server: 171.22.127.240, port: 443, type: vmess, uuid: c6aa6b6f-66b2-4755-a12e-48c8836fa0ec, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 171.22.127.240}}
+  - {name: 🇺🇸 US_2003 |77.89Mb, server: 154.94.214.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 154.94.214.2}}
+  - {name: 🇺🇸 US_2004 |91.34Mb, server: 70.39.67.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 70.39.67.130}}
+  - {name: 🇺🇸 US_2005 |57.60Mb, server: 142.4.127.67, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: 142.4.127.67}}
+  - {name: 🇺🇸 US_2015 |66.98Mb, server: 147.182.249.191, port: 30880, type: vmess, uuid: b14e5862-ed44-4ef0-e310-335414d86882, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /114514, ws-headers: {Host: 147.182.249.191}}
+  - {name: 🇩🇪 DE_407 |30.13Mb, server: 5.183.179.138, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true, udp: true}
+  - {name: GB_525 |64.16Mb, server: 109.74.194.189, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
+  - {name: 🇳🇱 NL_796 |45.32Mb, server: 89.31.127.151, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
+  - {name: 🇳🇱 NL_799 |44.40Mb, server: 185.171.120.144, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true, udp: true}
+  - {name: 🇳🇱 NL_800 |58.55Mb, server: ned-server-01.selfupay.com, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
+  - {name: 🇳🇱 NL_801 |42.36Mb, server: 185.171.120.144, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
+  - {name: 🇳🇱 NL_804 |45.97Mb, server: 89.31.127.151, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true, udp: true}
+  - {name: 🇳🇱 NL_805 |56.04Mb, server: ned-server-01.selfupay.com, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇴 RO_874 |48.72Mb, server: 185.105.191.92, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US_2016 |40.48Mb, server: 72.167.45.6, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US_2019 |55.58Mb, server: usa-server-02.selfupay.com, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US_2023 |44.71Mb, server: usa-server-02.selfupay.com, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US_2024 |44.82Mb, server: 72.167.45.6, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US_2029 |52.82Mb, server: 72.167.45.6, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 DE_401 |39.29Mb, server: 136.243.191.85, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 🇩🇪 DE_402 |47.98Mb, server: 136.243.191.88, port: 443, type: ssr, cipher: aes-128-ctr, password: sEscPBiAD9K$&@79, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -81,72 +75,66 @@ proxy-groups:
       - DIRECT
       - _33 |45.40Mb
       - _43 |65.36Mb
-      - 🇦🇺 AU_77 |216.40Mb
-      - CA_276 |96.07Mb
-      - CA_279 |55.48Mb
-      - CA_281 |59.50Mb
-      - CA_282 |133.72Mb
-      - 🇩🇪 DE_398 |46.78Mb
-      - 🇩🇪 DE_399 |46.09Mb
-      - 🇫🇷 FR_461 |45.19Mb
-      - 🇫🇷 FR_462 |59.20Mb
-      - GB_514 |46.42Mb
-      - GB_515 |51.22Mb
-      - GB_516 |51.51Mb
-      - GB_517 |48.93Mb
-      - GB_518 |46.95Mb
-      - GB_519 |51.58Mb
-      - IL_569 |40.53Mb
-      - 🇯🇵 JP_712 |34.77Mb
-      - 🇯🇵 JP_716 |34.34Mb
-      - 🇰🇷 KR_755 |30.05Mb
-      - 🇷🇴 RO_866 |64.98Mb
-      - 🇷🇴 RO_867 |67.46Mb
-      - 🇺🇸 US_1973 |80.94Mb
-      - 🇺🇸 US_1975 |64.09Mb
-      - 🇺🇸 US_1976 |110.19Mb
-      - 🇺🇸 US_1977 |42.61Mb
-      - 🇺🇸 US_1979 |92.03Mb
-      - 🇺🇸 US_1980 |56.61Mb
-      - 🇺🇸 US_1985 |56.62Mb
-      - 🇺🇸 US_1987 |83.97Mb
-      - 🇺🇸 US_1989 |36.41Mb
-      - 🇺🇸 US_1992 |71.56Mb
-      - 🇺🇸 US_1993 |78.47Mb
-      - 🇺🇸 US_1995 |44.79Mb
-      - 🇺🇸 US_1996 |45.64Mb
-      - 🇺🇸 US_1997 |60.54Mb
-      - 🇺🇸 US_1998 |85.17Mb
-      - 🇺🇸 US_2000 |71.57Mb
-      - 🇺🇸 US_2001 |107.41Mb
-      - 🇺🇸 US_2003 |61.73Mb
-      - 🇺🇸 US_2004 |69.14Mb
-      - 🇺🇸 US_2005 |41.63Mb
-      - 🇺🇸 US_2007 |75.68Mb
-      - 🇺🇸 US_2008 |54.43Mb
-      - 🇺🇸 US_2010 |63.44Mb
-      - 🇺🇸 US_2012 |77.89Mb
-      - 🇺🇸 US_2015 |33.60Mb
-      - 🇺🇸 US_2016 |91.34Mb
-      - 🇺🇸 US_2017 |57.60Mb
-      - 🇺🇸 US_2026 |66.98Mb
-      - 🇩🇪 DE_402 |30.13Mb
-      - GB_522 |64.16Mb
-      - 🇯🇵 JP_753 |35.41Mb
-      - 🇳🇱 NL_793 |56.04Mb
-      - 🇳🇱 NL_794 |45.32Mb
-      - 🇳🇱 NL_795 |58.55Mb
-      - 🇳🇱 NL_797 |42.36Mb
-      - 🇳🇱 NL_799 |45.97Mb
-      - 🇳🇱 NL_801 |44.40Mb
-      - 🇷🇴 RO_870 |48.72Mb
-      - 🇺🇸 US_2027 |40.48Mb
-      - 🇺🇸 US_2028 |44.82Mb
-      - 🇺🇸 US_2034 |52.82Mb
-      - 🇺🇸 US_2037 |55.58Mb
-      - 🇺🇸 US_2040 |44.71Mb
-      - 🇩🇪 DE_396 |47.98Mb
-      - 🇩🇪 DE_397 |39.29Mb
+      - 🇦🇺 AU_78 |218.12Mb
+      - CA_279 |96.07Mb
+      - CA_282 |55.48Mb
+      - CA_283 |59.50Mb
+      - CA_284 |133.72Mb
+      - 🇩🇪 DE_404 |46.78Mb
+      - 🇩🇪 DE_405 |46.09Mb
+      - 🇫🇷 FR_465 |45.19Mb
+      - 🇫🇷 FR_466 |59.20Mb
+      - GB_518 |48.93Mb
+      - GB_519 |51.51Mb
+      - GB_520 |51.22Mb
+      - GB_522 |46.42Mb
+      - GB_523 |51.58Mb
+      - GB_524 |46.95Mb
+      - IL_573 |40.53Mb
+      - 🇯🇵 JP_715 |34.34Mb
+      - 🇷🇴 RO_870 |64.98Mb
+      - 🇷🇴 RO_871 |67.46Mb
+      - 🇺🇸 US_1969 |80.94Mb
+      - 🇺🇸 US_1970 |110.19Mb
+      - 🇺🇸 US_1971 |42.61Mb
+      - 🇺🇸 US_1973 |92.03Mb
+      - 🇺🇸 US_1974 |56.61Mb
+      - 🇺🇸 US_1979 |56.62Mb
+      - 🇺🇸 US_1980 |83.97Mb
+      - 🇺🇸 US_1983 |36.41Mb
+      - 🇺🇸 US_1984 |78.47Mb
+      - 🇺🇸 US_1985 |71.56Mb
+      - 🇺🇸 US_1987 |44.79Mb
+      - 🇺🇸 US_1988 |45.64Mb
+      - 🇺🇸 US_1989 |60.54Mb
+      - 🇺🇸 US_1990 |85.17Mb
+      - 🇺🇸 US_1992 |71.57Mb
+      - 🇺🇸 US_1994 |344.22Mb
+      - 🇺🇸 US_1995 |107.41Mb
+      - 🇺🇸 US_1996 |61.73Mb
+      - 🇺🇸 US_1999 |41.63Mb
+      - 🇺🇸 US_2000 |75.68Mb
+      - 🇺🇸 US_2001 |54.43Mb
+      - 🇺🇸 US_2003 |77.89Mb
+      - 🇺🇸 US_2004 |91.34Mb
+      - 🇺🇸 US_2005 |57.60Mb
+      - 🇺🇸 US_2015 |66.98Mb
+      - 🇩🇪 DE_407 |30.13Mb
+      - GB_525 |64.16Mb
+      - 🇳🇱 NL_796 |45.32Mb
+      - 🇳🇱 NL_799 |44.40Mb
+      - 🇳🇱 NL_800 |58.55Mb
+      - 🇳🇱 NL_801 |42.36Mb
+      - 🇳🇱 NL_804 |45.97Mb
+      - 🇳🇱 NL_805 |56.04Mb
+      - 🇷🇴 RO_874 |48.72Mb
+      - 🇺🇸 US_2016 |40.48Mb
+      - 🇺🇸 US_2019 |55.58Mb
+      - 🇺🇸 US_2023 |44.71Mb
+      - 🇺🇸 US_2024 |44.82Mb
+      - 🇺🇸 US_2029 |52.82Mb
+      - 🇩🇪 DE_401 |39.29Mb
+      - 🇩🇪 DE_402 |47.98Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -155,72 +143,66 @@ proxy-groups:
     proxies:
       - _33 |45.40Mb
       - _43 |65.36Mb
-      - 🇦🇺 AU_77 |216.40Mb
-      - CA_276 |96.07Mb
-      - CA_279 |55.48Mb
-      - CA_281 |59.50Mb
-      - CA_282 |133.72Mb
-      - 🇩🇪 DE_398 |46.78Mb
-      - 🇩🇪 DE_399 |46.09Mb
-      - 🇫🇷 FR_461 |45.19Mb
-      - 🇫🇷 FR_462 |59.20Mb
-      - GB_514 |46.42Mb
-      - GB_515 |51.22Mb
-      - GB_516 |51.51Mb
-      - GB_517 |48.93Mb
-      - GB_518 |46.95Mb
-      - GB_519 |51.58Mb
-      - IL_569 |40.53Mb
-      - 🇯🇵 JP_712 |34.77Mb
-      - 🇯🇵 JP_716 |34.34Mb
-      - 🇰🇷 KR_755 |30.05Mb
-      - 🇷🇴 RO_866 |64.98Mb
-      - 🇷🇴 RO_867 |67.46Mb
-      - 🇺🇸 US_1973 |80.94Mb
-      - 🇺🇸 US_1975 |64.09Mb
-      - 🇺🇸 US_1976 |110.19Mb
-      - 🇺🇸 US_1977 |42.61Mb
-      - 🇺🇸 US_1979 |92.03Mb
-      - 🇺🇸 US_1980 |56.61Mb
-      - 🇺🇸 US_1985 |56.62Mb
-      - 🇺🇸 US_1987 |83.97Mb
-      - 🇺🇸 US_1989 |36.41Mb
-      - 🇺🇸 US_1992 |71.56Mb
-      - 🇺🇸 US_1993 |78.47Mb
-      - 🇺🇸 US_1995 |44.79Mb
-      - 🇺🇸 US_1996 |45.64Mb
-      - 🇺🇸 US_1997 |60.54Mb
-      - 🇺🇸 US_1998 |85.17Mb
-      - 🇺🇸 US_2000 |71.57Mb
-      - 🇺🇸 US_2001 |107.41Mb
-      - 🇺🇸 US_2003 |61.73Mb
-      - 🇺🇸 US_2004 |69.14Mb
-      - 🇺🇸 US_2005 |41.63Mb
-      - 🇺🇸 US_2007 |75.68Mb
-      - 🇺🇸 US_2008 |54.43Mb
-      - 🇺🇸 US_2010 |63.44Mb
-      - 🇺🇸 US_2012 |77.89Mb
-      - 🇺🇸 US_2015 |33.60Mb
-      - 🇺🇸 US_2016 |91.34Mb
-      - 🇺🇸 US_2017 |57.60Mb
-      - 🇺🇸 US_2026 |66.98Mb
-      - 🇩🇪 DE_402 |30.13Mb
-      - GB_522 |64.16Mb
-      - 🇯🇵 JP_753 |35.41Mb
-      - 🇳🇱 NL_793 |56.04Mb
-      - 🇳🇱 NL_794 |45.32Mb
-      - 🇳🇱 NL_795 |58.55Mb
-      - 🇳🇱 NL_797 |42.36Mb
-      - 🇳🇱 NL_799 |45.97Mb
-      - 🇳🇱 NL_801 |44.40Mb
-      - 🇷🇴 RO_870 |48.72Mb
-      - 🇺🇸 US_2027 |40.48Mb
-      - 🇺🇸 US_2028 |44.82Mb
-      - 🇺🇸 US_2034 |52.82Mb
-      - 🇺🇸 US_2037 |55.58Mb
-      - 🇺🇸 US_2040 |44.71Mb
-      - 🇩🇪 DE_396 |47.98Mb
-      - 🇩🇪 DE_397 |39.29Mb
+      - 🇦🇺 AU_78 |218.12Mb
+      - CA_279 |96.07Mb
+      - CA_282 |55.48Mb
+      - CA_283 |59.50Mb
+      - CA_284 |133.72Mb
+      - 🇩🇪 DE_404 |46.78Mb
+      - 🇩🇪 DE_405 |46.09Mb
+      - 🇫🇷 FR_465 |45.19Mb
+      - 🇫🇷 FR_466 |59.20Mb
+      - GB_518 |48.93Mb
+      - GB_519 |51.51Mb
+      - GB_520 |51.22Mb
+      - GB_522 |46.42Mb
+      - GB_523 |51.58Mb
+      - GB_524 |46.95Mb
+      - IL_573 |40.53Mb
+      - 🇯🇵 JP_715 |34.34Mb
+      - 🇷🇴 RO_870 |64.98Mb
+      - 🇷🇴 RO_871 |67.46Mb
+      - 🇺🇸 US_1969 |80.94Mb
+      - 🇺🇸 US_1970 |110.19Mb
+      - 🇺🇸 US_1971 |42.61Mb
+      - 🇺🇸 US_1973 |92.03Mb
+      - 🇺🇸 US_1974 |56.61Mb
+      - 🇺🇸 US_1979 |56.62Mb
+      - 🇺🇸 US_1980 |83.97Mb
+      - 🇺🇸 US_1983 |36.41Mb
+      - 🇺🇸 US_1984 |78.47Mb
+      - 🇺🇸 US_1985 |71.56Mb
+      - 🇺🇸 US_1987 |44.79Mb
+      - 🇺🇸 US_1988 |45.64Mb
+      - 🇺🇸 US_1989 |60.54Mb
+      - 🇺🇸 US_1990 |85.17Mb
+      - 🇺🇸 US_1992 |71.57Mb
+      - 🇺🇸 US_1994 |344.22Mb
+      - 🇺🇸 US_1995 |107.41Mb
+      - 🇺🇸 US_1996 |61.73Mb
+      - 🇺🇸 US_1999 |41.63Mb
+      - 🇺🇸 US_2000 |75.68Mb
+      - 🇺🇸 US_2001 |54.43Mb
+      - 🇺🇸 US_2003 |77.89Mb
+      - 🇺🇸 US_2004 |91.34Mb
+      - 🇺🇸 US_2005 |57.60Mb
+      - 🇺🇸 US_2015 |66.98Mb
+      - 🇩🇪 DE_407 |30.13Mb
+      - GB_525 |64.16Mb
+      - 🇳🇱 NL_796 |45.32Mb
+      - 🇳🇱 NL_799 |44.40Mb
+      - 🇳🇱 NL_800 |58.55Mb
+      - 🇳🇱 NL_801 |42.36Mb
+      - 🇳🇱 NL_804 |45.97Mb
+      - 🇳🇱 NL_805 |56.04Mb
+      - 🇷🇴 RO_874 |48.72Mb
+      - 🇺🇸 US_2016 |40.48Mb
+      - 🇺🇸 US_2019 |55.58Mb
+      - 🇺🇸 US_2023 |44.71Mb
+      - 🇺🇸 US_2024 |44.82Mb
+      - 🇺🇸 US_2029 |52.82Mb
+      - 🇩🇪 DE_401 |39.29Mb
+      - 🇩🇪 DE_402 |47.98Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -229,72 +211,66 @@ proxy-groups:
       - 🎯 全球直连
       - _33 |45.40Mb
       - _43 |65.36Mb
-      - 🇦🇺 AU_77 |216.40Mb
-      - CA_276 |96.07Mb
-      - CA_279 |55.48Mb
-      - CA_281 |59.50Mb
-      - CA_282 |133.72Mb
-      - 🇩🇪 DE_398 |46.78Mb
-      - 🇩🇪 DE_399 |46.09Mb
-      - 🇫🇷 FR_461 |45.19Mb
-      - 🇫🇷 FR_462 |59.20Mb
-      - GB_514 |46.42Mb
-      - GB_515 |51.22Mb
-      - GB_516 |51.51Mb
-      - GB_517 |48.93Mb
-      - GB_518 |46.95Mb
-      - GB_519 |51.58Mb
-      - IL_569 |40.53Mb
-      - 🇯🇵 JP_712 |34.77Mb
-      - 🇯🇵 JP_716 |34.34Mb
-      - 🇰🇷 KR_755 |30.05Mb
-      - 🇷🇴 RO_866 |64.98Mb
-      - 🇷🇴 RO_867 |67.46Mb
-      - 🇺🇸 US_1973 |80.94Mb
-      - 🇺🇸 US_1975 |64.09Mb
-      - 🇺🇸 US_1976 |110.19Mb
-      - 🇺🇸 US_1977 |42.61Mb
-      - 🇺🇸 US_1979 |92.03Mb
-      - 🇺🇸 US_1980 |56.61Mb
-      - 🇺🇸 US_1985 |56.62Mb
-      - 🇺🇸 US_1987 |83.97Mb
-      - 🇺🇸 US_1989 |36.41Mb
-      - 🇺🇸 US_1992 |71.56Mb
-      - 🇺🇸 US_1993 |78.47Mb
-      - 🇺🇸 US_1995 |44.79Mb
-      - 🇺🇸 US_1996 |45.64Mb
-      - 🇺🇸 US_1997 |60.54Mb
-      - 🇺🇸 US_1998 |85.17Mb
-      - 🇺🇸 US_2000 |71.57Mb
-      - 🇺🇸 US_2001 |107.41Mb
-      - 🇺🇸 US_2003 |61.73Mb
-      - 🇺🇸 US_2004 |69.14Mb
-      - 🇺🇸 US_2005 |41.63Mb
-      - 🇺🇸 US_2007 |75.68Mb
-      - 🇺🇸 US_2008 |54.43Mb
-      - 🇺🇸 US_2010 |63.44Mb
-      - 🇺🇸 US_2012 |77.89Mb
-      - 🇺🇸 US_2015 |33.60Mb
-      - 🇺🇸 US_2016 |91.34Mb
-      - 🇺🇸 US_2017 |57.60Mb
-      - 🇺🇸 US_2026 |66.98Mb
-      - 🇩🇪 DE_402 |30.13Mb
-      - GB_522 |64.16Mb
-      - 🇯🇵 JP_753 |35.41Mb
-      - 🇳🇱 NL_793 |56.04Mb
-      - 🇳🇱 NL_794 |45.32Mb
-      - 🇳🇱 NL_795 |58.55Mb
-      - 🇳🇱 NL_797 |42.36Mb
-      - 🇳🇱 NL_799 |45.97Mb
-      - 🇳🇱 NL_801 |44.40Mb
-      - 🇷🇴 RO_870 |48.72Mb
-      - 🇺🇸 US_2027 |40.48Mb
-      - 🇺🇸 US_2028 |44.82Mb
-      - 🇺🇸 US_2034 |52.82Mb
-      - 🇺🇸 US_2037 |55.58Mb
-      - 🇺🇸 US_2040 |44.71Mb
-      - 🇩🇪 DE_396 |47.98Mb
-      - 🇩🇪 DE_397 |39.29Mb
+      - 🇦🇺 AU_78 |218.12Mb
+      - CA_279 |96.07Mb
+      - CA_282 |55.48Mb
+      - CA_283 |59.50Mb
+      - CA_284 |133.72Mb
+      - 🇩🇪 DE_404 |46.78Mb
+      - 🇩🇪 DE_405 |46.09Mb
+      - 🇫🇷 FR_465 |45.19Mb
+      - 🇫🇷 FR_466 |59.20Mb
+      - GB_518 |48.93Mb
+      - GB_519 |51.51Mb
+      - GB_520 |51.22Mb
+      - GB_522 |46.42Mb
+      - GB_523 |51.58Mb
+      - GB_524 |46.95Mb
+      - IL_573 |40.53Mb
+      - 🇯🇵 JP_715 |34.34Mb
+      - 🇷🇴 RO_870 |64.98Mb
+      - 🇷🇴 RO_871 |67.46Mb
+      - 🇺🇸 US_1969 |80.94Mb
+      - 🇺🇸 US_1970 |110.19Mb
+      - 🇺🇸 US_1971 |42.61Mb
+      - 🇺🇸 US_1973 |92.03Mb
+      - 🇺🇸 US_1974 |56.61Mb
+      - 🇺🇸 US_1979 |56.62Mb
+      - 🇺🇸 US_1980 |83.97Mb
+      - 🇺🇸 US_1983 |36.41Mb
+      - 🇺🇸 US_1984 |78.47Mb
+      - 🇺🇸 US_1985 |71.56Mb
+      - 🇺🇸 US_1987 |44.79Mb
+      - 🇺🇸 US_1988 |45.64Mb
+      - 🇺🇸 US_1989 |60.54Mb
+      - 🇺🇸 US_1990 |85.17Mb
+      - 🇺🇸 US_1992 |71.57Mb
+      - 🇺🇸 US_1994 |344.22Mb
+      - 🇺🇸 US_1995 |107.41Mb
+      - 🇺🇸 US_1996 |61.73Mb
+      - 🇺🇸 US_1999 |41.63Mb
+      - 🇺🇸 US_2000 |75.68Mb
+      - 🇺🇸 US_2001 |54.43Mb
+      - 🇺🇸 US_2003 |77.89Mb
+      - 🇺🇸 US_2004 |91.34Mb
+      - 🇺🇸 US_2005 |57.60Mb
+      - 🇺🇸 US_2015 |66.98Mb
+      - 🇩🇪 DE_407 |30.13Mb
+      - GB_525 |64.16Mb
+      - 🇳🇱 NL_796 |45.32Mb
+      - 🇳🇱 NL_799 |44.40Mb
+      - 🇳🇱 NL_800 |58.55Mb
+      - 🇳🇱 NL_801 |42.36Mb
+      - 🇳🇱 NL_804 |45.97Mb
+      - 🇳🇱 NL_805 |56.04Mb
+      - 🇷🇴 RO_874 |48.72Mb
+      - 🇺🇸 US_2016 |40.48Mb
+      - 🇺🇸 US_2019 |55.58Mb
+      - 🇺🇸 US_2023 |44.71Mb
+      - 🇺🇸 US_2024 |44.82Mb
+      - 🇺🇸 US_2029 |52.82Mb
+      - 🇩🇪 DE_401 |39.29Mb
+      - 🇩🇪 DE_402 |47.98Mb
   - name: 📲 电报信息
     type: select
     proxies:
@@ -302,72 +278,66 @@ proxy-groups:
       - 🎯 全球直连
       - _33 |45.40Mb
       - _43 |65.36Mb
-      - 🇦🇺 AU_77 |216.40Mb
-      - CA_276 |96.07Mb
-      - CA_279 |55.48Mb
-      - CA_281 |59.50Mb
-      - CA_282 |133.72Mb
-      - 🇩🇪 DE_398 |46.78Mb
-      - 🇩🇪 DE_399 |46.09Mb
-      - 🇫🇷 FR_461 |45.19Mb
-      - 🇫🇷 FR_462 |59.20Mb
-      - GB_514 |46.42Mb
-      - GB_515 |51.22Mb
-      - GB_516 |51.51Mb
-      - GB_517 |48.93Mb
-      - GB_518 |46.95Mb
-      - GB_519 |51.58Mb
-      - IL_569 |40.53Mb
-      - 🇯🇵 JP_712 |34.77Mb
-      - 🇯🇵 JP_716 |34.34Mb
-      - 🇰🇷 KR_755 |30.05Mb
-      - 🇷🇴 RO_866 |64.98Mb
-      - 🇷🇴 RO_867 |67.46Mb
-      - 🇺🇸 US_1973 |80.94Mb
-      - 🇺🇸 US_1975 |64.09Mb
-      - 🇺🇸 US_1976 |110.19Mb
-      - 🇺🇸 US_1977 |42.61Mb
-      - 🇺🇸 US_1979 |92.03Mb
-      - 🇺🇸 US_1980 |56.61Mb
-      - 🇺🇸 US_1985 |56.62Mb
-      - 🇺🇸 US_1987 |83.97Mb
-      - 🇺🇸 US_1989 |36.41Mb
-      - 🇺🇸 US_1992 |71.56Mb
-      - 🇺🇸 US_1993 |78.47Mb
-      - 🇺🇸 US_1995 |44.79Mb
-      - 🇺🇸 US_1996 |45.64Mb
-      - 🇺🇸 US_1997 |60.54Mb
-      - 🇺🇸 US_1998 |85.17Mb
-      - 🇺🇸 US_2000 |71.57Mb
-      - 🇺🇸 US_2001 |107.41Mb
-      - 🇺🇸 US_2003 |61.73Mb
-      - 🇺🇸 US_2004 |69.14Mb
-      - 🇺🇸 US_2005 |41.63Mb
-      - 🇺🇸 US_2007 |75.68Mb
-      - 🇺🇸 US_2008 |54.43Mb
-      - 🇺🇸 US_2010 |63.44Mb
-      - 🇺🇸 US_2012 |77.89Mb
-      - 🇺🇸 US_2015 |33.60Mb
-      - 🇺🇸 US_2016 |91.34Mb
-      - 🇺🇸 US_2017 |57.60Mb
-      - 🇺🇸 US_2026 |66.98Mb
-      - 🇩🇪 DE_402 |30.13Mb
-      - GB_522 |64.16Mb
-      - 🇯🇵 JP_753 |35.41Mb
-      - 🇳🇱 NL_793 |56.04Mb
-      - 🇳🇱 NL_794 |45.32Mb
-      - 🇳🇱 NL_795 |58.55Mb
-      - 🇳🇱 NL_797 |42.36Mb
-      - 🇳🇱 NL_799 |45.97Mb
-      - 🇳🇱 NL_801 |44.40Mb
-      - 🇷🇴 RO_870 |48.72Mb
-      - 🇺🇸 US_2027 |40.48Mb
-      - 🇺🇸 US_2028 |44.82Mb
-      - 🇺🇸 US_2034 |52.82Mb
-      - 🇺🇸 US_2037 |55.58Mb
-      - 🇺🇸 US_2040 |44.71Mb
-      - 🇩🇪 DE_396 |47.98Mb
-      - 🇩🇪 DE_397 |39.29Mb
+      - 🇦🇺 AU_78 |218.12Mb
+      - CA_279 |96.07Mb
+      - CA_282 |55.48Mb
+      - CA_283 |59.50Mb
+      - CA_284 |133.72Mb
+      - 🇩🇪 DE_404 |46.78Mb
+      - 🇩🇪 DE_405 |46.09Mb
+      - 🇫🇷 FR_465 |45.19Mb
+      - 🇫🇷 FR_466 |59.20Mb
+      - GB_518 |48.93Mb
+      - GB_519 |51.51Mb
+      - GB_520 |51.22Mb
+      - GB_522 |46.42Mb
+      - GB_523 |51.58Mb
+      - GB_524 |46.95Mb
+      - IL_573 |40.53Mb
+      - 🇯🇵 JP_715 |34.34Mb
+      - 🇷🇴 RO_870 |64.98Mb
+      - 🇷🇴 RO_871 |67.46Mb
+      - 🇺🇸 US_1969 |80.94Mb
+      - 🇺🇸 US_1970 |110.19Mb
+      - 🇺🇸 US_1971 |42.61Mb
+      - 🇺🇸 US_1973 |92.03Mb
+      - 🇺🇸 US_1974 |56.61Mb
+      - 🇺🇸 US_1979 |56.62Mb
+      - 🇺🇸 US_1980 |83.97Mb
+      - 🇺🇸 US_1983 |36.41Mb
+      - 🇺🇸 US_1984 |78.47Mb
+      - 🇺🇸 US_1985 |71.56Mb
+      - 🇺🇸 US_1987 |44.79Mb
+      - 🇺🇸 US_1988 |45.64Mb
+      - 🇺🇸 US_1989 |60.54Mb
+      - 🇺🇸 US_1990 |85.17Mb
+      - 🇺🇸 US_1992 |71.57Mb
+      - 🇺🇸 US_1994 |344.22Mb
+      - 🇺🇸 US_1995 |107.41Mb
+      - 🇺🇸 US_1996 |61.73Mb
+      - 🇺🇸 US_1999 |41.63Mb
+      - 🇺🇸 US_2000 |75.68Mb
+      - 🇺🇸 US_2001 |54.43Mb
+      - 🇺🇸 US_2003 |77.89Mb
+      - 🇺🇸 US_2004 |91.34Mb
+      - 🇺🇸 US_2005 |57.60Mb
+      - 🇺🇸 US_2015 |66.98Mb
+      - 🇩🇪 DE_407 |30.13Mb
+      - GB_525 |64.16Mb
+      - 🇳🇱 NL_796 |45.32Mb
+      - 🇳🇱 NL_799 |44.40Mb
+      - 🇳🇱 NL_800 |58.55Mb
+      - 🇳🇱 NL_801 |42.36Mb
+      - 🇳🇱 NL_804 |45.97Mb
+      - 🇳🇱 NL_805 |56.04Mb
+      - 🇷🇴 RO_874 |48.72Mb
+      - 🇺🇸 US_2016 |40.48Mb
+      - 🇺🇸 US_2019 |55.58Mb
+      - 🇺🇸 US_2023 |44.71Mb
+      - 🇺🇸 US_2024 |44.82Mb
+      - 🇺🇸 US_2029 |52.82Mb
+      - 🇩🇪 DE_401 |39.29Mb
+      - 🇩🇪 DE_402 |47.98Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -375,72 +345,66 @@ proxy-groups:
       - 🚀 节点选择
       - _33 |45.40Mb
       - _43 |65.36Mb
-      - 🇦🇺 AU_77 |216.40Mb
-      - CA_276 |96.07Mb
-      - CA_279 |55.48Mb
-      - CA_281 |59.50Mb
-      - CA_282 |133.72Mb
-      - 🇩🇪 DE_398 |46.78Mb
-      - 🇩🇪 DE_399 |46.09Mb
-      - 🇫🇷 FR_461 |45.19Mb
-      - 🇫🇷 FR_462 |59.20Mb
-      - GB_514 |46.42Mb
-      - GB_515 |51.22Mb
-      - GB_516 |51.51Mb
-      - GB_517 |48.93Mb
-      - GB_518 |46.95Mb
-      - GB_519 |51.58Mb
-      - IL_569 |40.53Mb
-      - 🇯🇵 JP_712 |34.77Mb
-      - 🇯🇵 JP_716 |34.34Mb
-      - 🇰🇷 KR_755 |30.05Mb
-      - 🇷🇴 RO_866 |64.98Mb
-      - 🇷🇴 RO_867 |67.46Mb
-      - 🇺🇸 US_1973 |80.94Mb
-      - 🇺🇸 US_1975 |64.09Mb
-      - 🇺🇸 US_1976 |110.19Mb
-      - 🇺🇸 US_1977 |42.61Mb
-      - 🇺🇸 US_1979 |92.03Mb
-      - 🇺🇸 US_1980 |56.61Mb
-      - 🇺🇸 US_1985 |56.62Mb
-      - 🇺🇸 US_1987 |83.97Mb
-      - 🇺🇸 US_1989 |36.41Mb
-      - 🇺🇸 US_1992 |71.56Mb
-      - 🇺🇸 US_1993 |78.47Mb
-      - 🇺🇸 US_1995 |44.79Mb
-      - 🇺🇸 US_1996 |45.64Mb
-      - 🇺🇸 US_1997 |60.54Mb
-      - 🇺🇸 US_1998 |85.17Mb
-      - 🇺🇸 US_2000 |71.57Mb
-      - 🇺🇸 US_2001 |107.41Mb
-      - 🇺🇸 US_2003 |61.73Mb
-      - 🇺🇸 US_2004 |69.14Mb
-      - 🇺🇸 US_2005 |41.63Mb
-      - 🇺🇸 US_2007 |75.68Mb
-      - 🇺🇸 US_2008 |54.43Mb
-      - 🇺🇸 US_2010 |63.44Mb
-      - 🇺🇸 US_2012 |77.89Mb
-      - 🇺🇸 US_2015 |33.60Mb
-      - 🇺🇸 US_2016 |91.34Mb
-      - 🇺🇸 US_2017 |57.60Mb
-      - 🇺🇸 US_2026 |66.98Mb
-      - 🇩🇪 DE_402 |30.13Mb
-      - GB_522 |64.16Mb
-      - 🇯🇵 JP_753 |35.41Mb
-      - 🇳🇱 NL_793 |56.04Mb
-      - 🇳🇱 NL_794 |45.32Mb
-      - 🇳🇱 NL_795 |58.55Mb
-      - 🇳🇱 NL_797 |42.36Mb
-      - 🇳🇱 NL_799 |45.97Mb
-      - 🇳🇱 NL_801 |44.40Mb
-      - 🇷🇴 RO_870 |48.72Mb
-      - 🇺🇸 US_2027 |40.48Mb
-      - 🇺🇸 US_2028 |44.82Mb
-      - 🇺🇸 US_2034 |52.82Mb
-      - 🇺🇸 US_2037 |55.58Mb
-      - 🇺🇸 US_2040 |44.71Mb
-      - 🇩🇪 DE_396 |47.98Mb
-      - 🇩🇪 DE_397 |39.29Mb
+      - 🇦🇺 AU_78 |218.12Mb
+      - CA_279 |96.07Mb
+      - CA_282 |55.48Mb
+      - CA_283 |59.50Mb
+      - CA_284 |133.72Mb
+      - 🇩🇪 DE_404 |46.78Mb
+      - 🇩🇪 DE_405 |46.09Mb
+      - 🇫🇷 FR_465 |45.19Mb
+      - 🇫🇷 FR_466 |59.20Mb
+      - GB_518 |48.93Mb
+      - GB_519 |51.51Mb
+      - GB_520 |51.22Mb
+      - GB_522 |46.42Mb
+      - GB_523 |51.58Mb
+      - GB_524 |46.95Mb
+      - IL_573 |40.53Mb
+      - 🇯🇵 JP_715 |34.34Mb
+      - 🇷🇴 RO_870 |64.98Mb
+      - 🇷🇴 RO_871 |67.46Mb
+      - 🇺🇸 US_1969 |80.94Mb
+      - 🇺🇸 US_1970 |110.19Mb
+      - 🇺🇸 US_1971 |42.61Mb
+      - 🇺🇸 US_1973 |92.03Mb
+      - 🇺🇸 US_1974 |56.61Mb
+      - 🇺🇸 US_1979 |56.62Mb
+      - 🇺🇸 US_1980 |83.97Mb
+      - 🇺🇸 US_1983 |36.41Mb
+      - 🇺🇸 US_1984 |78.47Mb
+      - 🇺🇸 US_1985 |71.56Mb
+      - 🇺🇸 US_1987 |44.79Mb
+      - 🇺🇸 US_1988 |45.64Mb
+      - 🇺🇸 US_1989 |60.54Mb
+      - 🇺🇸 US_1990 |85.17Mb
+      - 🇺🇸 US_1992 |71.57Mb
+      - 🇺🇸 US_1994 |344.22Mb
+      - 🇺🇸 US_1995 |107.41Mb
+      - 🇺🇸 US_1996 |61.73Mb
+      - 🇺🇸 US_1999 |41.63Mb
+      - 🇺🇸 US_2000 |75.68Mb
+      - 🇺🇸 US_2001 |54.43Mb
+      - 🇺🇸 US_2003 |77.89Mb
+      - 🇺🇸 US_2004 |91.34Mb
+      - 🇺🇸 US_2005 |57.60Mb
+      - 🇺🇸 US_2015 |66.98Mb
+      - 🇩🇪 DE_407 |30.13Mb
+      - GB_525 |64.16Mb
+      - 🇳🇱 NL_796 |45.32Mb
+      - 🇳🇱 NL_799 |44.40Mb
+      - 🇳🇱 NL_800 |58.55Mb
+      - 🇳🇱 NL_801 |42.36Mb
+      - 🇳🇱 NL_804 |45.97Mb
+      - 🇳🇱 NL_805 |56.04Mb
+      - 🇷🇴 RO_874 |48.72Mb
+      - 🇺🇸 US_2016 |40.48Mb
+      - 🇺🇸 US_2019 |55.58Mb
+      - 🇺🇸 US_2023 |44.71Mb
+      - 🇺🇸 US_2024 |44.82Mb
+      - 🇺🇸 US_2029 |52.82Mb
+      - 🇩🇪 DE_401 |39.29Mb
+      - 🇩🇪 DE_402 |47.98Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -448,72 +412,66 @@ proxy-groups:
       - 🎯 全球直连
       - _33 |45.40Mb
       - _43 |65.36Mb
-      - 🇦🇺 AU_77 |216.40Mb
-      - CA_276 |96.07Mb
-      - CA_279 |55.48Mb
-      - CA_281 |59.50Mb
-      - CA_282 |133.72Mb
-      - 🇩🇪 DE_398 |46.78Mb
-      - 🇩🇪 DE_399 |46.09Mb
-      - 🇫🇷 FR_461 |45.19Mb
-      - 🇫🇷 FR_462 |59.20Mb
-      - GB_514 |46.42Mb
-      - GB_515 |51.22Mb
-      - GB_516 |51.51Mb
-      - GB_517 |48.93Mb
-      - GB_518 |46.95Mb
-      - GB_519 |51.58Mb
-      - IL_569 |40.53Mb
-      - 🇯🇵 JP_712 |34.77Mb
-      - 🇯🇵 JP_716 |34.34Mb
-      - 🇰🇷 KR_755 |30.05Mb
-      - 🇷🇴 RO_866 |64.98Mb
-      - 🇷🇴 RO_867 |67.46Mb
-      - 🇺🇸 US_1973 |80.94Mb
-      - 🇺🇸 US_1975 |64.09Mb
-      - 🇺🇸 US_1976 |110.19Mb
-      - 🇺🇸 US_1977 |42.61Mb
-      - 🇺🇸 US_1979 |92.03Mb
-      - 🇺🇸 US_1980 |56.61Mb
-      - 🇺🇸 US_1985 |56.62Mb
-      - 🇺🇸 US_1987 |83.97Mb
-      - 🇺🇸 US_1989 |36.41Mb
-      - 🇺🇸 US_1992 |71.56Mb
-      - 🇺🇸 US_1993 |78.47Mb
-      - 🇺🇸 US_1995 |44.79Mb
-      - 🇺🇸 US_1996 |45.64Mb
-      - 🇺🇸 US_1997 |60.54Mb
-      - 🇺🇸 US_1998 |85.17Mb
-      - 🇺🇸 US_2000 |71.57Mb
-      - 🇺🇸 US_2001 |107.41Mb
-      - 🇺🇸 US_2003 |61.73Mb
-      - 🇺🇸 US_2004 |69.14Mb
-      - 🇺🇸 US_2005 |41.63Mb
-      - 🇺🇸 US_2007 |75.68Mb
-      - 🇺🇸 US_2008 |54.43Mb
-      - 🇺🇸 US_2010 |63.44Mb
-      - 🇺🇸 US_2012 |77.89Mb
-      - 🇺🇸 US_2015 |33.60Mb
-      - 🇺🇸 US_2016 |91.34Mb
-      - 🇺🇸 US_2017 |57.60Mb
-      - 🇺🇸 US_2026 |66.98Mb
-      - 🇩🇪 DE_402 |30.13Mb
-      - GB_522 |64.16Mb
-      - 🇯🇵 JP_753 |35.41Mb
-      - 🇳🇱 NL_793 |56.04Mb
-      - 🇳🇱 NL_794 |45.32Mb
-      - 🇳🇱 NL_795 |58.55Mb
-      - 🇳🇱 NL_797 |42.36Mb
-      - 🇳🇱 NL_799 |45.97Mb
-      - 🇳🇱 NL_801 |44.40Mb
-      - 🇷🇴 RO_870 |48.72Mb
-      - 🇺🇸 US_2027 |40.48Mb
-      - 🇺🇸 US_2028 |44.82Mb
-      - 🇺🇸 US_2034 |52.82Mb
-      - 🇺🇸 US_2037 |55.58Mb
-      - 🇺🇸 US_2040 |44.71Mb
-      - 🇩🇪 DE_396 |47.98Mb
-      - 🇩🇪 DE_397 |39.29Mb
+      - 🇦🇺 AU_78 |218.12Mb
+      - CA_279 |96.07Mb
+      - CA_282 |55.48Mb
+      - CA_283 |59.50Mb
+      - CA_284 |133.72Mb
+      - 🇩🇪 DE_404 |46.78Mb
+      - 🇩🇪 DE_405 |46.09Mb
+      - 🇫🇷 FR_465 |45.19Mb
+      - 🇫🇷 FR_466 |59.20Mb
+      - GB_518 |48.93Mb
+      - GB_519 |51.51Mb
+      - GB_520 |51.22Mb
+      - GB_522 |46.42Mb
+      - GB_523 |51.58Mb
+      - GB_524 |46.95Mb
+      - IL_573 |40.53Mb
+      - 🇯🇵 JP_715 |34.34Mb
+      - 🇷🇴 RO_870 |64.98Mb
+      - 🇷🇴 RO_871 |67.46Mb
+      - 🇺🇸 US_1969 |80.94Mb
+      - 🇺🇸 US_1970 |110.19Mb
+      - 🇺🇸 US_1971 |42.61Mb
+      - 🇺🇸 US_1973 |92.03Mb
+      - 🇺🇸 US_1974 |56.61Mb
+      - 🇺🇸 US_1979 |56.62Mb
+      - 🇺🇸 US_1980 |83.97Mb
+      - 🇺🇸 US_1983 |36.41Mb
+      - 🇺🇸 US_1984 |78.47Mb
+      - 🇺🇸 US_1985 |71.56Mb
+      - 🇺🇸 US_1987 |44.79Mb
+      - 🇺🇸 US_1988 |45.64Mb
+      - 🇺🇸 US_1989 |60.54Mb
+      - 🇺🇸 US_1990 |85.17Mb
+      - 🇺🇸 US_1992 |71.57Mb
+      - 🇺🇸 US_1994 |344.22Mb
+      - 🇺🇸 US_1995 |107.41Mb
+      - 🇺🇸 US_1996 |61.73Mb
+      - 🇺🇸 US_1999 |41.63Mb
+      - 🇺🇸 US_2000 |75.68Mb
+      - 🇺🇸 US_2001 |54.43Mb
+      - 🇺🇸 US_2003 |77.89Mb
+      - 🇺🇸 US_2004 |91.34Mb
+      - 🇺🇸 US_2005 |57.60Mb
+      - 🇺🇸 US_2015 |66.98Mb
+      - 🇩🇪 DE_407 |30.13Mb
+      - GB_525 |64.16Mb
+      - 🇳🇱 NL_796 |45.32Mb
+      - 🇳🇱 NL_799 |44.40Mb
+      - 🇳🇱 NL_800 |58.55Mb
+      - 🇳🇱 NL_801 |42.36Mb
+      - 🇳🇱 NL_804 |45.97Mb
+      - 🇳🇱 NL_805 |56.04Mb
+      - 🇷🇴 RO_874 |48.72Mb
+      - 🇺🇸 US_2016 |40.48Mb
+      - 🇺🇸 US_2019 |55.58Mb
+      - 🇺🇸 US_2023 |44.71Mb
+      - 🇺🇸 US_2024 |44.82Mb
+      - 🇺🇸 US_2029 |52.82Mb
+      - 🇩🇪 DE_401 |39.29Mb
+      - 🇩🇪 DE_402 |47.98Mb
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -522,72 +480,66 @@ proxy-groups:
       - ♻️ 自动选择
       - _33 |45.40Mb
       - _43 |65.36Mb
-      - 🇦🇺 AU_77 |216.40Mb
-      - CA_276 |96.07Mb
-      - CA_279 |55.48Mb
-      - CA_281 |59.50Mb
-      - CA_282 |133.72Mb
-      - 🇩🇪 DE_398 |46.78Mb
-      - 🇩🇪 DE_399 |46.09Mb
-      - 🇫🇷 FR_461 |45.19Mb
-      - 🇫🇷 FR_462 |59.20Mb
-      - GB_514 |46.42Mb
-      - GB_515 |51.22Mb
-      - GB_516 |51.51Mb
-      - GB_517 |48.93Mb
-      - GB_518 |46.95Mb
-      - GB_519 |51.58Mb
-      - IL_569 |40.53Mb
-      - 🇯🇵 JP_712 |34.77Mb
-      - 🇯🇵 JP_716 |34.34Mb
-      - 🇰🇷 KR_755 |30.05Mb
-      - 🇷🇴 RO_866 |64.98Mb
-      - 🇷🇴 RO_867 |67.46Mb
-      - 🇺🇸 US_1973 |80.94Mb
-      - 🇺🇸 US_1975 |64.09Mb
-      - 🇺🇸 US_1976 |110.19Mb
-      - 🇺🇸 US_1977 |42.61Mb
-      - 🇺🇸 US_1979 |92.03Mb
-      - 🇺🇸 US_1980 |56.61Mb
-      - 🇺🇸 US_1985 |56.62Mb
-      - 🇺🇸 US_1987 |83.97Mb
-      - 🇺🇸 US_1989 |36.41Mb
-      - 🇺🇸 US_1992 |71.56Mb
-      - 🇺🇸 US_1993 |78.47Mb
-      - 🇺🇸 US_1995 |44.79Mb
-      - 🇺🇸 US_1996 |45.64Mb
-      - 🇺🇸 US_1997 |60.54Mb
-      - 🇺🇸 US_1998 |85.17Mb
-      - 🇺🇸 US_2000 |71.57Mb
-      - 🇺🇸 US_2001 |107.41Mb
-      - 🇺🇸 US_2003 |61.73Mb
-      - 🇺🇸 US_2004 |69.14Mb
-      - 🇺🇸 US_2005 |41.63Mb
-      - 🇺🇸 US_2007 |75.68Mb
-      - 🇺🇸 US_2008 |54.43Mb
-      - 🇺🇸 US_2010 |63.44Mb
-      - 🇺🇸 US_2012 |77.89Mb
-      - 🇺🇸 US_2015 |33.60Mb
-      - 🇺🇸 US_2016 |91.34Mb
-      - 🇺🇸 US_2017 |57.60Mb
-      - 🇺🇸 US_2026 |66.98Mb
-      - 🇩🇪 DE_402 |30.13Mb
-      - GB_522 |64.16Mb
-      - 🇯🇵 JP_753 |35.41Mb
-      - 🇳🇱 NL_793 |56.04Mb
-      - 🇳🇱 NL_794 |45.32Mb
-      - 🇳🇱 NL_795 |58.55Mb
-      - 🇳🇱 NL_797 |42.36Mb
-      - 🇳🇱 NL_799 |45.97Mb
-      - 🇳🇱 NL_801 |44.40Mb
-      - 🇷🇴 RO_870 |48.72Mb
-      - 🇺🇸 US_2027 |40.48Mb
-      - 🇺🇸 US_2028 |44.82Mb
-      - 🇺🇸 US_2034 |52.82Mb
-      - 🇺🇸 US_2037 |55.58Mb
-      - 🇺🇸 US_2040 |44.71Mb
-      - 🇩🇪 DE_396 |47.98Mb
-      - 🇩🇪 DE_397 |39.29Mb
+      - 🇦🇺 AU_78 |218.12Mb
+      - CA_279 |96.07Mb
+      - CA_282 |55.48Mb
+      - CA_283 |59.50Mb
+      - CA_284 |133.72Mb
+      - 🇩🇪 DE_404 |46.78Mb
+      - 🇩🇪 DE_405 |46.09Mb
+      - 🇫🇷 FR_465 |45.19Mb
+      - 🇫🇷 FR_466 |59.20Mb
+      - GB_518 |48.93Mb
+      - GB_519 |51.51Mb
+      - GB_520 |51.22Mb
+      - GB_522 |46.42Mb
+      - GB_523 |51.58Mb
+      - GB_524 |46.95Mb
+      - IL_573 |40.53Mb
+      - 🇯🇵 JP_715 |34.34Mb
+      - 🇷🇴 RO_870 |64.98Mb
+      - 🇷🇴 RO_871 |67.46Mb
+      - 🇺🇸 US_1969 |80.94Mb
+      - 🇺🇸 US_1970 |110.19Mb
+      - 🇺🇸 US_1971 |42.61Mb
+      - 🇺🇸 US_1973 |92.03Mb
+      - 🇺🇸 US_1974 |56.61Mb
+      - 🇺🇸 US_1979 |56.62Mb
+      - 🇺🇸 US_1980 |83.97Mb
+      - 🇺🇸 US_1983 |36.41Mb
+      - 🇺🇸 US_1984 |78.47Mb
+      - 🇺🇸 US_1985 |71.56Mb
+      - 🇺🇸 US_1987 |44.79Mb
+      - 🇺🇸 US_1988 |45.64Mb
+      - 🇺🇸 US_1989 |60.54Mb
+      - 🇺🇸 US_1990 |85.17Mb
+      - 🇺🇸 US_1992 |71.57Mb
+      - 🇺🇸 US_1994 |344.22Mb
+      - 🇺🇸 US_1995 |107.41Mb
+      - 🇺🇸 US_1996 |61.73Mb
+      - 🇺🇸 US_1999 |41.63Mb
+      - 🇺🇸 US_2000 |75.68Mb
+      - 🇺🇸 US_2001 |54.43Mb
+      - 🇺🇸 US_2003 |77.89Mb
+      - 🇺🇸 US_2004 |91.34Mb
+      - 🇺🇸 US_2005 |57.60Mb
+      - 🇺🇸 US_2015 |66.98Mb
+      - 🇩🇪 DE_407 |30.13Mb
+      - GB_525 |64.16Mb
+      - 🇳🇱 NL_796 |45.32Mb
+      - 🇳🇱 NL_799 |44.40Mb
+      - 🇳🇱 NL_800 |58.55Mb
+      - 🇳🇱 NL_801 |42.36Mb
+      - 🇳🇱 NL_804 |45.97Mb
+      - 🇳🇱 NL_805 |56.04Mb
+      - 🇷🇴 RO_874 |48.72Mb
+      - 🇺🇸 US_2016 |40.48Mb
+      - 🇺🇸 US_2019 |55.58Mb
+      - 🇺🇸 US_2023 |44.71Mb
+      - 🇺🇸 US_2024 |44.82Mb
+      - 🇺🇸 US_2029 |52.82Mb
+      - 🇩🇪 DE_401 |39.29Mb
+      - 🇩🇪 DE_402 |47.98Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -612,72 +564,66 @@ proxy-groups:
       - ♻️ 自动选择
       - _33 |45.40Mb
       - _43 |65.36Mb
-      - 🇦🇺 AU_77 |216.40Mb
-      - CA_276 |96.07Mb
-      - CA_279 |55.48Mb
-      - CA_281 |59.50Mb
-      - CA_282 |133.72Mb
-      - 🇩🇪 DE_398 |46.78Mb
-      - 🇩🇪 DE_399 |46.09Mb
-      - 🇫🇷 FR_461 |45.19Mb
-      - 🇫🇷 FR_462 |59.20Mb
-      - GB_514 |46.42Mb
-      - GB_515 |51.22Mb
-      - GB_516 |51.51Mb
-      - GB_517 |48.93Mb
-      - GB_518 |46.95Mb
-      - GB_519 |51.58Mb
-      - IL_569 |40.53Mb
-      - 🇯🇵 JP_712 |34.77Mb
-      - 🇯🇵 JP_716 |34.34Mb
-      - 🇰🇷 KR_755 |30.05Mb
-      - 🇷🇴 RO_866 |64.98Mb
-      - 🇷🇴 RO_867 |67.46Mb
-      - 🇺🇸 US_1973 |80.94Mb
-      - 🇺🇸 US_1975 |64.09Mb
-      - 🇺🇸 US_1976 |110.19Mb
-      - 🇺🇸 US_1977 |42.61Mb
-      - 🇺🇸 US_1979 |92.03Mb
-      - 🇺🇸 US_1980 |56.61Mb
-      - 🇺🇸 US_1985 |56.62Mb
-      - 🇺🇸 US_1987 |83.97Mb
-      - 🇺🇸 US_1989 |36.41Mb
-      - 🇺🇸 US_1992 |71.56Mb
-      - 🇺🇸 US_1993 |78.47Mb
-      - 🇺🇸 US_1995 |44.79Mb
-      - 🇺🇸 US_1996 |45.64Mb
-      - 🇺🇸 US_1997 |60.54Mb
-      - 🇺🇸 US_1998 |85.17Mb
-      - 🇺🇸 US_2000 |71.57Mb
-      - 🇺🇸 US_2001 |107.41Mb
-      - 🇺🇸 US_2003 |61.73Mb
-      - 🇺🇸 US_2004 |69.14Mb
-      - 🇺🇸 US_2005 |41.63Mb
-      - 🇺🇸 US_2007 |75.68Mb
-      - 🇺🇸 US_2008 |54.43Mb
-      - 🇺🇸 US_2010 |63.44Mb
-      - 🇺🇸 US_2012 |77.89Mb
-      - 🇺🇸 US_2015 |33.60Mb
-      - 🇺🇸 US_2016 |91.34Mb
-      - 🇺🇸 US_2017 |57.60Mb
-      - 🇺🇸 US_2026 |66.98Mb
-      - 🇩🇪 DE_402 |30.13Mb
-      - GB_522 |64.16Mb
-      - 🇯🇵 JP_753 |35.41Mb
-      - 🇳🇱 NL_793 |56.04Mb
-      - 🇳🇱 NL_794 |45.32Mb
-      - 🇳🇱 NL_795 |58.55Mb
-      - 🇳🇱 NL_797 |42.36Mb
-      - 🇳🇱 NL_799 |45.97Mb
-      - 🇳🇱 NL_801 |44.40Mb
-      - 🇷🇴 RO_870 |48.72Mb
-      - 🇺🇸 US_2027 |40.48Mb
-      - 🇺🇸 US_2028 |44.82Mb
-      - 🇺🇸 US_2034 |52.82Mb
-      - 🇺🇸 US_2037 |55.58Mb
-      - 🇺🇸 US_2040 |44.71Mb
-      - 🇩🇪 DE_396 |47.98Mb
-      - 🇩🇪 DE_397 |39.29Mb
+      - 🇦🇺 AU_78 |218.12Mb
+      - CA_279 |96.07Mb
+      - CA_282 |55.48Mb
+      - CA_283 |59.50Mb
+      - CA_284 |133.72Mb
+      - 🇩🇪 DE_404 |46.78Mb
+      - 🇩🇪 DE_405 |46.09Mb
+      - 🇫🇷 FR_465 |45.19Mb
+      - 🇫🇷 FR_466 |59.20Mb
+      - GB_518 |48.93Mb
+      - GB_519 |51.51Mb
+      - GB_520 |51.22Mb
+      - GB_522 |46.42Mb
+      - GB_523 |51.58Mb
+      - GB_524 |46.95Mb
+      - IL_573 |40.53Mb
+      - 🇯🇵 JP_715 |34.34Mb
+      - 🇷🇴 RO_870 |64.98Mb
+      - 🇷🇴 RO_871 |67.46Mb
+      - 🇺🇸 US_1969 |80.94Mb
+      - 🇺🇸 US_1970 |110.19Mb
+      - 🇺🇸 US_1971 |42.61Mb
+      - 🇺🇸 US_1973 |92.03Mb
+      - 🇺🇸 US_1974 |56.61Mb
+      - 🇺🇸 US_1979 |56.62Mb
+      - 🇺🇸 US_1980 |83.97Mb
+      - 🇺🇸 US_1983 |36.41Mb
+      - 🇺🇸 US_1984 |78.47Mb
+      - 🇺🇸 US_1985 |71.56Mb
+      - 🇺🇸 US_1987 |44.79Mb
+      - 🇺🇸 US_1988 |45.64Mb
+      - 🇺🇸 US_1989 |60.54Mb
+      - 🇺🇸 US_1990 |85.17Mb
+      - 🇺🇸 US_1992 |71.57Mb
+      - 🇺🇸 US_1994 |344.22Mb
+      - 🇺🇸 US_1995 |107.41Mb
+      - 🇺🇸 US_1996 |61.73Mb
+      - 🇺🇸 US_1999 |41.63Mb
+      - 🇺🇸 US_2000 |75.68Mb
+      - 🇺🇸 US_2001 |54.43Mb
+      - 🇺🇸 US_2003 |77.89Mb
+      - 🇺🇸 US_2004 |91.34Mb
+      - 🇺🇸 US_2005 |57.60Mb
+      - 🇺🇸 US_2015 |66.98Mb
+      - 🇩🇪 DE_407 |30.13Mb
+      - GB_525 |64.16Mb
+      - 🇳🇱 NL_796 |45.32Mb
+      - 🇳🇱 NL_799 |44.40Mb
+      - 🇳🇱 NL_800 |58.55Mb
+      - 🇳🇱 NL_801 |42.36Mb
+      - 🇳🇱 NL_804 |45.97Mb
+      - 🇳🇱 NL_805 |56.04Mb
+      - 🇷🇴 RO_874 |48.72Mb
+      - 🇺🇸 US_2016 |40.48Mb
+      - 🇺🇸 US_2019 |55.58Mb
+      - 🇺🇸 US_2023 |44.71Mb
+      - 🇺🇸 US_2024 |44.82Mb
+      - 🇺🇸 US_2029 |52.82Mb
+      - 🇩🇪 DE_401 |39.29Mb
+      - 🇩🇪 DE_402 |47.98Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
