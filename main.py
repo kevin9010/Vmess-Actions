@@ -37,7 +37,7 @@ def main(event, context):
 #        'https://suc.bihai.ml/sub?target=clash&new_name=true&url=https%3A%2F%2Fraw.githubusercontent.com%2Fldir92664%2FVmess-Actions%2Fmain%2Fsubscribe%2Fvmess.txt%7Chttps%3A%2F%2Fraw.githubusercontent.com%2Fldir92664%2FVmess-Actions%2Fmain%2Fsubscribe%2Ftrojan.txt&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini', 'clash.yml')
 
     savePoint(
-        'https://api.dler.io/sub?target=clash&url=http%3A%2F%2Fsspool.herokuapp.com%2Fclash%2Fproxies%3Fnc%3DCN%2CHK%2CTW%26speed%3D50%2C100%26type%3Dvmess%2Ctrojan%2Cssr%2Css&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini', 'clash.yml')
+        'https://api.dler.io/sub?target=clash&new_name=true&url=https%3A%2F%2Fsspool.herokuapp.com%2Fclash%2Fproxies%3Fnc%3DCN%2CHK%2CTW%26speed%3D30%2C100%26type%3Dvmess%2Ctrojan%2Cssr%2Css&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini', 'clash.yml')
 
     savePoint(
         'https://api.dler.io/sub?target=clash&new_name=true&url=https%3A%2F%2Fsspool.herokuapp.com%2Fclash%2Fproxies%3Fnc%3DCN%2CHK%2CTW%26speed%3D30%26type%3Dvmess%7Chttps%3A%2F%2Fsspool.herokuapp.com%2Fclash%2Fproxies%3Fnc%3DCN%2CHK%2CTW%26speed%3D30%26type%3Dtrojan%7Chttps%3A%2F%2Fsspool.herokuapp.com%2Fclash%2Fproxies%3Fnc%3DCN%2CHK%2CTW%26speed%3D30%26type%3Dssr&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini', 'clash-bihai.yml')
