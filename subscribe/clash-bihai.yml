@@ -34,6 +34,7 @@ proxies:
   - {name: GB_708 |41.91Mb, server: 45.91.83.226, port: 6349, type: ssr, cipher: rc4-md5, password: passinfo123, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
   - {name: GB_709 |94.03Mb, server: 45.91.83.51, port: 8052, type: ssr, cipher: rc4-md5, password: passinfo123, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
   - {name: GB_710 |68.81Mb, server: 45.91.83.228, port: 6463, type: ssr, cipher: rc4-md5, password: passinfo123, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: JP_909 |33.01Mb, server: jp-am48-9.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: 3H2aN5Gnm, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -69,6 +70,7 @@ proxy-groups:
       - GB_708 |41.91Mb
       - GB_709 |94.03Mb
       - GB_710 |68.81Mb
+      - JP_909 |33.01Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -103,6 +105,7 @@ proxy-groups:
       - GB_708 |41.91Mb
       - GB_709 |94.03Mb
       - GB_710 |68.81Mb
+      - JP_909 |33.01Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -138,6 +141,7 @@ proxy-groups:
       - GB_708 |41.91Mb
       - GB_709 |94.03Mb
       - GB_710 |68.81Mb
+      - JP_909 |33.01Mb
   - name: 📲 电报信息
     type: select
     proxies:
@@ -172,6 +176,7 @@ proxy-groups:
       - GB_708 |41.91Mb
       - GB_709 |94.03Mb
       - GB_710 |68.81Mb
+      - JP_909 |33.01Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -206,6 +211,7 @@ proxy-groups:
       - GB_708 |41.91Mb
       - GB_709 |94.03Mb
       - GB_710 |68.81Mb
+      - JP_909 |33.01Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -240,6 +246,7 @@ proxy-groups:
       - GB_708 |41.91Mb
       - GB_709 |94.03Mb
       - GB_710 |68.81Mb
+      - JP_909 |33.01Mb
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -275,6 +282,7 @@ proxy-groups:
       - GB_708 |41.91Mb
       - GB_709 |94.03Mb
       - GB_710 |68.81Mb
+      - JP_909 |33.01Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -326,6 +334,7 @@ proxy-groups:
       - GB_708 |41.91Mb
       - GB_709 |94.03Mb
       - GB_710 |68.81Mb
+      - JP_909 |33.01Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
