@@ -5,53 +5,93 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "NULL", server: "NULL", port: 11708, type: ssr, cipher: aes-256-cfb, password: sEscPBiAD9K$&@79, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: ""}
+  - {name: DE_353 |55.41Mb, server: 194.195.240.132, port: 33210, type: vmess, uuid: f46d05d6-8d41-4e0a-993e-e2658ac29f85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}}
+  - {name: DE_354 |49.47Mb, server: germany-dusseldorf.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: germany-dusseldorf.mah3Hoet.com, network: ws, ws-opts: {path: /ws, headers: {Host: germany-dusseldorf.mah3Hoet.com}}}
+  - {name: DE_355 |46.35Mb, server: 146.0.42.87, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: germany-dusseldorf.mah3Hoet.com, network: ws, ws-opts: {path: /ws}}
+  - {name: GB_444 |48.21Mb, server: 146.70.46.68, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: uk-manchester.eiw2eemo.com, network: ws, ws-opts: {path: /ws}}
+  - {name: GB_448 |48.35Mb, server: uk-manchester.eiw2eemo.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: uk-manchester.eiw2eemo.com, network: ws, ws-opts: {path: /ws, headers: {Host: uk-manchester.eiw2eemo.com}}}
+  - {name: HU_454 |33.68Mb, server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "NULL"
+      - DE_353 |55.41Mb
+      - DE_354 |49.47Mb
+      - DE_355 |46.35Mb
+      - GB_444 |48.21Mb
+      - GB_448 |48.35Mb
+      - HU_454 |33.68Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "NULL"
+      - DE_353 |55.41Mb
+      - DE_354 |49.47Mb
+      - DE_355 |46.35Mb
+      - GB_444 |48.21Mb
+      - GB_448 |48.35Mb
+      - HU_454 |33.68Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "NULL"
+      - DE_353 |55.41Mb
+      - DE_354 |49.47Mb
+      - DE_355 |46.35Mb
+      - GB_444 |48.21Mb
+      - GB_448 |48.35Mb
+      - HU_454 |33.68Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "NULL"
+      - DE_353 |55.41Mb
+      - DE_354 |49.47Mb
+      - DE_355 |46.35Mb
+      - GB_444 |48.21Mb
+      - GB_448 |48.35Mb
+      - HU_454 |33.68Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "NULL"
+      - DE_353 |55.41Mb
+      - DE_354 |49.47Mb
+      - DE_355 |46.35Mb
+      - GB_444 |48.21Mb
+      - GB_448 |48.35Mb
+      - HU_454 |33.68Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "NULL"
+      - DE_353 |55.41Mb
+      - DE_354 |49.47Mb
+      - DE_355 |46.35Mb
+      - GB_444 |48.21Mb
+      - GB_448 |48.35Mb
+      - HU_454 |33.68Mb
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "NULL"
+      - DE_353 |55.41Mb
+      - DE_354 |49.47Mb
+      - DE_355 |46.35Mb
+      - GB_444 |48.21Mb
+      - GB_448 |48.35Mb
+      - HU_454 |33.68Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -74,7 +114,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "NULL"
+      - DE_353 |55.41Mb
+      - DE_354 |49.47Mb
+      - DE_355 |46.35Mb
+      - GB_444 |48.21Mb
+      - GB_448 |48.35Mb
+      - HU_454 |33.68Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
