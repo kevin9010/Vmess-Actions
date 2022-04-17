@@ -5,165 +5,173 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: GB_439 |50.13Mb, server: uk-manchester.eiw2eemo.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: uk-manchester.eiw2eemo.com, network: ws, ws-opts: {path: /ws, headers: {Host: uk-manchester.eiw2eemo.com}}}
-  - {name: GB_441 |51.54Mb, server: 146.70.46.68, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: uk-manchester.eiw2eemo.com, network: ws, ws-opts: {path: /ws}}
-  - {name: GB_443 |41.38Mb, server: 146.70.73.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: italy-milan.mah3Hoet.com, network: ws, ws-opts: {path: /ws}}
-  - {name: GB_444 |40.36Mb, server: italy-milan.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: italy-milan.mah3Hoet.com, network: ws, ws-opts: {path: /ws, headers: {Host: italy-milan.mah3Hoet.com}}}
-  - {name: HU_456 |37.62Mb, server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: JP_553 |30.49Mb, server: 45.77.22.155, port: 49192, type: vmess, uuid: 190e9608-0d6c-4b59-8665-c2fb0d632b6f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: US_716 |78.35Mb, server: us2.tcpbbr.net, port: 443, type: trojan, password: 7b4066ae-accc-11eb-a8bf-f23c91cfbbc9, skip-cert-verify: true, udp: true}
-  - {name: US_717 |63.62Mb, server: usd.scsevers.cf, port: 443, type: trojan, password: sharecentretest, skip-cert-verify: true, udp: true}
-  - {name: US_2016 |66.70Mb, server: 142.4.127.67, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.47727450.xyz, network: ws, ws-opts: {path: /path/310910211916}}
+  - {name: GB_433 |51.54Mb, server: 146.70.46.68, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: uk-manchester.eiw2eemo.com, network: ws, ws-opts: {path: /ws}}
+  - {name: GB_434 |50.13Mb, server: uk-manchester.eiw2eemo.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: uk-manchester.eiw2eemo.com, network: ws, ws-opts: {path: /ws, headers: {Host: uk-manchester.eiw2eemo.com}}}
+  - {name: GB_435 |40.36Mb, server: italy-milan.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: italy-milan.mah3Hoet.com, network: ws, ws-opts: {path: /ws, headers: {Host: italy-milan.mah3Hoet.com}}}
+  - {name: GB_436 |41.38Mb, server: 146.70.73.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: italy-milan.mah3Hoet.com, network: ws, ws-opts: {path: /ws}}
+  - {name: HU_449 |37.62Mb, server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: JP_542 |30.49Mb, server: 45.77.22.155, port: 49192, type: vmess, uuid: 190e9608-0d6c-4b59-8665-c2fb0d632b6f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: US_711 |63.62Mb, server: usd.scsevers.cf, port: 443, type: trojan, password: sharecentretest, skip-cert-verify: true, udp: true}
+  - {name: US_712 |78.35Mb, server: us2.tcpbbr.net, port: 443, type: trojan, password: 7b4066ae-accc-11eb-a8bf-f23c91cfbbc9, skip-cert-verify: true, udp: true}
+  - {name: US_2008 |78.00Mb, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: iesei1ei.com, network: ws, ws-opts: {path: /ws}}
+  - {name: US_2009 |66.70Mb, server: 142.4.127.67, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.47727450.xyz, network: ws, ws-opts: {path: /path/310910211916}}
+  - {name: US_2012 |56.31Mb, server: 104.168.13.8, port: 41342, type: vmess, uuid: 3aa90670-6d21-4287-eec5-0cd0b21d579a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 104.168.13.8, network: ws, ws-opts: {path: /}}
+  - {name: US_2014 |59.91Mb, server: 23.94.120.19, port: 28554, type: vmess, uuid: 4a4c96c5-7b8b-4612-c715-6b91a9c34d07, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
   - {name: US_2018 |73.72Mb, server: viibah6u.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: viibah6u.com, network: ws, ws-opts: {path: /ws, headers: {Host: viibah6u.com}}}
-  - {name: US_2019 |56.31Mb, server: 104.168.13.8, port: 41342, type: vmess, uuid: 3aa90670-6d21-4287-eec5-0cd0b21d579a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 104.168.13.8, network: ws, ws-opts: {path: /}}
-  - {name: US_2021 |59.91Mb, server: 23.94.120.19, port: 28554, type: vmess, uuid: 4a4c96c5-7b8b-4612-c715-6b91a9c34d07, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: US_2027 |42.65Mb, server: 107.175.62.31, port: 18205, type: vmess, uuid: 51ffe900-f9a4-4517-b123-9d512d0f5069, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: US_2062 |30.79Mb, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, skip-cert-verify: true, udp: true}
-  - {name: US_2063 |79.87Mb, server: ussc.scsevers.cf, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true, udp: true}
+  - {name: US_2020 |42.65Mb, server: 107.175.62.31, port: 18205, type: vmess, uuid: 51ffe900-f9a4-4517-b123-9d512d0f5069, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: US_2032 |79.87Mb, server: ussc.scsevers.cf, port: 443, type: trojan, password: sharecentre, skip-cert-verify: true, udp: true}
+  - {name: US_2053 |30.79Mb, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - GB_439 |50.13Mb
-      - GB_441 |51.54Mb
-      - GB_443 |41.38Mb
-      - GB_444 |40.36Mb
-      - HU_456 |37.62Mb
-      - JP_553 |30.49Mb
-      - US_716 |78.35Mb
-      - US_717 |63.62Mb
-      - US_2016 |66.70Mb
+      - GB_433 |51.54Mb
+      - GB_434 |50.13Mb
+      - GB_435 |40.36Mb
+      - GB_436 |41.38Mb
+      - HU_449 |37.62Mb
+      - JP_542 |30.49Mb
+      - US_711 |63.62Mb
+      - US_712 |78.35Mb
+      - US_2008 |78.00Mb
+      - US_2009 |66.70Mb
+      - US_2012 |56.31Mb
+      - US_2014 |59.91Mb
       - US_2018 |73.72Mb
-      - US_2019 |56.31Mb
-      - US_2021 |59.91Mb
-      - US_2027 |42.65Mb
-      - US_2062 |30.79Mb
-      - US_2063 |79.87Mb
+      - US_2020 |42.65Mb
+      - US_2032 |79.87Mb
+      - US_2053 |30.79Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - GB_439 |50.13Mb
-      - GB_441 |51.54Mb
-      - GB_443 |41.38Mb
-      - GB_444 |40.36Mb
-      - HU_456 |37.62Mb
-      - JP_553 |30.49Mb
-      - US_716 |78.35Mb
-      - US_717 |63.62Mb
-      - US_2016 |66.70Mb
+      - GB_433 |51.54Mb
+      - GB_434 |50.13Mb
+      - GB_435 |40.36Mb
+      - GB_436 |41.38Mb
+      - HU_449 |37.62Mb
+      - JP_542 |30.49Mb
+      - US_711 |63.62Mb
+      - US_712 |78.35Mb
+      - US_2008 |78.00Mb
+      - US_2009 |66.70Mb
+      - US_2012 |56.31Mb
+      - US_2014 |59.91Mb
       - US_2018 |73.72Mb
-      - US_2019 |56.31Mb
-      - US_2021 |59.91Mb
-      - US_2027 |42.65Mb
-      - US_2062 |30.79Mb
-      - US_2063 |79.87Mb
+      - US_2020 |42.65Mb
+      - US_2032 |79.87Mb
+      - US_2053 |30.79Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - GB_439 |50.13Mb
-      - GB_441 |51.54Mb
-      - GB_443 |41.38Mb
-      - GB_444 |40.36Mb
-      - HU_456 |37.62Mb
-      - JP_553 |30.49Mb
-      - US_716 |78.35Mb
-      - US_717 |63.62Mb
-      - US_2016 |66.70Mb
+      - GB_433 |51.54Mb
+      - GB_434 |50.13Mb
+      - GB_435 |40.36Mb
+      - GB_436 |41.38Mb
+      - HU_449 |37.62Mb
+      - JP_542 |30.49Mb
+      - US_711 |63.62Mb
+      - US_712 |78.35Mb
+      - US_2008 |78.00Mb
+      - US_2009 |66.70Mb
+      - US_2012 |56.31Mb
+      - US_2014 |59.91Mb
       - US_2018 |73.72Mb
-      - US_2019 |56.31Mb
-      - US_2021 |59.91Mb
-      - US_2027 |42.65Mb
-      - US_2062 |30.79Mb
-      - US_2063 |79.87Mb
+      - US_2020 |42.65Mb
+      - US_2032 |79.87Mb
+      - US_2053 |30.79Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - GB_439 |50.13Mb
-      - GB_441 |51.54Mb
-      - GB_443 |41.38Mb
-      - GB_444 |40.36Mb
-      - HU_456 |37.62Mb
-      - JP_553 |30.49Mb
-      - US_716 |78.35Mb
-      - US_717 |63.62Mb
-      - US_2016 |66.70Mb
+      - GB_433 |51.54Mb
+      - GB_434 |50.13Mb
+      - GB_435 |40.36Mb
+      - GB_436 |41.38Mb
+      - HU_449 |37.62Mb
+      - JP_542 |30.49Mb
+      - US_711 |63.62Mb
+      - US_712 |78.35Mb
+      - US_2008 |78.00Mb
+      - US_2009 |66.70Mb
+      - US_2012 |56.31Mb
+      - US_2014 |59.91Mb
       - US_2018 |73.72Mb
-      - US_2019 |56.31Mb
-      - US_2021 |59.91Mb
-      - US_2027 |42.65Mb
-      - US_2062 |30.79Mb
-      - US_2063 |79.87Mb
+      - US_2020 |42.65Mb
+      - US_2032 |79.87Mb
+      - US_2053 |30.79Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - GB_439 |50.13Mb
-      - GB_441 |51.54Mb
-      - GB_443 |41.38Mb
-      - GB_444 |40.36Mb
-      - HU_456 |37.62Mb
-      - JP_553 |30.49Mb
-      - US_716 |78.35Mb
-      - US_717 |63.62Mb
-      - US_2016 |66.70Mb
+      - GB_433 |51.54Mb
+      - GB_434 |50.13Mb
+      - GB_435 |40.36Mb
+      - GB_436 |41.38Mb
+      - HU_449 |37.62Mb
+      - JP_542 |30.49Mb
+      - US_711 |63.62Mb
+      - US_712 |78.35Mb
+      - US_2008 |78.00Mb
+      - US_2009 |66.70Mb
+      - US_2012 |56.31Mb
+      - US_2014 |59.91Mb
       - US_2018 |73.72Mb
-      - US_2019 |56.31Mb
-      - US_2021 |59.91Mb
-      - US_2027 |42.65Mb
-      - US_2062 |30.79Mb
-      - US_2063 |79.87Mb
+      - US_2020 |42.65Mb
+      - US_2032 |79.87Mb
+      - US_2053 |30.79Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - GB_439 |50.13Mb
-      - GB_441 |51.54Mb
-      - GB_443 |41.38Mb
-      - GB_444 |40.36Mb
-      - HU_456 |37.62Mb
-      - JP_553 |30.49Mb
-      - US_716 |78.35Mb
-      - US_717 |63.62Mb
-      - US_2016 |66.70Mb
+      - GB_433 |51.54Mb
+      - GB_434 |50.13Mb
+      - GB_435 |40.36Mb
+      - GB_436 |41.38Mb
+      - HU_449 |37.62Mb
+      - JP_542 |30.49Mb
+      - US_711 |63.62Mb
+      - US_712 |78.35Mb
+      - US_2008 |78.00Mb
+      - US_2009 |66.70Mb
+      - US_2012 |56.31Mb
+      - US_2014 |59.91Mb
       - US_2018 |73.72Mb
-      - US_2019 |56.31Mb
-      - US_2021 |59.91Mb
-      - US_2027 |42.65Mb
-      - US_2062 |30.79Mb
-      - US_2063 |79.87Mb
+      - US_2020 |42.65Mb
+      - US_2032 |79.87Mb
+      - US_2053 |30.79Mb
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - GB_439 |50.13Mb
-      - GB_441 |51.54Mb
-      - GB_443 |41.38Mb
-      - GB_444 |40.36Mb
-      - HU_456 |37.62Mb
-      - JP_553 |30.49Mb
-      - US_716 |78.35Mb
-      - US_717 |63.62Mb
-      - US_2016 |66.70Mb
+      - GB_433 |51.54Mb
+      - GB_434 |50.13Mb
+      - GB_435 |40.36Mb
+      - GB_436 |41.38Mb
+      - HU_449 |37.62Mb
+      - JP_542 |30.49Mb
+      - US_711 |63.62Mb
+      - US_712 |78.35Mb
+      - US_2008 |78.00Mb
+      - US_2009 |66.70Mb
+      - US_2012 |56.31Mb
+      - US_2014 |59.91Mb
       - US_2018 |73.72Mb
-      - US_2019 |56.31Mb
-      - US_2021 |59.91Mb
-      - US_2027 |42.65Mb
-      - US_2062 |30.79Mb
-      - US_2063 |79.87Mb
+      - US_2020 |42.65Mb
+      - US_2032 |79.87Mb
+      - US_2053 |30.79Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -186,21 +194,22 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - GB_439 |50.13Mb
-      - GB_441 |51.54Mb
-      - GB_443 |41.38Mb
-      - GB_444 |40.36Mb
-      - HU_456 |37.62Mb
-      - JP_553 |30.49Mb
-      - US_716 |78.35Mb
-      - US_717 |63.62Mb
-      - US_2016 |66.70Mb
+      - GB_433 |51.54Mb
+      - GB_434 |50.13Mb
+      - GB_435 |40.36Mb
+      - GB_436 |41.38Mb
+      - HU_449 |37.62Mb
+      - JP_542 |30.49Mb
+      - US_711 |63.62Mb
+      - US_712 |78.35Mb
+      - US_2008 |78.00Mb
+      - US_2009 |66.70Mb
+      - US_2012 |56.31Mb
+      - US_2014 |59.91Mb
       - US_2018 |73.72Mb
-      - US_2019 |56.31Mb
-      - US_2021 |59.91Mb
-      - US_2027 |42.65Mb
-      - US_2062 |30.79Mb
-      - US_2063 |79.87Mb
+      - US_2020 |42.65Mb
+      - US_2032 |79.87Mb
+      - US_2053 |30.79Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
