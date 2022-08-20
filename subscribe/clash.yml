@@ -5,517 +5,501 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _42 |99.47Mb, server: 129.146.133.157, port: 51009, type: vmess, uuid: 81714cef-9bde-4a08-aa50-d6bc0172d78b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: _43 |73.72Mb, server: 23.230.146.254, port: 1258, type: vmess, uuid: edeb41cc-a76a-47f2-fa96-b9141e66a2b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: GB_412 |64.59Mb, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, skip-cert-verify: true, udp: true}
-  - {name: LT_570 |41.82Mb, server: 213.183.53.200, port: 9026, type: ssr, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_571 |43.81Mb, server: 213.183.53.200, port: 9031, type: ssr, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_572 |41.02Mb, server: 213.183.53.200, port: 9006, type: ssr, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_573 |40.52Mb, server: 213.183.53.177, port: 9008, type: ssr, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_574 |38.96Mb, server: 213.183.53.177, port: 9000, type: ssr, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_575 |41.26Mb, server: 213.183.53.177, port: 9084, type: ssr, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_576 |41.22Mb, server: 213.183.53.177, port: 9059, type: ssr, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_577 |41.82Mb, server: 213.183.53.200, port: 9015, type: ssr, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_578 |41.82Mb, server: 213.183.53.200, port: 9073, type: ssr, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_579 |41.50Mb, server: 213.183.53.177, port: 9041, type: ssr, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_580 |43.25Mb, server: 213.183.53.177, port: 9003, type: ssr, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_581 |44.00Mb, server: 213.183.53.200, port: 9033, type: ssr, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_582 |44.05Mb, server: 213.183.53.177, port: 9018, type: ssr, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_583 |41.67Mb, server: 213.183.53.200, port: 9027, type: ssr, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_584 |41.72Mb, server: 213.183.53.200, port: 9014, type: ssr, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: CA_136 |81.71Mb, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: "%7B%22Host%22:%22usa-buffalo.lvuft.com%22%7D", network: ws, ws-opts: {path: /ws, headers: {Host: usa-buffalo.lvuft.com}}}
+  - {name: GB_409 |58.87Mb, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, skip-cert-verify: true, udp: true}
+  - {name: LT_568 |41.12Mb, server: 213.183.53.200, port: 9037, type: ssr, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: LT_569 |41.03Mb, server: 213.183.53.200, port: 9024, type: ssr, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: LT_570 |43.81Mb, server: 213.183.53.200, port: 9031, type: ssr, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: LT_571 |40.64Mb, server: 213.183.53.177, port: 9094, type: ssr, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: LT_572 |41.18Mb, server: 213.183.53.177, port: 9060, type: ssr, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: LT_573 |40.84Mb, server: 213.183.53.200, port: 9050, type: ssr, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: LT_574 |40.75Mb, server: 213.183.53.200, port: 9003, type: ssr, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: LT_575 |40.86Mb, server: 213.183.53.177, port: 9064, type: ssr, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: LT_576 |41.26Mb, server: 213.183.53.200, port: 9084, type: ssr, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: LT_577 |41.13Mb, server: 213.183.53.200, port: 9094, type: ssr, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: LT_578 |40.55Mb, server: 213.183.53.177, port: 9093, type: ssr, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: LT_579 |43.42Mb, server: 213.183.53.200, port: 9005, type: ssr, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: LT_580 |41.30Mb, server: 213.183.53.200, port: 9020, type: ssr, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: LT_581 |41.82Mb, server: 213.183.53.200, port: 9088, type: ssr, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: LT_582 |41.18Mb, server: 213.183.53.200, port: 9001, type: ssr, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: LT_583 |42.47Mb, server: 213.183.53.177, port: 9033, type: ssr, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: LT_584 |42.08Mb, server: 213.183.53.177, port: 9010, type: ssr, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
   - {name: LT_585 |39.77Mb, server: 213.183.53.177, port: 9056, type: ssr, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_586 |42.08Mb, server: 213.183.53.177, port: 9010, type: ssr, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_587 |41.03Mb, server: 213.183.53.200, port: 9024, type: ssr, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_588 |42.47Mb, server: 213.183.53.177, port: 9033, type: ssr, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_589 |41.18Mb, server: 213.183.53.200, port: 9001, type: ssr, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_590 |41.82Mb, server: 213.183.53.200, port: 9088, type: ssr, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_591 |41.30Mb, server: 213.183.53.200, port: 9020, type: ssr, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_592 |43.42Mb, server: 213.183.53.200, port: 9005, type: ssr, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_593 |40.55Mb, server: 213.183.53.177, port: 9093, type: ssr, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_594 |41.12Mb, server: 213.183.53.200, port: 9037, type: ssr, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_595 |41.13Mb, server: 213.183.53.200, port: 9094, type: ssr, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_596 |41.26Mb, server: 213.183.53.200, port: 9084, type: ssr, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_597 |40.86Mb, server: 213.183.53.177, port: 9064, type: ssr, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_598 |40.75Mb, server: 213.183.53.200, port: 9003, type: ssr, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_599 |40.84Mb, server: 213.183.53.200, port: 9050, type: ssr, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_600 |41.18Mb, server: 213.183.53.177, port: 9060, type: ssr, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: LT_601 |40.64Mb, server: 213.183.53.177, port: 9094, type: ssr, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: NL_732 |49.37Mb, server: 213.183.59.211, port: 9079, type: ssr, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: NL_740 |88.96Mb, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
-  - {name: US_947 |49.64Mb, server: 51.81.223.20, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 51.81.223.20}
-  - {name: US_948 |48.82Mb, server: 51.81.223.10, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 51.81.223.10}
-  - {name: US_953 |55.91Mb, server: 199.19.226.174, port: 433, type: trojan, password: passwd1, skip-cert-verify: true, udp: true}
-  - {name: US_1512 |31.37Mb, server: 138.2.44.211, port: 20081, type: vmess, uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: US_1513 |52.04Mb, server: 51.81.223.22, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: US_1518 |30.87Mb, server: 51.81.223.19, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: US_1520 |73.37Mb, server: 150.230.41.9, port: 23292, type: vmess, uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: gcfree1.galaxy-cloud.icu}
-  - {name: US_1523 |50.36Mb, server: 51.81.223.14, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: US_1524 |72.39Mb, server: 51.81.223.21, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: US_1526 |37.00Mb, server: 51.81.223.12, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: US_1529 |37.06Mb, server: 51.81.223.25, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: US_1530 |30.11Mb, server: 152.69.197.60, port: 1069, type: vmess, uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: US_1533 |47.84Mb, server: 45.10.153.188, port: 37558, type: vmess, uuid: 9d0f86ad-eec3-424f-f69a-fcb37e783d06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: US_1534 |32.23Mb, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: usa-dallas.lvuft.com, network: ws, ws-opts: {path: /ws}}
-  - {name: US_1535 |49.11Mb, server: 51.81.223.13, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: US_1546 |72.93Mb, server: 51.81.223.17, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: US_1551 |66.61Mb, server: 51.81.223.32, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: US_1575 |72.40Mb, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
-  - {name: US_1576 |72.90Mb, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
-  - {name: US_1596 |67.82Mb, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: true, udp: true}
-  - {name: US_1597 |94.01Mb, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
-  - {name: US_1599 |49.97Mb, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
+  - {name: LT_586 |41.72Mb, server: 213.183.53.200, port: 9014, type: ssr, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: LT_587 |41.67Mb, server: 213.183.53.200, port: 9027, type: ssr, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: LT_588 |44.05Mb, server: 213.183.53.177, port: 9018, type: ssr, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: LT_589 |44.00Mb, server: 213.183.53.200, port: 9033, type: ssr, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: LT_590 |43.25Mb, server: 213.183.53.177, port: 9003, type: ssr, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: LT_591 |41.50Mb, server: 213.183.53.177, port: 9041, type: ssr, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: LT_592 |41.82Mb, server: 213.183.53.200, port: 9073, type: ssr, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: LT_593 |41.82Mb, server: 213.183.53.200, port: 9015, type: ssr, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: LT_594 |41.22Mb, server: 213.183.53.177, port: 9059, type: ssr, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: LT_595 |41.26Mb, server: 213.183.53.177, port: 9084, type: ssr, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: LT_596 |38.96Mb, server: 213.183.53.177, port: 9000, type: ssr, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: LT_597 |40.52Mb, server: 213.183.53.177, port: 9008, type: ssr, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: LT_598 |41.02Mb, server: 213.183.53.200, port: 9006, type: ssr, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: LT_599 |41.82Mb, server: 213.183.53.200, port: 9026, type: ssr, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: NL_730 |49.37Mb, server: 213.183.59.211, port: 9079, type: ssr, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: NL_737 |93.35Mb, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
+  - {name: US_944 |48.82Mb, server: 51.81.223.10, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 51.81.223.10}
+  - {name: US_945 |49.64Mb, server: 51.81.223.20, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 51.81.223.20}
+  - {name: US_952 |55.91Mb, server: 199.19.226.174, port: 433, type: trojan, password: passwd1, skip-cert-verify: true, udp: true}
+  - {name: US_1511 |52.04Mb, server: 51.81.223.22, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: US_1517 |30.87Mb, server: 51.81.223.19, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: US_1518 |50.36Mb, server: 51.81.223.14, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: US_1519 |65.23Mb, server: 150.230.41.9, port: 23292, type: vmess, uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: gcfree1.galaxy-cloud.icu}
+  - {name: US_1523 |74.24Mb, server: 51.81.223.21, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: US_1527 |47.84Mb, server: 45.10.153.188, port: 37558, type: vmess, uuid: 9d0f86ad-eec3-424f-f69a-fcb37e783d06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: US_1528 |32.23Mb, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, servername: usa-dallas.lvuft.com, network: ws, ws-opts: {path: /ws}}
+  - {name: US_1536 |37.00Mb, server: 51.81.223.12, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: US_1540 |68.47Mb, server: 51.81.223.17, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: US_1544 |74.18Mb, server: 51.81.223.32, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: US_1545 |31.37Mb, server: 138.2.44.211, port: 20081, type: vmess, uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: US_1548 |49.11Mb, server: 51.81.223.13, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: US_1550 |37.06Mb, server: 51.81.223.25, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: US_1570 |73.00Mb, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
+  - {name: US_1571 |73.76Mb, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
+  - {name: US_1591 |64.29Mb, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: true, udp: true}
+  - {name: US_1593 |94.96Mb, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
+  - {name: US_1595 |49.97Mb, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - _42 |99.47Mb
-      - _43 |73.72Mb
-      - GB_412 |64.59Mb
-      - LT_570 |41.82Mb
-      - LT_571 |43.81Mb
-      - LT_572 |41.02Mb
-      - LT_573 |40.52Mb
-      - LT_574 |38.96Mb
-      - LT_575 |41.26Mb
-      - LT_576 |41.22Mb
-      - LT_577 |41.82Mb
-      - LT_578 |41.82Mb
-      - LT_579 |41.50Mb
-      - LT_580 |43.25Mb
-      - LT_581 |44.00Mb
-      - LT_582 |44.05Mb
-      - LT_583 |41.67Mb
-      - LT_584 |41.72Mb
+      - CA_136 |81.71Mb
+      - GB_409 |58.87Mb
+      - LT_568 |41.12Mb
+      - LT_569 |41.03Mb
+      - LT_570 |43.81Mb
+      - LT_571 |40.64Mb
+      - LT_572 |41.18Mb
+      - LT_573 |40.84Mb
+      - LT_574 |40.75Mb
+      - LT_575 |40.86Mb
+      - LT_576 |41.26Mb
+      - LT_577 |41.13Mb
+      - LT_578 |40.55Mb
+      - LT_579 |43.42Mb
+      - LT_580 |41.30Mb
+      - LT_581 |41.82Mb
+      - LT_582 |41.18Mb
+      - LT_583 |42.47Mb
+      - LT_584 |42.08Mb
       - LT_585 |39.77Mb
-      - LT_586 |42.08Mb
-      - LT_587 |41.03Mb
-      - LT_588 |42.47Mb
-      - LT_589 |41.18Mb
-      - LT_590 |41.82Mb
-      - LT_591 |41.30Mb
-      - LT_592 |43.42Mb
-      - LT_593 |40.55Mb
-      - LT_594 |41.12Mb
-      - LT_595 |41.13Mb
-      - LT_596 |41.26Mb
-      - LT_597 |40.86Mb
-      - LT_598 |40.75Mb
-      - LT_599 |40.84Mb
-      - LT_600 |41.18Mb
-      - LT_601 |40.64Mb
-      - NL_732 |49.37Mb
-      - NL_740 |88.96Mb
-      - US_947 |49.64Mb
-      - US_948 |48.82Mb
-      - US_953 |55.91Mb
-      - US_1512 |31.37Mb
-      - US_1513 |52.04Mb
-      - US_1518 |30.87Mb
-      - US_1520 |73.37Mb
-      - US_1523 |50.36Mb
-      - US_1524 |72.39Mb
-      - US_1526 |37.00Mb
-      - US_1529 |37.06Mb
-      - US_1530 |30.11Mb
-      - US_1533 |47.84Mb
-      - US_1534 |32.23Mb
-      - US_1535 |49.11Mb
-      - US_1546 |72.93Mb
-      - US_1551 |66.61Mb
-      - US_1575 |72.40Mb
-      - US_1576 |72.90Mb
-      - US_1596 |67.82Mb
-      - US_1597 |94.01Mb
-      - US_1599 |49.97Mb
+      - LT_586 |41.72Mb
+      - LT_587 |41.67Mb
+      - LT_588 |44.05Mb
+      - LT_589 |44.00Mb
+      - LT_590 |43.25Mb
+      - LT_591 |41.50Mb
+      - LT_592 |41.82Mb
+      - LT_593 |41.82Mb
+      - LT_594 |41.22Mb
+      - LT_595 |41.26Mb
+      - LT_596 |38.96Mb
+      - LT_597 |40.52Mb
+      - LT_598 |41.02Mb
+      - LT_599 |41.82Mb
+      - NL_730 |49.37Mb
+      - NL_737 |93.35Mb
+      - US_944 |48.82Mb
+      - US_945 |49.64Mb
+      - US_952 |55.91Mb
+      - US_1511 |52.04Mb
+      - US_1517 |30.87Mb
+      - US_1518 |50.36Mb
+      - US_1519 |65.23Mb
+      - US_1523 |74.24Mb
+      - US_1527 |47.84Mb
+      - US_1528 |32.23Mb
+      - US_1536 |37.00Mb
+      - US_1540 |68.47Mb
+      - US_1544 |74.18Mb
+      - US_1545 |31.37Mb
+      - US_1548 |49.11Mb
+      - US_1550 |37.06Mb
+      - US_1570 |73.00Mb
+      - US_1571 |73.76Mb
+      - US_1591 |64.29Mb
+      - US_1593 |94.96Mb
+      - US_1595 |49.97Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - _42 |99.47Mb
-      - _43 |73.72Mb
-      - GB_412 |64.59Mb
-      - LT_570 |41.82Mb
-      - LT_571 |43.81Mb
-      - LT_572 |41.02Mb
-      - LT_573 |40.52Mb
-      - LT_574 |38.96Mb
-      - LT_575 |41.26Mb
-      - LT_576 |41.22Mb
-      - LT_577 |41.82Mb
-      - LT_578 |41.82Mb
-      - LT_579 |41.50Mb
-      - LT_580 |43.25Mb
-      - LT_581 |44.00Mb
-      - LT_582 |44.05Mb
-      - LT_583 |41.67Mb
-      - LT_584 |41.72Mb
+      - CA_136 |81.71Mb
+      - GB_409 |58.87Mb
+      - LT_568 |41.12Mb
+      - LT_569 |41.03Mb
+      - LT_570 |43.81Mb
+      - LT_571 |40.64Mb
+      - LT_572 |41.18Mb
+      - LT_573 |40.84Mb
+      - LT_574 |40.75Mb
+      - LT_575 |40.86Mb
+      - LT_576 |41.26Mb
+      - LT_577 |41.13Mb
+      - LT_578 |40.55Mb
+      - LT_579 |43.42Mb
+      - LT_580 |41.30Mb
+      - LT_581 |41.82Mb
+      - LT_582 |41.18Mb
+      - LT_583 |42.47Mb
+      - LT_584 |42.08Mb
       - LT_585 |39.77Mb
-      - LT_586 |42.08Mb
-      - LT_587 |41.03Mb
-      - LT_588 |42.47Mb
-      - LT_589 |41.18Mb
-      - LT_590 |41.82Mb
-      - LT_591 |41.30Mb
-      - LT_592 |43.42Mb
-      - LT_593 |40.55Mb
-      - LT_594 |41.12Mb
-      - LT_595 |41.13Mb
-      - LT_596 |41.26Mb
-      - LT_597 |40.86Mb
-      - LT_598 |40.75Mb
-      - LT_599 |40.84Mb
-      - LT_600 |41.18Mb
-      - LT_601 |40.64Mb
-      - NL_732 |49.37Mb
-      - NL_740 |88.96Mb
-      - US_947 |49.64Mb
-      - US_948 |48.82Mb
-      - US_953 |55.91Mb
-      - US_1512 |31.37Mb
-      - US_1513 |52.04Mb
-      - US_1518 |30.87Mb
-      - US_1520 |73.37Mb
-      - US_1523 |50.36Mb
-      - US_1524 |72.39Mb
-      - US_1526 |37.00Mb
-      - US_1529 |37.06Mb
-      - US_1530 |30.11Mb
-      - US_1533 |47.84Mb
-      - US_1534 |32.23Mb
-      - US_1535 |49.11Mb
-      - US_1546 |72.93Mb
-      - US_1551 |66.61Mb
-      - US_1575 |72.40Mb
-      - US_1576 |72.90Mb
-      - US_1596 |67.82Mb
-      - US_1597 |94.01Mb
-      - US_1599 |49.97Mb
+      - LT_586 |41.72Mb
+      - LT_587 |41.67Mb
+      - LT_588 |44.05Mb
+      - LT_589 |44.00Mb
+      - LT_590 |43.25Mb
+      - LT_591 |41.50Mb
+      - LT_592 |41.82Mb
+      - LT_593 |41.82Mb
+      - LT_594 |41.22Mb
+      - LT_595 |41.26Mb
+      - LT_596 |38.96Mb
+      - LT_597 |40.52Mb
+      - LT_598 |41.02Mb
+      - LT_599 |41.82Mb
+      - NL_730 |49.37Mb
+      - NL_737 |93.35Mb
+      - US_944 |48.82Mb
+      - US_945 |49.64Mb
+      - US_952 |55.91Mb
+      - US_1511 |52.04Mb
+      - US_1517 |30.87Mb
+      - US_1518 |50.36Mb
+      - US_1519 |65.23Mb
+      - US_1523 |74.24Mb
+      - US_1527 |47.84Mb
+      - US_1528 |32.23Mb
+      - US_1536 |37.00Mb
+      - US_1540 |68.47Mb
+      - US_1544 |74.18Mb
+      - US_1545 |31.37Mb
+      - US_1548 |49.11Mb
+      - US_1550 |37.06Mb
+      - US_1570 |73.00Mb
+      - US_1571 |73.76Mb
+      - US_1591 |64.29Mb
+      - US_1593 |94.96Mb
+      - US_1595 |49.97Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _42 |99.47Mb
-      - _43 |73.72Mb
-      - GB_412 |64.59Mb
-      - LT_570 |41.82Mb
-      - LT_571 |43.81Mb
-      - LT_572 |41.02Mb
-      - LT_573 |40.52Mb
-      - LT_574 |38.96Mb
-      - LT_575 |41.26Mb
-      - LT_576 |41.22Mb
-      - LT_577 |41.82Mb
-      - LT_578 |41.82Mb
-      - LT_579 |41.50Mb
-      - LT_580 |43.25Mb
-      - LT_581 |44.00Mb
-      - LT_582 |44.05Mb
-      - LT_583 |41.67Mb
-      - LT_584 |41.72Mb
+      - CA_136 |81.71Mb
+      - GB_409 |58.87Mb
+      - LT_568 |41.12Mb
+      - LT_569 |41.03Mb
+      - LT_570 |43.81Mb
+      - LT_571 |40.64Mb
+      - LT_572 |41.18Mb
+      - LT_573 |40.84Mb
+      - LT_574 |40.75Mb
+      - LT_575 |40.86Mb
+      - LT_576 |41.26Mb
+      - LT_577 |41.13Mb
+      - LT_578 |40.55Mb
+      - LT_579 |43.42Mb
+      - LT_580 |41.30Mb
+      - LT_581 |41.82Mb
+      - LT_582 |41.18Mb
+      - LT_583 |42.47Mb
+      - LT_584 |42.08Mb
       - LT_585 |39.77Mb
-      - LT_586 |42.08Mb
-      - LT_587 |41.03Mb
-      - LT_588 |42.47Mb
-      - LT_589 |41.18Mb
-      - LT_590 |41.82Mb
-      - LT_591 |41.30Mb
-      - LT_592 |43.42Mb
-      - LT_593 |40.55Mb
-      - LT_594 |41.12Mb
-      - LT_595 |41.13Mb
-      - LT_596 |41.26Mb
-      - LT_597 |40.86Mb
-      - LT_598 |40.75Mb
-      - LT_599 |40.84Mb
-      - LT_600 |41.18Mb
-      - LT_601 |40.64Mb
-      - NL_732 |49.37Mb
-      - NL_740 |88.96Mb
-      - US_947 |49.64Mb
-      - US_948 |48.82Mb
-      - US_953 |55.91Mb
-      - US_1512 |31.37Mb
-      - US_1513 |52.04Mb
-      - US_1518 |30.87Mb
-      - US_1520 |73.37Mb
-      - US_1523 |50.36Mb
-      - US_1524 |72.39Mb
-      - US_1526 |37.00Mb
-      - US_1529 |37.06Mb
-      - US_1530 |30.11Mb
-      - US_1533 |47.84Mb
-      - US_1534 |32.23Mb
-      - US_1535 |49.11Mb
-      - US_1546 |72.93Mb
-      - US_1551 |66.61Mb
-      - US_1575 |72.40Mb
-      - US_1576 |72.90Mb
-      - US_1596 |67.82Mb
-      - US_1597 |94.01Mb
-      - US_1599 |49.97Mb
+      - LT_586 |41.72Mb
+      - LT_587 |41.67Mb
+      - LT_588 |44.05Mb
+      - LT_589 |44.00Mb
+      - LT_590 |43.25Mb
+      - LT_591 |41.50Mb
+      - LT_592 |41.82Mb
+      - LT_593 |41.82Mb
+      - LT_594 |41.22Mb
+      - LT_595 |41.26Mb
+      - LT_596 |38.96Mb
+      - LT_597 |40.52Mb
+      - LT_598 |41.02Mb
+      - LT_599 |41.82Mb
+      - NL_730 |49.37Mb
+      - NL_737 |93.35Mb
+      - US_944 |48.82Mb
+      - US_945 |49.64Mb
+      - US_952 |55.91Mb
+      - US_1511 |52.04Mb
+      - US_1517 |30.87Mb
+      - US_1518 |50.36Mb
+      - US_1519 |65.23Mb
+      - US_1523 |74.24Mb
+      - US_1527 |47.84Mb
+      - US_1528 |32.23Mb
+      - US_1536 |37.00Mb
+      - US_1540 |68.47Mb
+      - US_1544 |74.18Mb
+      - US_1545 |31.37Mb
+      - US_1548 |49.11Mb
+      - US_1550 |37.06Mb
+      - US_1570 |73.00Mb
+      - US_1571 |73.76Mb
+      - US_1591 |64.29Mb
+      - US_1593 |94.96Mb
+      - US_1595 |49.97Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - _42 |99.47Mb
-      - _43 |73.72Mb
-      - GB_412 |64.59Mb
-      - LT_570 |41.82Mb
-      - LT_571 |43.81Mb
-      - LT_572 |41.02Mb
-      - LT_573 |40.52Mb
-      - LT_574 |38.96Mb
-      - LT_575 |41.26Mb
-      - LT_576 |41.22Mb
-      - LT_577 |41.82Mb
-      - LT_578 |41.82Mb
-      - LT_579 |41.50Mb
-      - LT_580 |43.25Mb
-      - LT_581 |44.00Mb
-      - LT_582 |44.05Mb
-      - LT_583 |41.67Mb
-      - LT_584 |41.72Mb
+      - CA_136 |81.71Mb
+      - GB_409 |58.87Mb
+      - LT_568 |41.12Mb
+      - LT_569 |41.03Mb
+      - LT_570 |43.81Mb
+      - LT_571 |40.64Mb
+      - LT_572 |41.18Mb
+      - LT_573 |40.84Mb
+      - LT_574 |40.75Mb
+      - LT_575 |40.86Mb
+      - LT_576 |41.26Mb
+      - LT_577 |41.13Mb
+      - LT_578 |40.55Mb
+      - LT_579 |43.42Mb
+      - LT_580 |41.30Mb
+      - LT_581 |41.82Mb
+      - LT_582 |41.18Mb
+      - LT_583 |42.47Mb
+      - LT_584 |42.08Mb
       - LT_585 |39.77Mb
-      - LT_586 |42.08Mb
-      - LT_587 |41.03Mb
-      - LT_588 |42.47Mb
-      - LT_589 |41.18Mb
-      - LT_590 |41.82Mb
-      - LT_591 |41.30Mb
-      - LT_592 |43.42Mb
-      - LT_593 |40.55Mb
-      - LT_594 |41.12Mb
-      - LT_595 |41.13Mb
-      - LT_596 |41.26Mb
-      - LT_597 |40.86Mb
-      - LT_598 |40.75Mb
-      - LT_599 |40.84Mb
-      - LT_600 |41.18Mb
-      - LT_601 |40.64Mb
-      - NL_732 |49.37Mb
-      - NL_740 |88.96Mb
-      - US_947 |49.64Mb
-      - US_948 |48.82Mb
-      - US_953 |55.91Mb
-      - US_1512 |31.37Mb
-      - US_1513 |52.04Mb
-      - US_1518 |30.87Mb
-      - US_1520 |73.37Mb
-      - US_1523 |50.36Mb
-      - US_1524 |72.39Mb
-      - US_1526 |37.00Mb
-      - US_1529 |37.06Mb
-      - US_1530 |30.11Mb
-      - US_1533 |47.84Mb
-      - US_1534 |32.23Mb
-      - US_1535 |49.11Mb
-      - US_1546 |72.93Mb
-      - US_1551 |66.61Mb
-      - US_1575 |72.40Mb
-      - US_1576 |72.90Mb
-      - US_1596 |67.82Mb
-      - US_1597 |94.01Mb
-      - US_1599 |49.97Mb
+      - LT_586 |41.72Mb
+      - LT_587 |41.67Mb
+      - LT_588 |44.05Mb
+      - LT_589 |44.00Mb
+      - LT_590 |43.25Mb
+      - LT_591 |41.50Mb
+      - LT_592 |41.82Mb
+      - LT_593 |41.82Mb
+      - LT_594 |41.22Mb
+      - LT_595 |41.26Mb
+      - LT_596 |38.96Mb
+      - LT_597 |40.52Mb
+      - LT_598 |41.02Mb
+      - LT_599 |41.82Mb
+      - NL_730 |49.37Mb
+      - NL_737 |93.35Mb
+      - US_944 |48.82Mb
+      - US_945 |49.64Mb
+      - US_952 |55.91Mb
+      - US_1511 |52.04Mb
+      - US_1517 |30.87Mb
+      - US_1518 |50.36Mb
+      - US_1519 |65.23Mb
+      - US_1523 |74.24Mb
+      - US_1527 |47.84Mb
+      - US_1528 |32.23Mb
+      - US_1536 |37.00Mb
+      - US_1540 |68.47Mb
+      - US_1544 |74.18Mb
+      - US_1545 |31.37Mb
+      - US_1548 |49.11Mb
+      - US_1550 |37.06Mb
+      - US_1570 |73.00Mb
+      - US_1571 |73.76Mb
+      - US_1591 |64.29Mb
+      - US_1593 |94.96Mb
+      - US_1595 |49.97Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - _42 |99.47Mb
-      - _43 |73.72Mb
-      - GB_412 |64.59Mb
-      - LT_570 |41.82Mb
-      - LT_571 |43.81Mb
-      - LT_572 |41.02Mb
-      - LT_573 |40.52Mb
-      - LT_574 |38.96Mb
-      - LT_575 |41.26Mb
-      - LT_576 |41.22Mb
-      - LT_577 |41.82Mb
-      - LT_578 |41.82Mb
-      - LT_579 |41.50Mb
-      - LT_580 |43.25Mb
-      - LT_581 |44.00Mb
-      - LT_582 |44.05Mb
-      - LT_583 |41.67Mb
-      - LT_584 |41.72Mb
+      - CA_136 |81.71Mb
+      - GB_409 |58.87Mb
+      - LT_568 |41.12Mb
+      - LT_569 |41.03Mb
+      - LT_570 |43.81Mb
+      - LT_571 |40.64Mb
+      - LT_572 |41.18Mb
+      - LT_573 |40.84Mb
+      - LT_574 |40.75Mb
+      - LT_575 |40.86Mb
+      - LT_576 |41.26Mb
+      - LT_577 |41.13Mb
+      - LT_578 |40.55Mb
+      - LT_579 |43.42Mb
+      - LT_580 |41.30Mb
+      - LT_581 |41.82Mb
+      - LT_582 |41.18Mb
+      - LT_583 |42.47Mb
+      - LT_584 |42.08Mb
       - LT_585 |39.77Mb
-      - LT_586 |42.08Mb
-      - LT_587 |41.03Mb
-      - LT_588 |42.47Mb
-      - LT_589 |41.18Mb
-      - LT_590 |41.82Mb
-      - LT_591 |41.30Mb
-      - LT_592 |43.42Mb
-      - LT_593 |40.55Mb
-      - LT_594 |41.12Mb
-      - LT_595 |41.13Mb
-      - LT_596 |41.26Mb
-      - LT_597 |40.86Mb
-      - LT_598 |40.75Mb
-      - LT_599 |40.84Mb
-      - LT_600 |41.18Mb
-      - LT_601 |40.64Mb
-      - NL_732 |49.37Mb
-      - NL_740 |88.96Mb
-      - US_947 |49.64Mb
-      - US_948 |48.82Mb
-      - US_953 |55.91Mb
-      - US_1512 |31.37Mb
-      - US_1513 |52.04Mb
-      - US_1518 |30.87Mb
-      - US_1520 |73.37Mb
-      - US_1523 |50.36Mb
-      - US_1524 |72.39Mb
-      - US_1526 |37.00Mb
-      - US_1529 |37.06Mb
-      - US_1530 |30.11Mb
-      - US_1533 |47.84Mb
-      - US_1534 |32.23Mb
-      - US_1535 |49.11Mb
-      - US_1546 |72.93Mb
-      - US_1551 |66.61Mb
-      - US_1575 |72.40Mb
-      - US_1576 |72.90Mb
-      - US_1596 |67.82Mb
-      - US_1597 |94.01Mb
-      - US_1599 |49.97Mb
+      - LT_586 |41.72Mb
+      - LT_587 |41.67Mb
+      - LT_588 |44.05Mb
+      - LT_589 |44.00Mb
+      - LT_590 |43.25Mb
+      - LT_591 |41.50Mb
+      - LT_592 |41.82Mb
+      - LT_593 |41.82Mb
+      - LT_594 |41.22Mb
+      - LT_595 |41.26Mb
+      - LT_596 |38.96Mb
+      - LT_597 |40.52Mb
+      - LT_598 |41.02Mb
+      - LT_599 |41.82Mb
+      - NL_730 |49.37Mb
+      - NL_737 |93.35Mb
+      - US_944 |48.82Mb
+      - US_945 |49.64Mb
+      - US_952 |55.91Mb
+      - US_1511 |52.04Mb
+      - US_1517 |30.87Mb
+      - US_1518 |50.36Mb
+      - US_1519 |65.23Mb
+      - US_1523 |74.24Mb
+      - US_1527 |47.84Mb
+      - US_1528 |32.23Mb
+      - US_1536 |37.00Mb
+      - US_1540 |68.47Mb
+      - US_1544 |74.18Mb
+      - US_1545 |31.37Mb
+      - US_1548 |49.11Mb
+      - US_1550 |37.06Mb
+      - US_1570 |73.00Mb
+      - US_1571 |73.76Mb
+      - US_1591 |64.29Mb
+      - US_1593 |94.96Mb
+      - US_1595 |49.97Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - _42 |99.47Mb
-      - _43 |73.72Mb
-      - GB_412 |64.59Mb
-      - LT_570 |41.82Mb
-      - LT_571 |43.81Mb
-      - LT_572 |41.02Mb
-      - LT_573 |40.52Mb
-      - LT_574 |38.96Mb
-      - LT_575 |41.26Mb
-      - LT_576 |41.22Mb
-      - LT_577 |41.82Mb
-      - LT_578 |41.82Mb
-      - LT_579 |41.50Mb
-      - LT_580 |43.25Mb
-      - LT_581 |44.00Mb
-      - LT_582 |44.05Mb
-      - LT_583 |41.67Mb
-      - LT_584 |41.72Mb
+      - CA_136 |81.71Mb
+      - GB_409 |58.87Mb
+      - LT_568 |41.12Mb
+      - LT_569 |41.03Mb
+      - LT_570 |43.81Mb
+      - LT_571 |40.64Mb
+      - LT_572 |41.18Mb
+      - LT_573 |40.84Mb
+      - LT_574 |40.75Mb
+      - LT_575 |40.86Mb
+      - LT_576 |41.26Mb
+      - LT_577 |41.13Mb
+      - LT_578 |40.55Mb
+      - LT_579 |43.42Mb
+      - LT_580 |41.30Mb
+      - LT_581 |41.82Mb
+      - LT_582 |41.18Mb
+      - LT_583 |42.47Mb
+      - LT_584 |42.08Mb
       - LT_585 |39.77Mb
-      - LT_586 |42.08Mb
-      - LT_587 |41.03Mb
-      - LT_588 |42.47Mb
-      - LT_589 |41.18Mb
-      - LT_590 |41.82Mb
-      - LT_591 |41.30Mb
-      - LT_592 |43.42Mb
-      - LT_593 |40.55Mb
-      - LT_594 |41.12Mb
-      - LT_595 |41.13Mb
-      - LT_596 |41.26Mb
-      - LT_597 |40.86Mb
-      - LT_598 |40.75Mb
-      - LT_599 |40.84Mb
-      - LT_600 |41.18Mb
-      - LT_601 |40.64Mb
-      - NL_732 |49.37Mb
-      - NL_740 |88.96Mb
-      - US_947 |49.64Mb
-      - US_948 |48.82Mb
-      - US_953 |55.91Mb
-      - US_1512 |31.37Mb
-      - US_1513 |52.04Mb
-      - US_1518 |30.87Mb
-      - US_1520 |73.37Mb
-      - US_1523 |50.36Mb
-      - US_1524 |72.39Mb
-      - US_1526 |37.00Mb
-      - US_1529 |37.06Mb
-      - US_1530 |30.11Mb
-      - US_1533 |47.84Mb
-      - US_1534 |32.23Mb
-      - US_1535 |49.11Mb
-      - US_1546 |72.93Mb
-      - US_1551 |66.61Mb
-      - US_1575 |72.40Mb
-      - US_1576 |72.90Mb
-      - US_1596 |67.82Mb
-      - US_1597 |94.01Mb
-      - US_1599 |49.97Mb
+      - LT_586 |41.72Mb
+      - LT_587 |41.67Mb
+      - LT_588 |44.05Mb
+      - LT_589 |44.00Mb
+      - LT_590 |43.25Mb
+      - LT_591 |41.50Mb
+      - LT_592 |41.82Mb
+      - LT_593 |41.82Mb
+      - LT_594 |41.22Mb
+      - LT_595 |41.26Mb
+      - LT_596 |38.96Mb
+      - LT_597 |40.52Mb
+      - LT_598 |41.02Mb
+      - LT_599 |41.82Mb
+      - NL_730 |49.37Mb
+      - NL_737 |93.35Mb
+      - US_944 |48.82Mb
+      - US_945 |49.64Mb
+      - US_952 |55.91Mb
+      - US_1511 |52.04Mb
+      - US_1517 |30.87Mb
+      - US_1518 |50.36Mb
+      - US_1519 |65.23Mb
+      - US_1523 |74.24Mb
+      - US_1527 |47.84Mb
+      - US_1528 |32.23Mb
+      - US_1536 |37.00Mb
+      - US_1540 |68.47Mb
+      - US_1544 |74.18Mb
+      - US_1545 |31.37Mb
+      - US_1548 |49.11Mb
+      - US_1550 |37.06Mb
+      - US_1570 |73.00Mb
+      - US_1571 |73.76Mb
+      - US_1591 |64.29Mb
+      - US_1593 |94.96Mb
+      - US_1595 |49.97Mb
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _42 |99.47Mb
-      - _43 |73.72Mb
-      - GB_412 |64.59Mb
-      - LT_570 |41.82Mb
-      - LT_571 |43.81Mb
-      - LT_572 |41.02Mb
-      - LT_573 |40.52Mb
-      - LT_574 |38.96Mb
-      - LT_575 |41.26Mb
-      - LT_576 |41.22Mb
-      - LT_577 |41.82Mb
-      - LT_578 |41.82Mb
-      - LT_579 |41.50Mb
-      - LT_580 |43.25Mb
-      - LT_581 |44.00Mb
-      - LT_582 |44.05Mb
-      - LT_583 |41.67Mb
-      - LT_584 |41.72Mb
+      - CA_136 |81.71Mb
+      - GB_409 |58.87Mb
+      - LT_568 |41.12Mb
+      - LT_569 |41.03Mb
+      - LT_570 |43.81Mb
+      - LT_571 |40.64Mb
+      - LT_572 |41.18Mb
+      - LT_573 |40.84Mb
+      - LT_574 |40.75Mb
+      - LT_575 |40.86Mb
+      - LT_576 |41.26Mb
+      - LT_577 |41.13Mb
+      - LT_578 |40.55Mb
+      - LT_579 |43.42Mb
+      - LT_580 |41.30Mb
+      - LT_581 |41.82Mb
+      - LT_582 |41.18Mb
+      - LT_583 |42.47Mb
+      - LT_584 |42.08Mb
       - LT_585 |39.77Mb
-      - LT_586 |42.08Mb
-      - LT_587 |41.03Mb
-      - LT_588 |42.47Mb
-      - LT_589 |41.18Mb
-      - LT_590 |41.82Mb
-      - LT_591 |41.30Mb
-      - LT_592 |43.42Mb
-      - LT_593 |40.55Mb
-      - LT_594 |41.12Mb
-      - LT_595 |41.13Mb
-      - LT_596 |41.26Mb
-      - LT_597 |40.86Mb
-      - LT_598 |40.75Mb
-      - LT_599 |40.84Mb
-      - LT_600 |41.18Mb
-      - LT_601 |40.64Mb
-      - NL_732 |49.37Mb
-      - NL_740 |88.96Mb
-      - US_947 |49.64Mb
-      - US_948 |48.82Mb
-      - US_953 |55.91Mb
-      - US_1512 |31.37Mb
-      - US_1513 |52.04Mb
-      - US_1518 |30.87Mb
-      - US_1520 |73.37Mb
-      - US_1523 |50.36Mb
-      - US_1524 |72.39Mb
-      - US_1526 |37.00Mb
-      - US_1529 |37.06Mb
-      - US_1530 |30.11Mb
-      - US_1533 |47.84Mb
-      - US_1534 |32.23Mb
-      - US_1535 |49.11Mb
-      - US_1546 |72.93Mb
-      - US_1551 |66.61Mb
-      - US_1575 |72.40Mb
-      - US_1576 |72.90Mb
-      - US_1596 |67.82Mb
-      - US_1597 |94.01Mb
-      - US_1599 |49.97Mb
+      - LT_586 |41.72Mb
+      - LT_587 |41.67Mb
+      - LT_588 |44.05Mb
+      - LT_589 |44.00Mb
+      - LT_590 |43.25Mb
+      - LT_591 |41.50Mb
+      - LT_592 |41.82Mb
+      - LT_593 |41.82Mb
+      - LT_594 |41.22Mb
+      - LT_595 |41.26Mb
+      - LT_596 |38.96Mb
+      - LT_597 |40.52Mb
+      - LT_598 |41.02Mb
+      - LT_599 |41.82Mb
+      - NL_730 |49.37Mb
+      - NL_737 |93.35Mb
+      - US_944 |48.82Mb
+      - US_945 |49.64Mb
+      - US_952 |55.91Mb
+      - US_1511 |52.04Mb
+      - US_1517 |30.87Mb
+      - US_1518 |50.36Mb
+      - US_1519 |65.23Mb
+      - US_1523 |74.24Mb
+      - US_1527 |47.84Mb
+      - US_1528 |32.23Mb
+      - US_1536 |37.00Mb
+      - US_1540 |68.47Mb
+      - US_1544 |74.18Mb
+      - US_1545 |31.37Mb
+      - US_1548 |49.11Mb
+      - US_1550 |37.06Mb
+      - US_1570 |73.00Mb
+      - US_1571 |73.76Mb
+      - US_1591 |64.29Mb
+      - US_1593 |94.96Mb
+      - US_1595 |49.97Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -538,65 +522,63 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _42 |99.47Mb
-      - _43 |73.72Mb
-      - GB_412 |64.59Mb
-      - LT_570 |41.82Mb
-      - LT_571 |43.81Mb
-      - LT_572 |41.02Mb
-      - LT_573 |40.52Mb
-      - LT_574 |38.96Mb
-      - LT_575 |41.26Mb
-      - LT_576 |41.22Mb
-      - LT_577 |41.82Mb
-      - LT_578 |41.82Mb
-      - LT_579 |41.50Mb
-      - LT_580 |43.25Mb
-      - LT_581 |44.00Mb
-      - LT_582 |44.05Mb
-      - LT_583 |41.67Mb
-      - LT_584 |41.72Mb
+      - CA_136 |81.71Mb
+      - GB_409 |58.87Mb
+      - LT_568 |41.12Mb
+      - LT_569 |41.03Mb
+      - LT_570 |43.81Mb
+      - LT_571 |40.64Mb
+      - LT_572 |41.18Mb
+      - LT_573 |40.84Mb
+      - LT_574 |40.75Mb
+      - LT_575 |40.86Mb
+      - LT_576 |41.26Mb
+      - LT_577 |41.13Mb
+      - LT_578 |40.55Mb
+      - LT_579 |43.42Mb
+      - LT_580 |41.30Mb
+      - LT_581 |41.82Mb
+      - LT_582 |41.18Mb
+      - LT_583 |42.47Mb
+      - LT_584 |42.08Mb
       - LT_585 |39.77Mb
-      - LT_586 |42.08Mb
-      - LT_587 |41.03Mb
-      - LT_588 |42.47Mb
-      - LT_589 |41.18Mb
-      - LT_590 |41.82Mb
-      - LT_591 |41.30Mb
-      - LT_592 |43.42Mb
-      - LT_593 |40.55Mb
-      - LT_594 |41.12Mb
-      - LT_595 |41.13Mb
-      - LT_596 |41.26Mb
-      - LT_597 |40.86Mb
-      - LT_598 |40.75Mb
-      - LT_599 |40.84Mb
-      - LT_600 |41.18Mb
-      - LT_601 |40.64Mb
-      - NL_732 |49.37Mb
-      - NL_740 |88.96Mb
-      - US_947 |49.64Mb
-      - US_948 |48.82Mb
-      - US_953 |55.91Mb
-      - US_1512 |31.37Mb
-      - US_1513 |52.04Mb
-      - US_1518 |30.87Mb
-      - US_1520 |73.37Mb
-      - US_1523 |50.36Mb
-      - US_1524 |72.39Mb
-      - US_1526 |37.00Mb
-      - US_1529 |37.06Mb
-      - US_1530 |30.11Mb
-      - US_1533 |47.84Mb
-      - US_1534 |32.23Mb
-      - US_1535 |49.11Mb
-      - US_1546 |72.93Mb
-      - US_1551 |66.61Mb
-      - US_1575 |72.40Mb
-      - US_1576 |72.90Mb
-      - US_1596 |67.82Mb
-      - US_1597 |94.01Mb
-      - US_1599 |49.97Mb
+      - LT_586 |41.72Mb
+      - LT_587 |41.67Mb
+      - LT_588 |44.05Mb
+      - LT_589 |44.00Mb
+      - LT_590 |43.25Mb
+      - LT_591 |41.50Mb
+      - LT_592 |41.82Mb
+      - LT_593 |41.82Mb
+      - LT_594 |41.22Mb
+      - LT_595 |41.26Mb
+      - LT_596 |38.96Mb
+      - LT_597 |40.52Mb
+      - LT_598 |41.02Mb
+      - LT_599 |41.82Mb
+      - NL_730 |49.37Mb
+      - NL_737 |93.35Mb
+      - US_944 |48.82Mb
+      - US_945 |49.64Mb
+      - US_952 |55.91Mb
+      - US_1511 |52.04Mb
+      - US_1517 |30.87Mb
+      - US_1518 |50.36Mb
+      - US_1519 |65.23Mb
+      - US_1523 |74.24Mb
+      - US_1527 |47.84Mb
+      - US_1528 |32.23Mb
+      - US_1536 |37.00Mb
+      - US_1540 |68.47Mb
+      - US_1544 |74.18Mb
+      - US_1545 |31.37Mb
+      - US_1548 |49.11Mb
+      - US_1550 |37.06Mb
+      - US_1570 |73.00Mb
+      - US_1571 |73.76Mb
+      - US_1591 |64.29Mb
+      - US_1593 |94.96Mb
+      - US_1595 |49.97Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
