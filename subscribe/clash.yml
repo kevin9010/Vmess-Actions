@@ -5,149 +5,197 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: DE_81 |47.27Mb, server: 146.0.42.87, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}}
-  - {name: DE_83 |57.48Mb, server: s4.hass.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
-  - {name: DE_86 |55.94Mb, server: s2.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
-  - {name: DE_90 |57.09Mb, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
-  - {name: DE_92 |56.91Mb, server: s2.hass.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
-  - {name: GB_101 |46.98Mb, server: 5.252.24.137, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
-  - {name: GB_103 |65.79Mb, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: true, udp: true}
-  - {name: NO_175 |46.45Mb, server: 138.124.183.226, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
-  - {name: US_221 |57.63Mb, server: v4.heduian.online, port: 30866, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: baidu.com, network: ws, ws-opts: {path: /oooo, headers: {Host: v4.heduian.online}}}
-  - {name: US_223 |70.45Mb, server: 67.21.72.41, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/173418141123}}
-  - {name: US_265 |85.14Mb, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
-  - {name: US_266 |66.40Mb, server: lsj02.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true, udp: true}
-  - {name: US_276 |85.34Mb, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
+  - {name: DE_35 |41.46Mb, server: 146.0.42.87, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws}}
+  - {name: DE_36 |56.02Mb, server: s2.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
+  - {name: DE_38 |55.39Mb, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
+  - {name: DE_39 |56.91Mb, server: s2.hass.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
+  - {name: DE_40 |50.88Mb, server: s4.hass.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
+  - {name: GB_51 |65.04Mb, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: true, udp: true}
+  - {name: GB_56 |42.32Mb, server: 5.252.24.137, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
+  - {name: NO_121 |46.45Mb, server: 138.124.183.226, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
+  - {name: NO_122 |36.10Mb, server: 138.124.183.222, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
+  - {name: NO_123 |41.20Mb, server: 138.124.183.216, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
+  - {name: US_170 |75.58Mb, server: 67.21.72.41, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/173418141123}}
+  - {name: US_174 |59.89Mb, server: v4.heduian.online, port: 30866, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: baidu.com, network: ws, ws-opts: {path: /oooo, headers: {Host: v4.heduian.online}}}
+  - {name: US_185 |48.59Mb, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
+  - {name: US_193 |85.14Mb, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
+  - {name: US_201 |37.08Mb, server: s3.hass.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
+  - {name: US_217 |93.82Mb, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
+  - {name: US_219 |75.14Mb, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, skip-cert-verify: true, udp: true}
+  - {name: US_220 |69.38Mb, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
+  - {name: US_222 |74.58Mb, server: lsj02.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - DE_81 |47.27Mb
-      - DE_83 |57.48Mb
-      - DE_86 |55.94Mb
-      - DE_90 |57.09Mb
-      - DE_92 |56.91Mb
-      - GB_101 |46.98Mb
-      - GB_103 |65.79Mb
-      - NO_175 |46.45Mb
-      - US_221 |57.63Mb
-      - US_223 |70.45Mb
-      - US_265 |85.14Mb
-      - US_266 |66.40Mb
-      - US_276 |85.34Mb
+      - DE_35 |41.46Mb
+      - DE_36 |56.02Mb
+      - DE_38 |55.39Mb
+      - DE_39 |56.91Mb
+      - DE_40 |50.88Mb
+      - GB_51 |65.04Mb
+      - GB_56 |42.32Mb
+      - NO_121 |46.45Mb
+      - NO_122 |36.10Mb
+      - NO_123 |41.20Mb
+      - US_170 |75.58Mb
+      - US_174 |59.89Mb
+      - US_185 |48.59Mb
+      - US_193 |85.14Mb
+      - US_201 |37.08Mb
+      - US_217 |93.82Mb
+      - US_219 |75.14Mb
+      - US_220 |69.38Mb
+      - US_222 |74.58Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - DE_81 |47.27Mb
-      - DE_83 |57.48Mb
-      - DE_86 |55.94Mb
-      - DE_90 |57.09Mb
-      - DE_92 |56.91Mb
-      - GB_101 |46.98Mb
-      - GB_103 |65.79Mb
-      - NO_175 |46.45Mb
-      - US_221 |57.63Mb
-      - US_223 |70.45Mb
-      - US_265 |85.14Mb
-      - US_266 |66.40Mb
-      - US_276 |85.34Mb
+      - DE_35 |41.46Mb
+      - DE_36 |56.02Mb
+      - DE_38 |55.39Mb
+      - DE_39 |56.91Mb
+      - DE_40 |50.88Mb
+      - GB_51 |65.04Mb
+      - GB_56 |42.32Mb
+      - NO_121 |46.45Mb
+      - NO_122 |36.10Mb
+      - NO_123 |41.20Mb
+      - US_170 |75.58Mb
+      - US_174 |59.89Mb
+      - US_185 |48.59Mb
+      - US_193 |85.14Mb
+      - US_201 |37.08Mb
+      - US_217 |93.82Mb
+      - US_219 |75.14Mb
+      - US_220 |69.38Mb
+      - US_222 |74.58Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - DE_81 |47.27Mb
-      - DE_83 |57.48Mb
-      - DE_86 |55.94Mb
-      - DE_90 |57.09Mb
-      - DE_92 |56.91Mb
-      - GB_101 |46.98Mb
-      - GB_103 |65.79Mb
-      - NO_175 |46.45Mb
-      - US_221 |57.63Mb
-      - US_223 |70.45Mb
-      - US_265 |85.14Mb
-      - US_266 |66.40Mb
-      - US_276 |85.34Mb
+      - DE_35 |41.46Mb
+      - DE_36 |56.02Mb
+      - DE_38 |55.39Mb
+      - DE_39 |56.91Mb
+      - DE_40 |50.88Mb
+      - GB_51 |65.04Mb
+      - GB_56 |42.32Mb
+      - NO_121 |46.45Mb
+      - NO_122 |36.10Mb
+      - NO_123 |41.20Mb
+      - US_170 |75.58Mb
+      - US_174 |59.89Mb
+      - US_185 |48.59Mb
+      - US_193 |85.14Mb
+      - US_201 |37.08Mb
+      - US_217 |93.82Mb
+      - US_219 |75.14Mb
+      - US_220 |69.38Mb
+      - US_222 |74.58Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - DE_81 |47.27Mb
-      - DE_83 |57.48Mb
-      - DE_86 |55.94Mb
-      - DE_90 |57.09Mb
-      - DE_92 |56.91Mb
-      - GB_101 |46.98Mb
-      - GB_103 |65.79Mb
-      - NO_175 |46.45Mb
-      - US_221 |57.63Mb
-      - US_223 |70.45Mb
-      - US_265 |85.14Mb
-      - US_266 |66.40Mb
-      - US_276 |85.34Mb
+      - DE_35 |41.46Mb
+      - DE_36 |56.02Mb
+      - DE_38 |55.39Mb
+      - DE_39 |56.91Mb
+      - DE_40 |50.88Mb
+      - GB_51 |65.04Mb
+      - GB_56 |42.32Mb
+      - NO_121 |46.45Mb
+      - NO_122 |36.10Mb
+      - NO_123 |41.20Mb
+      - US_170 |75.58Mb
+      - US_174 |59.89Mb
+      - US_185 |48.59Mb
+      - US_193 |85.14Mb
+      - US_201 |37.08Mb
+      - US_217 |93.82Mb
+      - US_219 |75.14Mb
+      - US_220 |69.38Mb
+      - US_222 |74.58Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - DE_81 |47.27Mb
-      - DE_83 |57.48Mb
-      - DE_86 |55.94Mb
-      - DE_90 |57.09Mb
-      - DE_92 |56.91Mb
-      - GB_101 |46.98Mb
-      - GB_103 |65.79Mb
-      - NO_175 |46.45Mb
-      - US_221 |57.63Mb
-      - US_223 |70.45Mb
-      - US_265 |85.14Mb
-      - US_266 |66.40Mb
-      - US_276 |85.34Mb
+      - DE_35 |41.46Mb
+      - DE_36 |56.02Mb
+      - DE_38 |55.39Mb
+      - DE_39 |56.91Mb
+      - DE_40 |50.88Mb
+      - GB_51 |65.04Mb
+      - GB_56 |42.32Mb
+      - NO_121 |46.45Mb
+      - NO_122 |36.10Mb
+      - NO_123 |41.20Mb
+      - US_170 |75.58Mb
+      - US_174 |59.89Mb
+      - US_185 |48.59Mb
+      - US_193 |85.14Mb
+      - US_201 |37.08Mb
+      - US_217 |93.82Mb
+      - US_219 |75.14Mb
+      - US_220 |69.38Mb
+      - US_222 |74.58Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - DE_81 |47.27Mb
-      - DE_83 |57.48Mb
-      - DE_86 |55.94Mb
-      - DE_90 |57.09Mb
-      - DE_92 |56.91Mb
-      - GB_101 |46.98Mb
-      - GB_103 |65.79Mb
-      - NO_175 |46.45Mb
-      - US_221 |57.63Mb
-      - US_223 |70.45Mb
-      - US_265 |85.14Mb
-      - US_266 |66.40Mb
-      - US_276 |85.34Mb
+      - DE_35 |41.46Mb
+      - DE_36 |56.02Mb
+      - DE_38 |55.39Mb
+      - DE_39 |56.91Mb
+      - DE_40 |50.88Mb
+      - GB_51 |65.04Mb
+      - GB_56 |42.32Mb
+      - NO_121 |46.45Mb
+      - NO_122 |36.10Mb
+      - NO_123 |41.20Mb
+      - US_170 |75.58Mb
+      - US_174 |59.89Mb
+      - US_185 |48.59Mb
+      - US_193 |85.14Mb
+      - US_201 |37.08Mb
+      - US_217 |93.82Mb
+      - US_219 |75.14Mb
+      - US_220 |69.38Mb
+      - US_222 |74.58Mb
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - DE_81 |47.27Mb
-      - DE_83 |57.48Mb
-      - DE_86 |55.94Mb
-      - DE_90 |57.09Mb
-      - DE_92 |56.91Mb
-      - GB_101 |46.98Mb
-      - GB_103 |65.79Mb
-      - NO_175 |46.45Mb
-      - US_221 |57.63Mb
-      - US_223 |70.45Mb
-      - US_265 |85.14Mb
-      - US_266 |66.40Mb
-      - US_276 |85.34Mb
+      - DE_35 |41.46Mb
+      - DE_36 |56.02Mb
+      - DE_38 |55.39Mb
+      - DE_39 |56.91Mb
+      - DE_40 |50.88Mb
+      - GB_51 |65.04Mb
+      - GB_56 |42.32Mb
+      - NO_121 |46.45Mb
+      - NO_122 |36.10Mb
+      - NO_123 |41.20Mb
+      - US_170 |75.58Mb
+      - US_174 |59.89Mb
+      - US_185 |48.59Mb
+      - US_193 |85.14Mb
+      - US_201 |37.08Mb
+      - US_217 |93.82Mb
+      - US_219 |75.14Mb
+      - US_220 |69.38Mb
+      - US_222 |74.58Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -170,19 +218,25 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - DE_81 |47.27Mb
-      - DE_83 |57.48Mb
-      - DE_86 |55.94Mb
-      - DE_90 |57.09Mb
-      - DE_92 |56.91Mb
-      - GB_101 |46.98Mb
-      - GB_103 |65.79Mb
-      - NO_175 |46.45Mb
-      - US_221 |57.63Mb
-      - US_223 |70.45Mb
-      - US_265 |85.14Mb
-      - US_266 |66.40Mb
-      - US_276 |85.34Mb
+      - DE_35 |41.46Mb
+      - DE_36 |56.02Mb
+      - DE_38 |55.39Mb
+      - DE_39 |56.91Mb
+      - DE_40 |50.88Mb
+      - GB_51 |65.04Mb
+      - GB_56 |42.32Mb
+      - NO_121 |46.45Mb
+      - NO_122 |36.10Mb
+      - NO_123 |41.20Mb
+      - US_170 |75.58Mb
+      - US_174 |59.89Mb
+      - US_185 |48.59Mb
+      - US_193 |85.14Mb
+      - US_201 |37.08Mb
+      - US_217 |93.82Mb
+      - US_219 |75.14Mb
+      - US_220 |69.38Mb
+      - US_222 |74.58Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
