@@ -5,109 +5,101 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US_43 |67.53Mb, server: 51.81.223.10, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 51.81.223.10}
-  - {name: US_44 |35.88Mb, server: 51.81.223.26, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 51.81.223.26}
-  - {name: US_45 |74.72Mb, server: 51.81.223.22, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: US_46 |31.90Mb, server: 152.69.197.60, port: 1069, type: vmess, uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: US_48 |66.89Mb, server: s2.hass.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
-  - {name: US_50 |67.74Mb, server: s3.hass.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
-  - {name: US_55 |70.44Mb, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
-  - {name: US_56 |52.66Mb, server: lsj02.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true, udp: true}
+  - {name: CA_05 |84.96Mb, server: 165.154.235.171, port: 24567, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: true, udp: true}
+  - {name: GB_21 |64.37Mb, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: true, udp: true}
+  - {name: KR_26 |83.22Mb, server: scus1.ddns-pop.cyou, port: 24567, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: true, udp: true}
+  - {name: US_59 |60.45Mb, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, skip-cert-verify: true, udp: true}
+  - {name: US_60 |72.97Mb, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
+  - {name: US_67 |61.25Mb, server: s1.hass.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
+  - {name: US_68 |70.12Mb, server: s2.hass.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - US_43 |67.53Mb
-      - US_44 |35.88Mb
-      - US_45 |74.72Mb
-      - US_46 |31.90Mb
-      - US_48 |66.89Mb
-      - US_50 |67.74Mb
-      - US_55 |70.44Mb
-      - US_56 |52.66Mb
+      - CA_05 |84.96Mb
+      - GB_21 |64.37Mb
+      - KR_26 |83.22Mb
+      - US_59 |60.45Mb
+      - US_60 |72.97Mb
+      - US_67 |61.25Mb
+      - US_68 |70.12Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - US_43 |67.53Mb
-      - US_44 |35.88Mb
-      - US_45 |74.72Mb
-      - US_46 |31.90Mb
-      - US_48 |66.89Mb
-      - US_50 |67.74Mb
-      - US_55 |70.44Mb
-      - US_56 |52.66Mb
+      - CA_05 |84.96Mb
+      - GB_21 |64.37Mb
+      - KR_26 |83.22Mb
+      - US_59 |60.45Mb
+      - US_60 |72.97Mb
+      - US_67 |61.25Mb
+      - US_68 |70.12Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_43 |67.53Mb
-      - US_44 |35.88Mb
-      - US_45 |74.72Mb
-      - US_46 |31.90Mb
-      - US_48 |66.89Mb
-      - US_50 |67.74Mb
-      - US_55 |70.44Mb
-      - US_56 |52.66Mb
+      - CA_05 |84.96Mb
+      - GB_21 |64.37Mb
+      - KR_26 |83.22Mb
+      - US_59 |60.45Mb
+      - US_60 |72.97Mb
+      - US_67 |61.25Mb
+      - US_68 |70.12Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - US_43 |67.53Mb
-      - US_44 |35.88Mb
-      - US_45 |74.72Mb
-      - US_46 |31.90Mb
-      - US_48 |66.89Mb
-      - US_50 |67.74Mb
-      - US_55 |70.44Mb
-      - US_56 |52.66Mb
+      - CA_05 |84.96Mb
+      - GB_21 |64.37Mb
+      - KR_26 |83.22Mb
+      - US_59 |60.45Mb
+      - US_60 |72.97Mb
+      - US_67 |61.25Mb
+      - US_68 |70.12Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - US_43 |67.53Mb
-      - US_44 |35.88Mb
-      - US_45 |74.72Mb
-      - US_46 |31.90Mb
-      - US_48 |66.89Mb
-      - US_50 |67.74Mb
-      - US_55 |70.44Mb
-      - US_56 |52.66Mb
+      - CA_05 |84.96Mb
+      - GB_21 |64.37Mb
+      - KR_26 |83.22Mb
+      - US_59 |60.45Mb
+      - US_60 |72.97Mb
+      - US_67 |61.25Mb
+      - US_68 |70.12Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - US_43 |67.53Mb
-      - US_44 |35.88Mb
-      - US_45 |74.72Mb
-      - US_46 |31.90Mb
-      - US_48 |66.89Mb
-      - US_50 |67.74Mb
-      - US_55 |70.44Mb
-      - US_56 |52.66Mb
+      - CA_05 |84.96Mb
+      - GB_21 |64.37Mb
+      - KR_26 |83.22Mb
+      - US_59 |60.45Mb
+      - US_60 |72.97Mb
+      - US_67 |61.25Mb
+      - US_68 |70.12Mb
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_43 |67.53Mb
-      - US_44 |35.88Mb
-      - US_45 |74.72Mb
-      - US_46 |31.90Mb
-      - US_48 |66.89Mb
-      - US_50 |67.74Mb
-      - US_55 |70.44Mb
-      - US_56 |52.66Mb
+      - CA_05 |84.96Mb
+      - GB_21 |64.37Mb
+      - KR_26 |83.22Mb
+      - US_59 |60.45Mb
+      - US_60 |72.97Mb
+      - US_67 |61.25Mb
+      - US_68 |70.12Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -130,14 +122,13 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_43 |67.53Mb
-      - US_44 |35.88Mb
-      - US_45 |74.72Mb
-      - US_46 |31.90Mb
-      - US_48 |66.89Mb
-      - US_50 |67.74Mb
-      - US_55 |70.44Mb
-      - US_56 |52.66Mb
+      - CA_05 |84.96Mb
+      - GB_21 |64.37Mb
+      - KR_26 |83.22Mb
+      - US_59 |60.45Mb
+      - US_60 |72.97Mb
+      - US_67 |61.25Mb
+      - US_68 |70.12Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
