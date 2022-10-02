@@ -6,10 +6,15 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: "NULL", server: "NULL", port: 11708, type: ssr, cipher: aes-256-cfb, password: "sEscPBiAD9K$&@79", protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: ""}
-  - {name: GB_32 |46.82Mb, server: 132.145.51.172, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: true, udp: true}
-  - {name: NO_47 |30.94Mb, server: 138.124.183.226, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
-  - {name: US_78 |80.28Mb, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
-  - {name: US_87 |33.68Mb, server: a.laolei.ml, port: 50757, type: trojan, password: dDbBcidENX, skip-cert-verify: true, udp: true}
+  - {name: CA_05 |281.60Mb, server: nice-ca02.tiktokcdn.buzz, port: 8443, type: trojan, password: a9b56b59-ee82-4331-91f8-955d1fdc4e10, skip-cert-verify: true, udp: true}
+  - {name: NO_41 |32.11Mb, server: 138.124.183.226, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
+  - {name: NO_42 |35.12Mb, server: 138.124.183.216, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
+  - {name: US_74 |92.15Mb, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
+  - {name: US_75 |145.36Mb, server: 23.94.103.146, port: 443, type: trojan, password: 8c836caa-3d53-4829-bcfb-cbe0aa453a57, skip-cert-verify: true, udp: true}
+  - {name: US_79 |52.00Mb, server: rbobo.tk, port: 31142, type: trojan, password: fPrIXmKPn0, skip-cert-verify: true, udp: true}
+  - {name: US_84 |92.24Mb, server: 129.146.242.130, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
+  - {name: US_85 |30.05Mb, server: 150.230.96.103, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, skip-cert-verify: true, udp: true}
+  - {name: US_90 |33.68Mb, server: a.laolei.ml, port: 50757, type: trojan, password: dDbBcidENX, skip-cert-verify: true, udp: true}
   - {name: NULL 2, server: "NULL", port: 11708, type: ssr, cipher: aes-256-cfb, password: "sEscPBiAD9K$&@79", protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: ""}
 proxy-groups:
   - name: 🚀 节点选择
@@ -18,10 +23,15 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - "NULL"
-      - GB_32 |46.82Mb
-      - NO_47 |30.94Mb
-      - US_78 |80.28Mb
-      - US_87 |33.68Mb
+      - CA_05 |281.60Mb
+      - NO_41 |32.11Mb
+      - NO_42 |35.12Mb
+      - US_74 |92.15Mb
+      - US_75 |145.36Mb
+      - US_79 |52.00Mb
+      - US_84 |92.24Mb
+      - US_85 |30.05Mb
+      - US_90 |33.68Mb
       - NULL 2
   - name: ♻️ 自动选择
     type: url-test
@@ -30,10 +40,15 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "NULL"
-      - GB_32 |46.82Mb
-      - NO_47 |30.94Mb
-      - US_78 |80.28Mb
-      - US_87 |33.68Mb
+      - CA_05 |281.60Mb
+      - NO_41 |32.11Mb
+      - NO_42 |35.12Mb
+      - US_74 |92.15Mb
+      - US_75 |145.36Mb
+      - US_79 |52.00Mb
+      - US_84 |92.24Mb
+      - US_85 |30.05Mb
+      - US_90 |33.68Mb
       - NULL 2
   - name: 🌍 国外媒体
     type: select
@@ -42,10 +57,15 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - "NULL"
-      - GB_32 |46.82Mb
-      - NO_47 |30.94Mb
-      - US_78 |80.28Mb
-      - US_87 |33.68Mb
+      - CA_05 |281.60Mb
+      - NO_41 |32.11Mb
+      - NO_42 |35.12Mb
+      - US_74 |92.15Mb
+      - US_75 |145.36Mb
+      - US_79 |52.00Mb
+      - US_84 |92.24Mb
+      - US_85 |30.05Mb
+      - US_90 |33.68Mb
       - NULL 2
   - name: 📲 电报信息
     type: select
@@ -53,10 +73,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - "NULL"
-      - GB_32 |46.82Mb
-      - NO_47 |30.94Mb
-      - US_78 |80.28Mb
-      - US_87 |33.68Mb
+      - CA_05 |281.60Mb
+      - NO_41 |32.11Mb
+      - NO_42 |35.12Mb
+      - US_74 |92.15Mb
+      - US_75 |145.36Mb
+      - US_79 |52.00Mb
+      - US_84 |92.24Mb
+      - US_85 |30.05Mb
+      - US_90 |33.68Mb
       - NULL 2
   - name: Ⓜ️ 微软服务
     type: select
@@ -64,10 +89,15 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 节点选择
       - "NULL"
-      - GB_32 |46.82Mb
-      - NO_47 |30.94Mb
-      - US_78 |80.28Mb
-      - US_87 |33.68Mb
+      - CA_05 |281.60Mb
+      - NO_41 |32.11Mb
+      - NO_42 |35.12Mb
+      - US_74 |92.15Mb
+      - US_75 |145.36Mb
+      - US_79 |52.00Mb
+      - US_84 |92.24Mb
+      - US_85 |30.05Mb
+      - US_90 |33.68Mb
       - NULL 2
   - name: 🍎 苹果服务
     type: select
@@ -75,10 +105,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - "NULL"
-      - GB_32 |46.82Mb
-      - NO_47 |30.94Mb
-      - US_78 |80.28Mb
-      - US_87 |33.68Mb
+      - CA_05 |281.60Mb
+      - NO_41 |32.11Mb
+      - NO_42 |35.12Mb
+      - US_74 |92.15Mb
+      - US_75 |145.36Mb
+      - US_79 |52.00Mb
+      - US_84 |92.24Mb
+      - US_85 |30.05Mb
+      - US_90 |33.68Mb
       - NULL 2
   - name: 📢 谷歌FCM
     type: select
@@ -87,10 +122,15 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - "NULL"
-      - GB_32 |46.82Mb
-      - NO_47 |30.94Mb
-      - US_78 |80.28Mb
-      - US_87 |33.68Mb
+      - CA_05 |281.60Mb
+      - NO_41 |32.11Mb
+      - NO_42 |35.12Mb
+      - US_74 |92.15Mb
+      - US_75 |145.36Mb
+      - US_79 |52.00Mb
+      - US_84 |92.24Mb
+      - US_85 |30.05Mb
+      - US_90 |33.68Mb
       - NULL 2
   - name: 🎯 全球直连
     type: select
@@ -115,10 +155,15 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - "NULL"
-      - GB_32 |46.82Mb
-      - NO_47 |30.94Mb
-      - US_78 |80.28Mb
-      - US_87 |33.68Mb
+      - CA_05 |281.60Mb
+      - NO_41 |32.11Mb
+      - NO_42 |35.12Mb
+      - US_74 |92.15Mb
+      - US_75 |145.36Mb
+      - US_79 |52.00Mb
+      - US_84 |92.24Mb
+      - US_85 |30.05Mb
+      - US_90 |33.68Mb
       - NULL 2
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
