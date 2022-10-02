@@ -6,9 +6,17 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: "NULL", server: "NULL", port: 11708, type: ssr, cipher: aes-256-cfb, password: "sEscPBiAD9K$&@79", protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: ""}
-  - {name: CA_06 |116.81Mb, server: cat1.sshocean.net, port: 443, type: trojan, password: 8b6daf15-8342-482d-b894-1239fd98ce7f, skip-cert-verify: true, udp: true}
-  - {name: CA_07 |274.59Mb, server: nice-ca02.tiktokcdn.buzz, port: 8443, type: trojan, password: a9b56b59-ee82-4331-91f8-955d1fdc4e10, skip-cert-verify: true, udp: true}
-  - {name: NO_27 |36.73Mb, server: 138.124.183.226, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
+  - {name: CA_06 |270.33Mb, server: nice-ca02.tiktokcdn.buzz, port: 8443, type: trojan, password: a9b56b59-ee82-4331-91f8-955d1fdc4e10, skip-cert-verify: true, udp: true}
+  - {name: GB_22 |35.13Mb, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: true, udp: true}
+  - {name: GB_24 |58.46Mb, server: 132.145.51.172, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: true, udp: true}
+  - {name: NO_33 |48.26Mb, server: 138.124.183.216, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
+  - {name: NO_34 |36.96Mb, server: 138.124.183.222, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
+  - {name: NO_35 |46.05Mb, server: 138.124.183.226, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
+  - {name: US_62 |117.49Mb, server: 23.94.103.146, port: 443, type: trojan, password: 8c836caa-3d53-4829-bcfb-cbe0aa453a57, skip-cert-verify: true, udp: true}
+  - {name: US_65 |30.61Mb, server: 150.230.96.103, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, skip-cert-verify: true, udp: true}
+  - {name: US_66 |30.67Mb, server: www.sxsy88.tk, port: 44150, type: trojan, password: zFyLKH62WN, skip-cert-verify: true, udp: true}
+  - {name: US_67 |112.72Mb, server: a.laolei.ml, port: 50757, type: trojan, password: dDbBcidENX, skip-cert-verify: true, udp: true}
+  - {name: US_72 |86.64Mb, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
   - {name: NULL 2, server: "NULL", port: 11708, type: ssr, cipher: aes-256-cfb, password: "sEscPBiAD9K$&@79", protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: ""}
 proxy-groups:
   - name: 🚀 节点选择
@@ -17,9 +25,17 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - "NULL"
-      - CA_06 |116.81Mb
-      - CA_07 |274.59Mb
-      - NO_27 |36.73Mb
+      - CA_06 |270.33Mb
+      - GB_22 |35.13Mb
+      - GB_24 |58.46Mb
+      - NO_33 |48.26Mb
+      - NO_34 |36.96Mb
+      - NO_35 |46.05Mb
+      - US_62 |117.49Mb
+      - US_65 |30.61Mb
+      - US_66 |30.67Mb
+      - US_67 |112.72Mb
+      - US_72 |86.64Mb
       - NULL 2
   - name: ♻️ 自动选择
     type: url-test
@@ -28,9 +44,17 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "NULL"
-      - CA_06 |116.81Mb
-      - CA_07 |274.59Mb
-      - NO_27 |36.73Mb
+      - CA_06 |270.33Mb
+      - GB_22 |35.13Mb
+      - GB_24 |58.46Mb
+      - NO_33 |48.26Mb
+      - NO_34 |36.96Mb
+      - NO_35 |46.05Mb
+      - US_62 |117.49Mb
+      - US_65 |30.61Mb
+      - US_66 |30.67Mb
+      - US_67 |112.72Mb
+      - US_72 |86.64Mb
       - NULL 2
   - name: 🌍 国外媒体
     type: select
@@ -39,9 +63,17 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - "NULL"
-      - CA_06 |116.81Mb
-      - CA_07 |274.59Mb
-      - NO_27 |36.73Mb
+      - CA_06 |270.33Mb
+      - GB_22 |35.13Mb
+      - GB_24 |58.46Mb
+      - NO_33 |48.26Mb
+      - NO_34 |36.96Mb
+      - NO_35 |46.05Mb
+      - US_62 |117.49Mb
+      - US_65 |30.61Mb
+      - US_66 |30.67Mb
+      - US_67 |112.72Mb
+      - US_72 |86.64Mb
       - NULL 2
   - name: 📲 电报信息
     type: select
@@ -49,9 +81,17 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - "NULL"
-      - CA_06 |116.81Mb
-      - CA_07 |274.59Mb
-      - NO_27 |36.73Mb
+      - CA_06 |270.33Mb
+      - GB_22 |35.13Mb
+      - GB_24 |58.46Mb
+      - NO_33 |48.26Mb
+      - NO_34 |36.96Mb
+      - NO_35 |46.05Mb
+      - US_62 |117.49Mb
+      - US_65 |30.61Mb
+      - US_66 |30.67Mb
+      - US_67 |112.72Mb
+      - US_72 |86.64Mb
       - NULL 2
   - name: Ⓜ️ 微软服务
     type: select
@@ -59,9 +99,17 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 节点选择
       - "NULL"
-      - CA_06 |116.81Mb
-      - CA_07 |274.59Mb
-      - NO_27 |36.73Mb
+      - CA_06 |270.33Mb
+      - GB_22 |35.13Mb
+      - GB_24 |58.46Mb
+      - NO_33 |48.26Mb
+      - NO_34 |36.96Mb
+      - NO_35 |46.05Mb
+      - US_62 |117.49Mb
+      - US_65 |30.61Mb
+      - US_66 |30.67Mb
+      - US_67 |112.72Mb
+      - US_72 |86.64Mb
       - NULL 2
   - name: 🍎 苹果服务
     type: select
@@ -69,9 +117,17 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - "NULL"
-      - CA_06 |116.81Mb
-      - CA_07 |274.59Mb
-      - NO_27 |36.73Mb
+      - CA_06 |270.33Mb
+      - GB_22 |35.13Mb
+      - GB_24 |58.46Mb
+      - NO_33 |48.26Mb
+      - NO_34 |36.96Mb
+      - NO_35 |46.05Mb
+      - US_62 |117.49Mb
+      - US_65 |30.61Mb
+      - US_66 |30.67Mb
+      - US_67 |112.72Mb
+      - US_72 |86.64Mb
       - NULL 2
   - name: 📢 谷歌FCM
     type: select
@@ -80,9 +136,17 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - "NULL"
-      - CA_06 |116.81Mb
-      - CA_07 |274.59Mb
-      - NO_27 |36.73Mb
+      - CA_06 |270.33Mb
+      - GB_22 |35.13Mb
+      - GB_24 |58.46Mb
+      - NO_33 |48.26Mb
+      - NO_34 |36.96Mb
+      - NO_35 |46.05Mb
+      - US_62 |117.49Mb
+      - US_65 |30.61Mb
+      - US_66 |30.67Mb
+      - US_67 |112.72Mb
+      - US_72 |86.64Mb
       - NULL 2
   - name: 🎯 全球直连
     type: select
@@ -107,9 +171,17 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - "NULL"
-      - CA_06 |116.81Mb
-      - CA_07 |274.59Mb
-      - NO_27 |36.73Mb
+      - CA_06 |270.33Mb
+      - GB_22 |35.13Mb
+      - GB_24 |58.46Mb
+      - NO_33 |48.26Mb
+      - NO_34 |36.96Mb
+      - NO_35 |46.05Mb
+      - US_62 |117.49Mb
+      - US_65 |30.61Mb
+      - US_66 |30.67Mb
+      - US_67 |112.72Mb
+      - US_72 |86.64Mb
       - NULL 2
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
