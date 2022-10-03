@@ -5,61 +5,69 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: NO_20 |34.63Mb, server: 138.124.183.222, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
-  - {name: US_46 |94.49Mb, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
+  - {name: JP_23 |36.14Mb, server: nice-jp01.tiktokcdn.buzz, port: 443, type: trojan, password: BXE9notY, skip-cert-verify: true, udp: true}
+  - {name: NO_25 |34.63Mb, server: 138.124.183.222, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
+  - {name: US_50 |89.63Mb, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - NO_20 |34.63Mb
-      - US_46 |94.49Mb
+      - JP_23 |36.14Mb
+      - NO_25 |34.63Mb
+      - US_50 |89.63Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - NO_20 |34.63Mb
-      - US_46 |94.49Mb
+      - JP_23 |36.14Mb
+      - NO_25 |34.63Mb
+      - US_50 |89.63Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - NO_20 |34.63Mb
-      - US_46 |94.49Mb
+      - JP_23 |36.14Mb
+      - NO_25 |34.63Mb
+      - US_50 |89.63Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - NO_20 |34.63Mb
-      - US_46 |94.49Mb
+      - JP_23 |36.14Mb
+      - NO_25 |34.63Mb
+      - US_50 |89.63Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - NO_20 |34.63Mb
-      - US_46 |94.49Mb
+      - JP_23 |36.14Mb
+      - NO_25 |34.63Mb
+      - US_50 |89.63Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - NO_20 |34.63Mb
-      - US_46 |94.49Mb
+      - JP_23 |36.14Mb
+      - NO_25 |34.63Mb
+      - US_50 |89.63Mb
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - NO_20 |34.63Mb
-      - US_46 |94.49Mb
+      - JP_23 |36.14Mb
+      - NO_25 |34.63Mb
+      - US_50 |89.63Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -82,8 +90,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - NO_20 |34.63Mb
-      - US_46 |94.49Mb
+      - JP_23 |36.14Mb
+      - NO_25 |34.63Mb
+      - US_50 |89.63Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
