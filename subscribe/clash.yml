@@ -5,61 +5,77 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CA_02 |85.97Mb, server: cat1.sshocean.net, port: 443, type: trojan, password: 8b6daf15-8342-482d-b894-1239fd98ce7f, skip-cert-verify: true, udp: true}
-  - {name: US_37 |31.35Mb, server: www.sxsy88.tk, port: 44150, type: trojan, password: zFyLKH62WN, skip-cert-verify: true, udp: true}
+  - {name: CA_03 |85.97Mb, server: cat1.sshocean.net, port: 443, type: trojan, password: 8b6daf15-8342-482d-b894-1239fd98ce7f, skip-cert-verify: true, udp: true}
+  - {name: JP_22 |34.57Mb, server: jp-04.tiktokcdn.sbs, port: 443, type: trojan, password: f41e6f27-5a33-4eb0-b6be-eb3755c93b78, skip-cert-verify: true, udp: true}
+  - {name: US_54 |94.84Mb, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
+  - {name: US_56 |30.63Mb, server: 212.50.246.229, port: 50500, type: trojan, password: 025e0bd5-0136-467a-8120-4a8c656a23bd, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - CA_02 |85.97Mb
-      - US_37 |31.35Mb
+      - CA_03 |85.97Mb
+      - JP_22 |34.57Mb
+      - US_54 |94.84Mb
+      - US_56 |30.63Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - CA_02 |85.97Mb
-      - US_37 |31.35Mb
+      - CA_03 |85.97Mb
+      - JP_22 |34.57Mb
+      - US_54 |94.84Mb
+      - US_56 |30.63Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CA_02 |85.97Mb
-      - US_37 |31.35Mb
+      - CA_03 |85.97Mb
+      - JP_22 |34.57Mb
+      - US_54 |94.84Mb
+      - US_56 |30.63Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - CA_02 |85.97Mb
-      - US_37 |31.35Mb
+      - CA_03 |85.97Mb
+      - JP_22 |34.57Mb
+      - US_54 |94.84Mb
+      - US_56 |30.63Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - CA_02 |85.97Mb
-      - US_37 |31.35Mb
+      - CA_03 |85.97Mb
+      - JP_22 |34.57Mb
+      - US_54 |94.84Mb
+      - US_56 |30.63Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - CA_02 |85.97Mb
-      - US_37 |31.35Mb
+      - CA_03 |85.97Mb
+      - JP_22 |34.57Mb
+      - US_54 |94.84Mb
+      - US_56 |30.63Mb
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CA_02 |85.97Mb
-      - US_37 |31.35Mb
+      - CA_03 |85.97Mb
+      - JP_22 |34.57Mb
+      - US_54 |94.84Mb
+      - US_56 |30.63Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -82,8 +98,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CA_02 |85.97Mb
-      - US_37 |31.35Mb
+      - CA_03 |85.97Mb
+      - JP_22 |34.57Mb
+      - US_54 |94.84Mb
+      - US_56 |30.63Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
