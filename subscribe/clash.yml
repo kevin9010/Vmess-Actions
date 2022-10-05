@@ -5,85 +5,77 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: DE_09 |57.78Mb, server: nice-de02.nicevpn.top, port: 443, type: trojan, password: 137032ae-1bdb-445d-85e0-6edd7d343afb, skip-cert-verify: true, udp: true}
-  - {name: FR_16 |61.22Mb, server: 146.19.230.241, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
-  - {name: JP_25 |34.43Mb, server: jp-04.tiktokcdn.sbs, port: 443, type: trojan, password: f41e6f27-5a33-4eb0-b6be-eb3755c93b78, skip-cert-verify: true, udp: true}
-  - {name: US_55 |83.72Mb, server: nice-us01.tiktokcdn.buzz, port: 443, type: trojan, password: "null", skip-cert-verify: true, udp: true}
-  - {name: US_63 |30.86Mb, server: 212.50.246.229, port: 50500, type: trojan, password: 025e0bd5-0136-467a-8120-4a8c656a23bd, skip-cert-verify: true, udp: true}
+  - {name: DE_11 |57.13Mb, server: nice-de02.nicevpn.top, port: 443, type: trojan, password: 137032ae-1bdb-445d-85e0-6edd7d343afb, skip-cert-verify: true, udp: true}
+  - {name: JP_31 |35.72Mb, server: jp-04.tiktokcdn.sbs, port: 443, type: trojan, password: f41e6f27-5a33-4eb0-b6be-eb3755c93b78, skip-cert-verify: true, udp: true}
+  - {name: US_54 |30.86Mb, server: 212.50.246.229, port: 50500, type: trojan, password: 025e0bd5-0136-467a-8120-4a8c656a23bd, skip-cert-verify: true, udp: true}
+  - {name: US_56 |53.86Mb, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - DE_09 |57.78Mb
-      - FR_16 |61.22Mb
-      - JP_25 |34.43Mb
-      - US_55 |83.72Mb
-      - US_63 |30.86Mb
+      - DE_11 |57.13Mb
+      - JP_31 |35.72Mb
+      - US_54 |30.86Mb
+      - US_56 |53.86Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - DE_09 |57.78Mb
-      - FR_16 |61.22Mb
-      - JP_25 |34.43Mb
-      - US_55 |83.72Mb
-      - US_63 |30.86Mb
+      - DE_11 |57.13Mb
+      - JP_31 |35.72Mb
+      - US_54 |30.86Mb
+      - US_56 |53.86Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - DE_09 |57.78Mb
-      - FR_16 |61.22Mb
-      - JP_25 |34.43Mb
-      - US_55 |83.72Mb
-      - US_63 |30.86Mb
+      - DE_11 |57.13Mb
+      - JP_31 |35.72Mb
+      - US_54 |30.86Mb
+      - US_56 |53.86Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - DE_09 |57.78Mb
-      - FR_16 |61.22Mb
-      - JP_25 |34.43Mb
-      - US_55 |83.72Mb
-      - US_63 |30.86Mb
+      - DE_11 |57.13Mb
+      - JP_31 |35.72Mb
+      - US_54 |30.86Mb
+      - US_56 |53.86Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - DE_09 |57.78Mb
-      - FR_16 |61.22Mb
-      - JP_25 |34.43Mb
-      - US_55 |83.72Mb
-      - US_63 |30.86Mb
+      - DE_11 |57.13Mb
+      - JP_31 |35.72Mb
+      - US_54 |30.86Mb
+      - US_56 |53.86Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - DE_09 |57.78Mb
-      - FR_16 |61.22Mb
-      - JP_25 |34.43Mb
-      - US_55 |83.72Mb
-      - US_63 |30.86Mb
+      - DE_11 |57.13Mb
+      - JP_31 |35.72Mb
+      - US_54 |30.86Mb
+      - US_56 |53.86Mb
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - DE_09 |57.78Mb
-      - FR_16 |61.22Mb
-      - JP_25 |34.43Mb
-      - US_55 |83.72Mb
-      - US_63 |30.86Mb
+      - DE_11 |57.13Mb
+      - JP_31 |35.72Mb
+      - US_54 |30.86Mb
+      - US_56 |53.86Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -106,11 +98,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - DE_09 |57.78Mb
-      - FR_16 |61.22Mb
-      - JP_25 |34.43Mb
-      - US_55 |83.72Mb
-      - US_63 |30.86Mb
+      - DE_11 |57.13Mb
+      - JP_31 |35.72Mb
+      - US_54 |30.86Mb
+      - US_56 |53.86Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
