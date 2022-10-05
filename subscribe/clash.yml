@@ -5,77 +5,93 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: DE_11 |57.13Mb, server: nice-de02.nicevpn.top, port: 443, type: trojan, password: 137032ae-1bdb-445d-85e0-6edd7d343afb, skip-cert-verify: true, udp: true}
-  - {name: JP_31 |35.72Mb, server: jp-04.tiktokcdn.sbs, port: 443, type: trojan, password: f41e6f27-5a33-4eb0-b6be-eb3755c93b78, skip-cert-verify: true, udp: true}
-  - {name: US_54 |30.86Mb, server: 212.50.246.229, port: 50500, type: trojan, password: 025e0bd5-0136-467a-8120-4a8c656a23bd, skip-cert-verify: true, udp: true}
-  - {name: US_56 |53.86Mb, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
+  - {name: DE_12 |58.57Mb, server: nice-de02.nicevpn.top, port: 443, type: trojan, password: 137032ae-1bdb-445d-85e0-6edd7d343afb, skip-cert-verify: true, udp: true}
+  - {name: DE_13 |57.83Mb, server: ge-03.tiktokcdn.sbs, port: 443, type: trojan, password: 9ccc0c60-9df8-45a3-9886-c2765a52ba2e, skip-cert-verify: true, udp: true}
+  - {name: JP_27 |36.59Mb, server: nice-jp03.tiktokcdn.buzz, port: 43857, type: trojan, password: P9qGW38zz7, skip-cert-verify: true, udp: true}
+  - {name: JP_28 |35.66Mb, server: jp-04.tiktokcdn.sbs, port: 443, type: trojan, password: f41e6f27-5a33-4eb0-b6be-eb3755c93b78, skip-cert-verify: true, udp: true}
+  - {name: US_51 |30.29Mb, server: 152.69.197.60, port: 1069, type: vmess, uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: US_53 |30.86Mb, server: 212.50.246.229, port: 50500, type: trojan, password: 025e0bd5-0136-467a-8120-4a8c656a23bd, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - DE_11 |57.13Mb
-      - JP_31 |35.72Mb
-      - US_54 |30.86Mb
-      - US_56 |53.86Mb
+      - DE_12 |58.57Mb
+      - DE_13 |57.83Mb
+      - JP_27 |36.59Mb
+      - JP_28 |35.66Mb
+      - US_51 |30.29Mb
+      - US_53 |30.86Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - DE_11 |57.13Mb
-      - JP_31 |35.72Mb
-      - US_54 |30.86Mb
-      - US_56 |53.86Mb
+      - DE_12 |58.57Mb
+      - DE_13 |57.83Mb
+      - JP_27 |36.59Mb
+      - JP_28 |35.66Mb
+      - US_51 |30.29Mb
+      - US_53 |30.86Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - DE_11 |57.13Mb
-      - JP_31 |35.72Mb
-      - US_54 |30.86Mb
-      - US_56 |53.86Mb
+      - DE_12 |58.57Mb
+      - DE_13 |57.83Mb
+      - JP_27 |36.59Mb
+      - JP_28 |35.66Mb
+      - US_51 |30.29Mb
+      - US_53 |30.86Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - DE_11 |57.13Mb
-      - JP_31 |35.72Mb
-      - US_54 |30.86Mb
-      - US_56 |53.86Mb
+      - DE_12 |58.57Mb
+      - DE_13 |57.83Mb
+      - JP_27 |36.59Mb
+      - JP_28 |35.66Mb
+      - US_51 |30.29Mb
+      - US_53 |30.86Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - DE_11 |57.13Mb
-      - JP_31 |35.72Mb
-      - US_54 |30.86Mb
-      - US_56 |53.86Mb
+      - DE_12 |58.57Mb
+      - DE_13 |57.83Mb
+      - JP_27 |36.59Mb
+      - JP_28 |35.66Mb
+      - US_51 |30.29Mb
+      - US_53 |30.86Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - DE_11 |57.13Mb
-      - JP_31 |35.72Mb
-      - US_54 |30.86Mb
-      - US_56 |53.86Mb
+      - DE_12 |58.57Mb
+      - DE_13 |57.83Mb
+      - JP_27 |36.59Mb
+      - JP_28 |35.66Mb
+      - US_51 |30.29Mb
+      - US_53 |30.86Mb
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - DE_11 |57.13Mb
-      - JP_31 |35.72Mb
-      - US_54 |30.86Mb
-      - US_56 |53.86Mb
+      - DE_12 |58.57Mb
+      - DE_13 |57.83Mb
+      - JP_27 |36.59Mb
+      - JP_28 |35.66Mb
+      - US_51 |30.29Mb
+      - US_53 |30.86Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -98,10 +114,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - DE_11 |57.13Mb
-      - JP_31 |35.72Mb
-      - US_54 |30.86Mb
-      - US_56 |53.86Mb
+      - DE_12 |58.57Mb
+      - DE_13 |57.83Mb
+      - JP_27 |36.59Mb
+      - JP_28 |35.66Mb
+      - US_51 |30.29Mb
+      - US_53 |30.86Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
