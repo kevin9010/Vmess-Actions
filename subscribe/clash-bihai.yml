@@ -5,15 +5,17 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US_139 |30.57Mb, server: 152.69.197.60, port: 1069, type: vmess, uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: DE_50 |58.61Mb, server: nice-de02.nicevpn.top, port: 443, type: trojan, password: 137032ae-1bdb-445d-85e0-6edd7d343afb, skip-cert-verify: true, udp: true}
+  - {name: CA_36 |47.54Mb, server: c90s5.jamjams3.net, port: 19623, type: vmess, uuid: b03a1e7b-f1ad-4d0e-895d-639354e35ff4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: US_140 |43.95Mb, server: 45.10.153.188, port: 37558, type: vmess, uuid: 9d0f86ad-eec3-424f-f69a-fcb37e783d06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: US_143 |63.94Mb, server: 67.21.72.41, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.17080100.xyz, network: ws, ws-opts: {path: /path/173418141123}}
+  - {name: CA_37 |80.07Mb, server: cat1.sshocean.net, port: 443, type: trojan, password: 8b6daf15-8342-482d-b894-1239fd98ce7f, skip-cert-verify: true, udp: true}
   - {name: FR_62 |45.36Mb, server: 146.19.230.241, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
-  - {name: JP_75 |36.51Mb, server: nice-jp01.tiktokcdn.buzz, port: 443, type: trojan, password: BXE9notY, skip-cert-verify: true, udp: true}
-  - {name: JP_78 |36.32Mb, server: musashino.freetrade.link, port: 443, type: trojan, password: ZDqCRlxB8uFj9pxNEeanya3DIpDlOYR7K0wOYX3eScA36gTAazCyZ5SC3FS428, skip-cert-verify: true, udp: true}
-  - {name: US_145 |43.86Mb, server: spotted.bigkangaroo.net, port: 443, type: trojan, password: ZCESAylB2u5jga736e8CTN3DcFCAOYz0DlDyx9F3ZpXnSp3IYRa4RwOSqe8Kax, skip-cert-verify: true, udp: true}
-  - {name: US_146 |140.60Mb, server: 23.94.103.146, port: 443, type: trojan, password: 8c836caa-3d53-4829-bcfb-cbe0aa453a57, skip-cert-verify: true, udp: true}
-  - {name: US_148 |59.04Mb, server: la.p1.gay, port: 23511, type: trojan, password: 69a019dd-617b-449f-9af0-57762a476530, skip-cert-verify: true, udp: true}
-  - {name: US_152 |31.10Mb, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, skip-cert-verify: true, udp: true}
+  - {name: JP_75 |36.88Mb, server: musashino.freetrade.link, port: 443, type: trojan, password: ZDqCRlxB8uFj9pxNEeanya3DIpDlOYR7K0wOYX3eScA36gTAazCyZ5SC3FS428, skip-cert-verify: true, udp: true}
+  - {name: US_149 |90.62Mb, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
+  - {name: US_151 |57.48Mb, server: la.p1.gay, port: 23511, type: trojan, password: 69a019dd-617b-449f-9af0-57762a476530, skip-cert-verify: true, udp: true}
+  - {name: US_153 |30.63Mb, server: www.sxsy88.tk, port: 44150, type: trojan, password: zFyLKH62WN, skip-cert-verify: true, udp: true}
+  - {name: US_154 |45.09Mb, server: spotted.bigkangaroo.net, port: 443, type: trojan, password: ZCESAylB2u5jga736e8CTN3DcFCAOYz0DlDyx9F3ZpXnSp3IYRa4RwOSqe8Kax, skip-cert-verify: true, udp: true}
+  - {name: US_155 |31.39Mb, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, skip-cert-verify: true, udp: true}
   - {name: "NULL", server: "NULL", port: 11708, type: ssr, cipher: aes-256-cfb, password: "sEscPBiAD9K$&@79", protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: ""}
 proxy-groups:
   - name: 🚀 节点选择
@@ -21,15 +23,17 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - US_139 |30.57Mb
-      - DE_50 |58.61Mb
+      - CA_36 |47.54Mb
+      - US_140 |43.95Mb
+      - US_143 |63.94Mb
+      - CA_37 |80.07Mb
       - FR_62 |45.36Mb
-      - JP_75 |36.51Mb
-      - JP_78 |36.32Mb
-      - US_145 |43.86Mb
-      - US_146 |140.60Mb
-      - US_148 |59.04Mb
-      - US_152 |31.10Mb
+      - JP_75 |36.88Mb
+      - US_149 |90.62Mb
+      - US_151 |57.48Mb
+      - US_153 |30.63Mb
+      - US_154 |45.09Mb
+      - US_155 |31.39Mb
       - "NULL"
   - name: ♻️ 自动选择
     type: url-test
@@ -37,15 +41,17 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - US_139 |30.57Mb
-      - DE_50 |58.61Mb
+      - CA_36 |47.54Mb
+      - US_140 |43.95Mb
+      - US_143 |63.94Mb
+      - CA_37 |80.07Mb
       - FR_62 |45.36Mb
-      - JP_75 |36.51Mb
-      - JP_78 |36.32Mb
-      - US_145 |43.86Mb
-      - US_146 |140.60Mb
-      - US_148 |59.04Mb
-      - US_152 |31.10Mb
+      - JP_75 |36.88Mb
+      - US_149 |90.62Mb
+      - US_151 |57.48Mb
+      - US_153 |30.63Mb
+      - US_154 |45.09Mb
+      - US_155 |31.39Mb
       - "NULL"
   - name: 🌍 国外媒体
     type: select
@@ -53,60 +59,68 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_139 |30.57Mb
-      - DE_50 |58.61Mb
+      - CA_36 |47.54Mb
+      - US_140 |43.95Mb
+      - US_143 |63.94Mb
+      - CA_37 |80.07Mb
       - FR_62 |45.36Mb
-      - JP_75 |36.51Mb
-      - JP_78 |36.32Mb
-      - US_145 |43.86Mb
-      - US_146 |140.60Mb
-      - US_148 |59.04Mb
-      - US_152 |31.10Mb
+      - JP_75 |36.88Mb
+      - US_149 |90.62Mb
+      - US_151 |57.48Mb
+      - US_153 |30.63Mb
+      - US_154 |45.09Mb
+      - US_155 |31.39Mb
       - "NULL"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - US_139 |30.57Mb
-      - DE_50 |58.61Mb
+      - CA_36 |47.54Mb
+      - US_140 |43.95Mb
+      - US_143 |63.94Mb
+      - CA_37 |80.07Mb
       - FR_62 |45.36Mb
-      - JP_75 |36.51Mb
-      - JP_78 |36.32Mb
-      - US_145 |43.86Mb
-      - US_146 |140.60Mb
-      - US_148 |59.04Mb
-      - US_152 |31.10Mb
+      - JP_75 |36.88Mb
+      - US_149 |90.62Mb
+      - US_151 |57.48Mb
+      - US_153 |30.63Mb
+      - US_154 |45.09Mb
+      - US_155 |31.39Mb
       - "NULL"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - US_139 |30.57Mb
-      - DE_50 |58.61Mb
+      - CA_36 |47.54Mb
+      - US_140 |43.95Mb
+      - US_143 |63.94Mb
+      - CA_37 |80.07Mb
       - FR_62 |45.36Mb
-      - JP_75 |36.51Mb
-      - JP_78 |36.32Mb
-      - US_145 |43.86Mb
-      - US_146 |140.60Mb
-      - US_148 |59.04Mb
-      - US_152 |31.10Mb
+      - JP_75 |36.88Mb
+      - US_149 |90.62Mb
+      - US_151 |57.48Mb
+      - US_153 |30.63Mb
+      - US_154 |45.09Mb
+      - US_155 |31.39Mb
       - "NULL"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - US_139 |30.57Mb
-      - DE_50 |58.61Mb
+      - CA_36 |47.54Mb
+      - US_140 |43.95Mb
+      - US_143 |63.94Mb
+      - CA_37 |80.07Mb
       - FR_62 |45.36Mb
-      - JP_75 |36.51Mb
-      - JP_78 |36.32Mb
-      - US_145 |43.86Mb
-      - US_146 |140.60Mb
-      - US_148 |59.04Mb
-      - US_152 |31.10Mb
+      - JP_75 |36.88Mb
+      - US_149 |90.62Mb
+      - US_151 |57.48Mb
+      - US_153 |30.63Mb
+      - US_154 |45.09Mb
+      - US_155 |31.39Mb
       - "NULL"
   - name: 📢 谷歌FCM
     type: select
@@ -114,15 +128,17 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_139 |30.57Mb
-      - DE_50 |58.61Mb
+      - CA_36 |47.54Mb
+      - US_140 |43.95Mb
+      - US_143 |63.94Mb
+      - CA_37 |80.07Mb
       - FR_62 |45.36Mb
-      - JP_75 |36.51Mb
-      - JP_78 |36.32Mb
-      - US_145 |43.86Mb
-      - US_146 |140.60Mb
-      - US_148 |59.04Mb
-      - US_152 |31.10Mb
+      - JP_75 |36.88Mb
+      - US_149 |90.62Mb
+      - US_151 |57.48Mb
+      - US_153 |30.63Mb
+      - US_154 |45.09Mb
+      - US_155 |31.39Mb
       - "NULL"
   - name: 🎯 全球直连
     type: select
@@ -146,15 +162,17 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_139 |30.57Mb
-      - DE_50 |58.61Mb
+      - CA_36 |47.54Mb
+      - US_140 |43.95Mb
+      - US_143 |63.94Mb
+      - CA_37 |80.07Mb
       - FR_62 |45.36Mb
-      - JP_75 |36.51Mb
-      - JP_78 |36.32Mb
-      - US_145 |43.86Mb
-      - US_146 |140.60Mb
-      - US_148 |59.04Mb
-      - US_152 |31.10Mb
+      - JP_75 |36.88Mb
+      - US_149 |90.62Mb
+      - US_151 |57.48Mb
+      - US_153 |30.63Mb
+      - US_154 |45.09Mb
+      - US_155 |31.39Mb
       - "NULL"
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
