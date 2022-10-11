@@ -5,17 +5,20 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: IE_150 |33.10Mb, server: 185.108.128.60, port: 443, type: vmess, uuid: 5aab3936-16d7-4377-8c33-0d77f2d295ee, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: 185.108.128.60, network: ws, ws-opts: {path: /path/051111230910}}
-  - {name: US_235 |57.07Mb, server: 67.21.72.41, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.17080100.xyz, network: ws, ws-opts: {path: /path/173418141123}}
-  - {name: ZZ_261 |48.32Mb, server: 64.112.42.72, port: 16999, type: vmess, uuid: b5a01f44-b981-421a-bdc0-6d9d53da07fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: JP_151 |30.16Mb, server: trs11.bolab.net, port: 443, type: trojan, password: 7a566d21dfcd0f12490275fd3dd3cfc4, skip-cert-verify: true, udp: true}
-  - {name: JP_156 |31.13Mb, server: nice-jp01.tiktokcdn.buzz, port: 443, type: trojan, password: BXE9notY, skip-cert-verify: true, udp: true}
-  - {name: JP_157 |35.30Mb, server: nice-jp03.tiktokcdn.buzz, port: 43857, type: trojan, password: P9qGW38zz7, skip-cert-verify: true, udp: true}
-  - {name: JP_161 |35.95Mb, server: 54.178.46.155, port: 43857, type: trojan, password: P9qGW38zz7, skip-cert-verify: true, udp: true}
-  - {name: US_179 |69.64Mb, server: 98.126.214.30, port: 19235, type: trojan, password: 012fc57b-69e5-3924-9da4-d6ac132c5fc9, skip-cert-verify: true, udp: true}
-  - {name: US_242 |30.44Mb, server: 150.230.217.213, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, skip-cert-verify: true, udp: true}
-  - {name: US_245 |66.74Mb, server: nice-us02.nicevpn.top, port: 443, type: trojan, password: 97e19992-cde3-4314-814d-5529a4e5c874, skip-cert-verify: true, udp: true}
-  - {name: US_247 |63.43Mb, server: youtube-bai-piao-wang-zhe-usa.98848.xyz, port: 443, type: trojan, password: d1478689-439c-4590-b7ce-36e786a02dc3, skip-cert-verify: true, udp: true}
+  - {name: FI_151 |34.81Mb, server: 185.112.82.135, port: 443, type: vmess, uuid: 3c9b775f-1ffc-4d71-ab46-49adc0013888, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/051111230910}}
+  - {name: FI_152 |36.26Mb, server: 185.112.82.136, port: 443, type: vmess, uuid: 3c9b775f-1ffc-4d71-ab46-49adc0013888, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/051111230910}}
+  - {name: IE_178 |32.47Mb, server: 185.108.128.60, port: 443, type: vmess, uuid: 5aab3936-16d7-4377-8c33-0d77f2d295ee, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: 185.108.128.60, network: ws, ws-opts: {path: /path/051111230910}}
+  - {name: US_253 |70.29Mb, server: 67.21.72.41, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.17080100.xyz, network: ws, ws-opts: {path: /path/173418141123}}
+  - {name: US_255 |58.66Mb, server: us6b31-node.aiqiche123.com, port: 8190, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8653, alterId: 10, cipher: auto, tls: true, skip-cert-verify: true}
+  - {name: US_256 |30.48Mb, server: 152.69.197.60, port: 1069, type: vmess, uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: ZZ_277 |61.08Mb, server: 64.112.42.72, port: 16999, type: vmess, uuid: b5a01f44-b981-421a-bdc0-6d9d53da07fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: JP_189 |33.29Mb, server: 54.178.46.155, port: 43857, type: trojan, password: P9qGW38zz7, skip-cert-verify: true, udp: true}
+  - {name: US_202 |71.29Mb, server: 98.126.214.30, port: 19234, type: trojan, password: 012fc57b-69e5-3924-9da4-d6ac132c5fc9, skip-cert-verify: true, udp: true}
+  - {name: US_261 |65.96Mb, server: spotted.bigkangaroo.net, port: 443, type: trojan, password: ZCESAylB2u5jga736e8CTN3DcFCAOYz0DlDyx9F3ZpXnSp3IYRa4RwOSqe8Kax, skip-cert-verify: true, udp: true}
+  - {name: US_262 |224.70Mb, server: 116.fastea.top, port: 53316, type: trojan, password: 3f29ee90-8567-4671-8d99-9875874e472f, skip-cert-verify: true, udp: true}
+  - {name: US_263 |73.83Mb, server: youtube-bai-piao-wang-zhe-usa.98848.xyz, port: 443, type: trojan, password: d1478689-439c-4590-b7ce-36e786a02dc3, skip-cert-verify: true, udp: true}
+  - {name: US_268 |30.84Mb, server: www.sxsy88.tk, port: 44150, type: trojan, password: zFyLKH62WN, skip-cert-verify: true, udp: true}
+  - {name: US_270 |36.57Mb, server: nice-us02.nicevpn.top, port: 443, type: trojan, password: 97e19992-cde3-4314-814d-5529a4e5c874, skip-cert-verify: true, udp: true}
   - {name: "NULL", server: "NULL", port: 11708, type: ssr, cipher: aes-256-cfb, password: "sEscPBiAD9K$&@79", protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: ""}
 proxy-groups:
   - name: 🚀 节点选择
@@ -23,17 +26,20 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - IE_150 |33.10Mb
-      - US_235 |57.07Mb
-      - ZZ_261 |48.32Mb
-      - JP_151 |30.16Mb
-      - JP_156 |31.13Mb
-      - JP_157 |35.30Mb
-      - JP_161 |35.95Mb
-      - US_179 |69.64Mb
-      - US_242 |30.44Mb
-      - US_245 |66.74Mb
-      - US_247 |63.43Mb
+      - FI_151 |34.81Mb
+      - FI_152 |36.26Mb
+      - IE_178 |32.47Mb
+      - US_253 |70.29Mb
+      - US_255 |58.66Mb
+      - US_256 |30.48Mb
+      - ZZ_277 |61.08Mb
+      - JP_189 |33.29Mb
+      - US_202 |71.29Mb
+      - US_261 |65.96Mb
+      - US_262 |224.70Mb
+      - US_263 |73.83Mb
+      - US_268 |30.84Mb
+      - US_270 |36.57Mb
       - "NULL"
   - name: ♻️ 自动选择
     type: url-test
@@ -41,17 +47,20 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - IE_150 |33.10Mb
-      - US_235 |57.07Mb
-      - ZZ_261 |48.32Mb
-      - JP_151 |30.16Mb
-      - JP_156 |31.13Mb
-      - JP_157 |35.30Mb
-      - JP_161 |35.95Mb
-      - US_179 |69.64Mb
-      - US_242 |30.44Mb
-      - US_245 |66.74Mb
-      - US_247 |63.43Mb
+      - FI_151 |34.81Mb
+      - FI_152 |36.26Mb
+      - IE_178 |32.47Mb
+      - US_253 |70.29Mb
+      - US_255 |58.66Mb
+      - US_256 |30.48Mb
+      - ZZ_277 |61.08Mb
+      - JP_189 |33.29Mb
+      - US_202 |71.29Mb
+      - US_261 |65.96Mb
+      - US_262 |224.70Mb
+      - US_263 |73.83Mb
+      - US_268 |30.84Mb
+      - US_270 |36.57Mb
       - "NULL"
   - name: 🌍 国外媒体
     type: select
@@ -59,68 +68,80 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - IE_150 |33.10Mb
-      - US_235 |57.07Mb
-      - ZZ_261 |48.32Mb
-      - JP_151 |30.16Mb
-      - JP_156 |31.13Mb
-      - JP_157 |35.30Mb
-      - JP_161 |35.95Mb
-      - US_179 |69.64Mb
-      - US_242 |30.44Mb
-      - US_245 |66.74Mb
-      - US_247 |63.43Mb
+      - FI_151 |34.81Mb
+      - FI_152 |36.26Mb
+      - IE_178 |32.47Mb
+      - US_253 |70.29Mb
+      - US_255 |58.66Mb
+      - US_256 |30.48Mb
+      - ZZ_277 |61.08Mb
+      - JP_189 |33.29Mb
+      - US_202 |71.29Mb
+      - US_261 |65.96Mb
+      - US_262 |224.70Mb
+      - US_263 |73.83Mb
+      - US_268 |30.84Mb
+      - US_270 |36.57Mb
       - "NULL"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - IE_150 |33.10Mb
-      - US_235 |57.07Mb
-      - ZZ_261 |48.32Mb
-      - JP_151 |30.16Mb
-      - JP_156 |31.13Mb
-      - JP_157 |35.30Mb
-      - JP_161 |35.95Mb
-      - US_179 |69.64Mb
-      - US_242 |30.44Mb
-      - US_245 |66.74Mb
-      - US_247 |63.43Mb
+      - FI_151 |34.81Mb
+      - FI_152 |36.26Mb
+      - IE_178 |32.47Mb
+      - US_253 |70.29Mb
+      - US_255 |58.66Mb
+      - US_256 |30.48Mb
+      - ZZ_277 |61.08Mb
+      - JP_189 |33.29Mb
+      - US_202 |71.29Mb
+      - US_261 |65.96Mb
+      - US_262 |224.70Mb
+      - US_263 |73.83Mb
+      - US_268 |30.84Mb
+      - US_270 |36.57Mb
       - "NULL"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - IE_150 |33.10Mb
-      - US_235 |57.07Mb
-      - ZZ_261 |48.32Mb
-      - JP_151 |30.16Mb
-      - JP_156 |31.13Mb
-      - JP_157 |35.30Mb
-      - JP_161 |35.95Mb
-      - US_179 |69.64Mb
-      - US_242 |30.44Mb
-      - US_245 |66.74Mb
-      - US_247 |63.43Mb
+      - FI_151 |34.81Mb
+      - FI_152 |36.26Mb
+      - IE_178 |32.47Mb
+      - US_253 |70.29Mb
+      - US_255 |58.66Mb
+      - US_256 |30.48Mb
+      - ZZ_277 |61.08Mb
+      - JP_189 |33.29Mb
+      - US_202 |71.29Mb
+      - US_261 |65.96Mb
+      - US_262 |224.70Mb
+      - US_263 |73.83Mb
+      - US_268 |30.84Mb
+      - US_270 |36.57Mb
       - "NULL"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - IE_150 |33.10Mb
-      - US_235 |57.07Mb
-      - ZZ_261 |48.32Mb
-      - JP_151 |30.16Mb
-      - JP_156 |31.13Mb
-      - JP_157 |35.30Mb
-      - JP_161 |35.95Mb
-      - US_179 |69.64Mb
-      - US_242 |30.44Mb
-      - US_245 |66.74Mb
-      - US_247 |63.43Mb
+      - FI_151 |34.81Mb
+      - FI_152 |36.26Mb
+      - IE_178 |32.47Mb
+      - US_253 |70.29Mb
+      - US_255 |58.66Mb
+      - US_256 |30.48Mb
+      - ZZ_277 |61.08Mb
+      - JP_189 |33.29Mb
+      - US_202 |71.29Mb
+      - US_261 |65.96Mb
+      - US_262 |224.70Mb
+      - US_263 |73.83Mb
+      - US_268 |30.84Mb
+      - US_270 |36.57Mb
       - "NULL"
   - name: 📢 谷歌FCM
     type: select
@@ -128,17 +149,20 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - IE_150 |33.10Mb
-      - US_235 |57.07Mb
-      - ZZ_261 |48.32Mb
-      - JP_151 |30.16Mb
-      - JP_156 |31.13Mb
-      - JP_157 |35.30Mb
-      - JP_161 |35.95Mb
-      - US_179 |69.64Mb
-      - US_242 |30.44Mb
-      - US_245 |66.74Mb
-      - US_247 |63.43Mb
+      - FI_151 |34.81Mb
+      - FI_152 |36.26Mb
+      - IE_178 |32.47Mb
+      - US_253 |70.29Mb
+      - US_255 |58.66Mb
+      - US_256 |30.48Mb
+      - ZZ_277 |61.08Mb
+      - JP_189 |33.29Mb
+      - US_202 |71.29Mb
+      - US_261 |65.96Mb
+      - US_262 |224.70Mb
+      - US_263 |73.83Mb
+      - US_268 |30.84Mb
+      - US_270 |36.57Mb
       - "NULL"
   - name: 🎯 全球直连
     type: select
@@ -162,17 +186,20 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - IE_150 |33.10Mb
-      - US_235 |57.07Mb
-      - ZZ_261 |48.32Mb
-      - JP_151 |30.16Mb
-      - JP_156 |31.13Mb
-      - JP_157 |35.30Mb
-      - JP_161 |35.95Mb
-      - US_179 |69.64Mb
-      - US_242 |30.44Mb
-      - US_245 |66.74Mb
-      - US_247 |63.43Mb
+      - FI_151 |34.81Mb
+      - FI_152 |36.26Mb
+      - IE_178 |32.47Mb
+      - US_253 |70.29Mb
+      - US_255 |58.66Mb
+      - US_256 |30.48Mb
+      - ZZ_277 |61.08Mb
+      - JP_189 |33.29Mb
+      - US_202 |71.29Mb
+      - US_261 |65.96Mb
+      - US_262 |224.70Mb
+      - US_263 |73.83Mb
+      - US_268 |30.84Mb
+      - US_270 |36.57Mb
       - "NULL"
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
