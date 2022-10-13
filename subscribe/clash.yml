@@ -5,101 +5,101 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: GB_88 |37.38Mb, server: aop.ssfree.ru, port: 443, type: vmess, uuid: 831856b0-4aab-11ed-8a16-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: aop.ssfree.ru}}}
-  - {name: JP_102 |31.35Mb, server: nice-jp03.tiktokcdn.buzz, port: 43857, type: trojan, password: P9qGW38zz7, skip-cert-verify: true, udp: true}
-  - {name: JP_103 |34.59Mb, server: nice-jp01.tiktokcdn.buzz, port: 443, type: trojan, password: BXE9notY, skip-cert-verify: true, udp: true}
-  - {name: JP_105 |34.45Mb, server: 54.178.46.155, port: 43857, type: trojan, password: P9qGW38zz7, skip-cert-verify: true, udp: true}
-  - {name: US_173 |63.58Mb, server: 23.230.146.254, port: 1258, type: vmess, uuid: edeb41cc-a76a-47f2-fa96-b9141e66a2b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: US_187 |90.86Mb, server: 129.146.242.130, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
-  - {name: US_197 |66.94Mb, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
+  - {name: JP_82 |33.19Mb, server: nice-jp03.tiktokcdn.buzz, port: 43857, type: trojan, password: P9qGW38zz7, skip-cert-verify: true, udp: true}
+  - {name: JP_89 |35.80Mb, server: nice-jp01.tiktokcdn.buzz, port: 443, type: trojan, password: BXE9notY, skip-cert-verify: true, udp: true}
+  - {name: JP_90 |35.45Mb, server: 54.178.46.155, port: 43857, type: trojan, password: P9qGW38zz7, skip-cert-verify: true, udp: true}
+  - {name: US_155 |65.87Mb, server: 23.230.146.254, port: 1258, type: vmess, uuid: edeb41cc-a76a-47f2-fa96-b9141e66a2b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: US_156 |56.91Mb, server: 67.21.72.41, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.17080100.xyz, network: ws, ws-opts: {path: /path/173418141123}}
+  - {name: US_169 |88.18Mb, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
+  - {name: US_172 |73.79Mb, server: 23.94.103.146, port: 443, type: trojan, password: 8c836caa-3d53-4829-bcfb-cbe0aa453a57, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - GB_88 |37.38Mb
-      - JP_102 |31.35Mb
-      - JP_103 |34.59Mb
-      - JP_105 |34.45Mb
-      - US_173 |63.58Mb
-      - US_187 |90.86Mb
-      - US_197 |66.94Mb
+      - JP_82 |33.19Mb
+      - JP_89 |35.80Mb
+      - JP_90 |35.45Mb
+      - US_155 |65.87Mb
+      - US_156 |56.91Mb
+      - US_169 |88.18Mb
+      - US_172 |73.79Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - GB_88 |37.38Mb
-      - JP_102 |31.35Mb
-      - JP_103 |34.59Mb
-      - JP_105 |34.45Mb
-      - US_173 |63.58Mb
-      - US_187 |90.86Mb
-      - US_197 |66.94Mb
+      - JP_82 |33.19Mb
+      - JP_89 |35.80Mb
+      - JP_90 |35.45Mb
+      - US_155 |65.87Mb
+      - US_156 |56.91Mb
+      - US_169 |88.18Mb
+      - US_172 |73.79Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - GB_88 |37.38Mb
-      - JP_102 |31.35Mb
-      - JP_103 |34.59Mb
-      - JP_105 |34.45Mb
-      - US_173 |63.58Mb
-      - US_187 |90.86Mb
-      - US_197 |66.94Mb
+      - JP_82 |33.19Mb
+      - JP_89 |35.80Mb
+      - JP_90 |35.45Mb
+      - US_155 |65.87Mb
+      - US_156 |56.91Mb
+      - US_169 |88.18Mb
+      - US_172 |73.79Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - GB_88 |37.38Mb
-      - JP_102 |31.35Mb
-      - JP_103 |34.59Mb
-      - JP_105 |34.45Mb
-      - US_173 |63.58Mb
-      - US_187 |90.86Mb
-      - US_197 |66.94Mb
+      - JP_82 |33.19Mb
+      - JP_89 |35.80Mb
+      - JP_90 |35.45Mb
+      - US_155 |65.87Mb
+      - US_156 |56.91Mb
+      - US_169 |88.18Mb
+      - US_172 |73.79Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - GB_88 |37.38Mb
-      - JP_102 |31.35Mb
-      - JP_103 |34.59Mb
-      - JP_105 |34.45Mb
-      - US_173 |63.58Mb
-      - US_187 |90.86Mb
-      - US_197 |66.94Mb
+      - JP_82 |33.19Mb
+      - JP_89 |35.80Mb
+      - JP_90 |35.45Mb
+      - US_155 |65.87Mb
+      - US_156 |56.91Mb
+      - US_169 |88.18Mb
+      - US_172 |73.79Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - GB_88 |37.38Mb
-      - JP_102 |31.35Mb
-      - JP_103 |34.59Mb
-      - JP_105 |34.45Mb
-      - US_173 |63.58Mb
-      - US_187 |90.86Mb
-      - US_197 |66.94Mb
+      - JP_82 |33.19Mb
+      - JP_89 |35.80Mb
+      - JP_90 |35.45Mb
+      - US_155 |65.87Mb
+      - US_156 |56.91Mb
+      - US_169 |88.18Mb
+      - US_172 |73.79Mb
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - GB_88 |37.38Mb
-      - JP_102 |31.35Mb
-      - JP_103 |34.59Mb
-      - JP_105 |34.45Mb
-      - US_173 |63.58Mb
-      - US_187 |90.86Mb
-      - US_197 |66.94Mb
+      - JP_82 |33.19Mb
+      - JP_89 |35.80Mb
+      - JP_90 |35.45Mb
+      - US_155 |65.87Mb
+      - US_156 |56.91Mb
+      - US_169 |88.18Mb
+      - US_172 |73.79Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -122,13 +122,13 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - GB_88 |37.38Mb
-      - JP_102 |31.35Mb
-      - JP_103 |34.59Mb
-      - JP_105 |34.45Mb
-      - US_173 |63.58Mb
-      - US_187 |90.86Mb
-      - US_197 |66.94Mb
+      - JP_82 |33.19Mb
+      - JP_89 |35.80Mb
+      - JP_90 |35.45Mb
+      - US_155 |65.87Mb
+      - US_156 |56.91Mb
+      - US_169 |88.18Mb
+      - US_172 |73.79Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
