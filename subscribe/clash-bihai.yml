@@ -5,18 +5,14 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: GB_94 |58.09Mb, server: aop.ssfree.ru, port: 443, type: vmess, uuid: 831856b0-4aab-11ed-8a16-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: aop.ssfree.ru}}}
-  - {name: US_183 |70.76Mb, server: 67.21.72.41, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.17080100.xyz, network: ws, ws-opts: {path: /path/173418141123}}
-  - {name: US_190 |69.73Mb, server: 67.21.72.44, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.48816626.xyz, network: ws, ws-opts: {path: /path/120208301422}}
-  - {name: FR_75 |44.54Mb, server: 146.19.230.241, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
-  - {name: JP_107 |33.80Mb, server: 54.178.46.155, port: 43857, type: trojan, password: P9qGW38zz7, skip-cert-verify: true, udp: true}
-  - {name: JP_108 |35.93Mb, server: nice-jp01.tiktokcdn.buzz, port: 443, type: trojan, password: BXE9notY, skip-cert-verify: true, udp: true}
-  - {name: JP_111 |33.20Mb, server: nice-jp03.tiktokcdn.buzz, port: 43857, type: trojan, password: P9qGW38zz7, skip-cert-verify: true, udp: true}
-  - {name: US_195 |71.50Mb, server: 98.126.214.30, port: 19235, type: trojan, password: 012fc57b-69e5-3924-9da4-d6ac132c5fc9, skip-cert-verify: true, udp: true}
-  - {name: US_196 |54.26Mb, server: 98.126.214.30, port: 19234, type: trojan, password: 012fc57b-69e5-3924-9da4-d6ac132c5fc9, skip-cert-verify: true, udp: true}
-  - {name: US_199 |90.86Mb, server: 129.146.242.130, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
-  - {name: US_200 |36.02Mb, server: 23.94.103.146, port: 443, type: trojan, password: 8c836caa-3d53-4829-bcfb-cbe0aa453a57, skip-cert-verify: true, udp: true}
-  - {name: US_207 |180.22Mb, server: 116.fastea.top, port: 53316, type: trojan, password: 3f29ee90-8567-4671-8d99-9875874e472f, skip-cert-verify: true, udp: true}
+  - {name: GB_88 |37.38Mb, server: aop.ssfree.ru, port: 443, type: vmess, uuid: 831856b0-4aab-11ed-8a16-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: aop.ssfree.ru}}}
+  - {name: US_173 |63.58Mb, server: 23.230.146.254, port: 1258, type: vmess, uuid: edeb41cc-a76a-47f2-fa96-b9141e66a2b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: JP_102 |31.35Mb, server: nice-jp03.tiktokcdn.buzz, port: 43857, type: trojan, password: P9qGW38zz7, skip-cert-verify: true, udp: true}
+  - {name: JP_103 |34.59Mb, server: nice-jp01.tiktokcdn.buzz, port: 443, type: trojan, password: BXE9notY, skip-cert-verify: true, udp: true}
+  - {name: JP_105 |34.45Mb, server: 54.178.46.155, port: 43857, type: trojan, password: P9qGW38zz7, skip-cert-verify: true, udp: true}
+  - {name: US_187 |90.86Mb, server: 129.146.242.130, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
+  - {name: US_197 |66.94Mb, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
+  - {name: US_205 |139.77Mb, server: 116.fastea.top, port: 53316, type: trojan, password: 3f29ee90-8567-4671-8d99-9875874e472f, skip-cert-verify: true, udp: true}
   - {name: "NULL", server: "NULL", port: 11708, type: ssr, cipher: aes-256-cfb, password: "sEscPBiAD9K$&@79", protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: ""}
 proxy-groups:
   - name: 🚀 节点选择
@@ -24,18 +20,14 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - GB_94 |58.09Mb
-      - US_183 |70.76Mb
-      - US_190 |69.73Mb
-      - FR_75 |44.54Mb
-      - JP_107 |33.80Mb
-      - JP_108 |35.93Mb
-      - JP_111 |33.20Mb
-      - US_195 |71.50Mb
-      - US_196 |54.26Mb
-      - US_199 |90.86Mb
-      - US_200 |36.02Mb
-      - US_207 |180.22Mb
+      - GB_88 |37.38Mb
+      - US_173 |63.58Mb
+      - JP_102 |31.35Mb
+      - JP_103 |34.59Mb
+      - JP_105 |34.45Mb
+      - US_187 |90.86Mb
+      - US_197 |66.94Mb
+      - US_205 |139.77Mb
       - "NULL"
   - name: ♻️ 自动选择
     type: url-test
@@ -43,18 +35,14 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - GB_94 |58.09Mb
-      - US_183 |70.76Mb
-      - US_190 |69.73Mb
-      - FR_75 |44.54Mb
-      - JP_107 |33.80Mb
-      - JP_108 |35.93Mb
-      - JP_111 |33.20Mb
-      - US_195 |71.50Mb
-      - US_196 |54.26Mb
-      - US_199 |90.86Mb
-      - US_200 |36.02Mb
-      - US_207 |180.22Mb
+      - GB_88 |37.38Mb
+      - US_173 |63.58Mb
+      - JP_102 |31.35Mb
+      - JP_103 |34.59Mb
+      - JP_105 |34.45Mb
+      - US_187 |90.86Mb
+      - US_197 |66.94Mb
+      - US_205 |139.77Mb
       - "NULL"
   - name: 🌍 国外媒体
     type: select
@@ -62,72 +50,56 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - GB_94 |58.09Mb
-      - US_183 |70.76Mb
-      - US_190 |69.73Mb
-      - FR_75 |44.54Mb
-      - JP_107 |33.80Mb
-      - JP_108 |35.93Mb
-      - JP_111 |33.20Mb
-      - US_195 |71.50Mb
-      - US_196 |54.26Mb
-      - US_199 |90.86Mb
-      - US_200 |36.02Mb
-      - US_207 |180.22Mb
+      - GB_88 |37.38Mb
+      - US_173 |63.58Mb
+      - JP_102 |31.35Mb
+      - JP_103 |34.59Mb
+      - JP_105 |34.45Mb
+      - US_187 |90.86Mb
+      - US_197 |66.94Mb
+      - US_205 |139.77Mb
       - "NULL"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - GB_94 |58.09Mb
-      - US_183 |70.76Mb
-      - US_190 |69.73Mb
-      - FR_75 |44.54Mb
-      - JP_107 |33.80Mb
-      - JP_108 |35.93Mb
-      - JP_111 |33.20Mb
-      - US_195 |71.50Mb
-      - US_196 |54.26Mb
-      - US_199 |90.86Mb
-      - US_200 |36.02Mb
-      - US_207 |180.22Mb
+      - GB_88 |37.38Mb
+      - US_173 |63.58Mb
+      - JP_102 |31.35Mb
+      - JP_103 |34.59Mb
+      - JP_105 |34.45Mb
+      - US_187 |90.86Mb
+      - US_197 |66.94Mb
+      - US_205 |139.77Mb
       - "NULL"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - GB_94 |58.09Mb
-      - US_183 |70.76Mb
-      - US_190 |69.73Mb
-      - FR_75 |44.54Mb
-      - JP_107 |33.80Mb
-      - JP_108 |35.93Mb
-      - JP_111 |33.20Mb
-      - US_195 |71.50Mb
-      - US_196 |54.26Mb
-      - US_199 |90.86Mb
-      - US_200 |36.02Mb
-      - US_207 |180.22Mb
+      - GB_88 |37.38Mb
+      - US_173 |63.58Mb
+      - JP_102 |31.35Mb
+      - JP_103 |34.59Mb
+      - JP_105 |34.45Mb
+      - US_187 |90.86Mb
+      - US_197 |66.94Mb
+      - US_205 |139.77Mb
       - "NULL"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - GB_94 |58.09Mb
-      - US_183 |70.76Mb
-      - US_190 |69.73Mb
-      - FR_75 |44.54Mb
-      - JP_107 |33.80Mb
-      - JP_108 |35.93Mb
-      - JP_111 |33.20Mb
-      - US_195 |71.50Mb
-      - US_196 |54.26Mb
-      - US_199 |90.86Mb
-      - US_200 |36.02Mb
-      - US_207 |180.22Mb
+      - GB_88 |37.38Mb
+      - US_173 |63.58Mb
+      - JP_102 |31.35Mb
+      - JP_103 |34.59Mb
+      - JP_105 |34.45Mb
+      - US_187 |90.86Mb
+      - US_197 |66.94Mb
+      - US_205 |139.77Mb
       - "NULL"
   - name: 📢 谷歌FCM
     type: select
@@ -135,18 +107,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - GB_94 |58.09Mb
-      - US_183 |70.76Mb
-      - US_190 |69.73Mb
-      - FR_75 |44.54Mb
-      - JP_107 |33.80Mb
-      - JP_108 |35.93Mb
-      - JP_111 |33.20Mb
-      - US_195 |71.50Mb
-      - US_196 |54.26Mb
-      - US_199 |90.86Mb
-      - US_200 |36.02Mb
-      - US_207 |180.22Mb
+      - GB_88 |37.38Mb
+      - US_173 |63.58Mb
+      - JP_102 |31.35Mb
+      - JP_103 |34.59Mb
+      - JP_105 |34.45Mb
+      - US_187 |90.86Mb
+      - US_197 |66.94Mb
+      - US_205 |139.77Mb
       - "NULL"
   - name: 🎯 全球直连
     type: select
@@ -170,18 +138,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - GB_94 |58.09Mb
-      - US_183 |70.76Mb
-      - US_190 |69.73Mb
-      - FR_75 |44.54Mb
-      - JP_107 |33.80Mb
-      - JP_108 |35.93Mb
-      - JP_111 |33.20Mb
-      - US_195 |71.50Mb
-      - US_196 |54.26Mb
-      - US_199 |90.86Mb
-      - US_200 |36.02Mb
-      - US_207 |180.22Mb
+      - GB_88 |37.38Mb
+      - US_173 |63.58Mb
+      - JP_102 |31.35Mb
+      - JP_103 |34.59Mb
+      - JP_105 |34.45Mb
+      - US_187 |90.86Mb
+      - US_197 |66.94Mb
+      - US_205 |139.77Mb
       - "NULL"
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
