@@ -5,109 +5,101 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: FR_64 |31.27Mb, server: ukt1.sshocean.net, port: 443, type: trojan, password: 0f5e6d9a-49af-4bc0-b04b-503102382144, skip-cert-verify: true, udp: true}
   - {name: NO_94 |38.29Mb, server: 138.124.183.216, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
-  - {name: US_108 |30.56Mb, server: www.sxsy88.tk, port: 44150, type: trojan, password: zFyLKH62WN, skip-cert-verify: true, udp: true}
-  - {name: US_109 |90.83Mb, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
-  - {name: US_110 |34.28Mb, server: jm.jshsxxxy.top, port: 44556, type: trojan, password: !<str> 114514, skip-cert-verify: true, udp: true}
-  - {name: US_160 |67.65Mb, server: aa.houdinix.space, port: 56656, type: vmess, uuid: fdb1740c-f246-4f5d-d1ff-87c5b29ae22c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: aa.houdinix.space, network: ws, ws-opts: {path: /wis, headers: {Host: aa.houdinix.space}}}
-  - {name: US_173 |44.84Mb, server: 23.230.146.254, port: 1258, type: vmess, uuid: edeb41cc-a76a-47f2-fa96-b9141e66a2b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: US_181 |73.78Mb, server: youtube-bai-piao-wang-zhe-usa.98848.xyz, port: 443, type: trojan, password: d1478689-439c-4590-b7ce-36e786a02dc3, skip-cert-verify: true, udp: true}
-  - {name: US_184 |35.83Mb, server: 107.181.161.163, port: 443, type: trojan, password: d1478689-439c-4590-b7ce-36e786a02dc3, skip-cert-verify: true, udp: true}
+  - {name: US_106 |37.29Mb, server: jm.jshsxxxy.top, port: 44556, type: trojan, password: !<str> 114514, skip-cert-verify: true, udp: true}
+  - {name: US_155 |43.03Mb, server: 23.230.146.254, port: 1258, type: vmess, uuid: edeb41cc-a76a-47f2-fa96-b9141e66a2b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: US_158 |67.65Mb, server: aa.houdinix.space, port: 56656, type: vmess, uuid: fdb1740c-f246-4f5d-d1ff-87c5b29ae22c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: aa.houdinix.space, network: ws, ws-opts: {path: /wis, headers: {Host: aa.houdinix.space}}}
+  - {name: US_161 |67.58Mb, server: 67.21.72.41, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.17080100.xyz, network: ws, ws-opts: {path: /path/173418141123}}
+  - {name: US_172 |67.23Mb, server: 67.21.72.44, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.48816626.xyz, network: ws, ws-opts: {path: /path/120208301422}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - FR_64 |31.27Mb
       - NO_94 |38.29Mb
-      - US_108 |30.56Mb
-      - US_109 |90.83Mb
-      - US_110 |34.28Mb
-      - US_160 |67.65Mb
-      - US_173 |44.84Mb
-      - US_181 |73.78Mb
-      - US_184 |35.83Mb
+      - US_106 |37.29Mb
+      - US_155 |43.03Mb
+      - US_158 |67.65Mb
+      - US_161 |67.58Mb
+      - US_172 |67.23Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - FR_64 |31.27Mb
       - NO_94 |38.29Mb
-      - US_108 |30.56Mb
-      - US_109 |90.83Mb
-      - US_110 |34.28Mb
-      - US_160 |67.65Mb
-      - US_173 |44.84Mb
-      - US_181 |73.78Mb
-      - US_184 |35.83Mb
+      - US_106 |37.29Mb
+      - US_155 |43.03Mb
+      - US_158 |67.65Mb
+      - US_161 |67.58Mb
+      - US_172 |67.23Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - FR_64 |31.27Mb
       - NO_94 |38.29Mb
-      - US_108 |30.56Mb
-      - US_109 |90.83Mb
-      - US_110 |34.28Mb
-      - US_160 |67.65Mb
-      - US_173 |44.84Mb
-      - US_181 |73.78Mb
-      - US_184 |35.83Mb
+      - US_106 |37.29Mb
+      - US_155 |43.03Mb
+      - US_158 |67.65Mb
+      - US_161 |67.58Mb
+      - US_172 |67.23Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - FR_64 |31.27Mb
       - NO_94 |38.29Mb
-      - US_108 |30.56Mb
-      - US_109 |90.83Mb
-      - US_110 |34.28Mb
-      - US_160 |67.65Mb
-      - US_173 |44.84Mb
-      - US_181 |73.78Mb
-      - US_184 |35.83Mb
+      - US_106 |37.29Mb
+      - US_155 |43.03Mb
+      - US_158 |67.65Mb
+      - US_161 |67.58Mb
+      - US_172 |67.23Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - FR_64 |31.27Mb
       - NO_94 |38.29Mb
-      - US_108 |30.56Mb
-      - US_109 |90.83Mb
-      - US_110 |34.28Mb
-      - US_160 |67.65Mb
-      - US_173 |44.84Mb
-      - US_181 |73.78Mb
-      - US_184 |35.83Mb
+      - US_106 |37.29Mb
+      - US_155 |43.03Mb
+      - US_158 |67.65Mb
+      - US_161 |67.58Mb
+      - US_172 |67.23Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - FR_64 |31.27Mb
       - NO_94 |38.29Mb
-      - US_108 |30.56Mb
-      - US_109 |90.83Mb
-      - US_110 |34.28Mb
-      - US_160 |67.65Mb
-      - US_173 |44.84Mb
-      - US_181 |73.78Mb
-      - US_184 |35.83Mb
+      - US_106 |37.29Mb
+      - US_155 |43.03Mb
+      - US_158 |67.65Mb
+      - US_161 |67.58Mb
+      - US_172 |67.23Mb
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - FR_64 |31.27Mb
       - NO_94 |38.29Mb
-      - US_108 |30.56Mb
-      - US_109 |90.83Mb
-      - US_110 |34.28Mb
-      - US_160 |67.65Mb
-      - US_173 |44.84Mb
-      - US_181 |73.78Mb
-      - US_184 |35.83Mb
+      - US_106 |37.29Mb
+      - US_155 |43.03Mb
+      - US_158 |67.65Mb
+      - US_161 |67.58Mb
+      - US_172 |67.23Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -130,14 +122,13 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - FR_64 |31.27Mb
       - NO_94 |38.29Mb
-      - US_108 |30.56Mb
-      - US_109 |90.83Mb
-      - US_110 |34.28Mb
-      - US_160 |67.65Mb
-      - US_173 |44.84Mb
-      - US_181 |73.78Mb
-      - US_184 |35.83Mb
+      - US_106 |37.29Mb
+      - US_155 |43.03Mb
+      - US_158 |67.65Mb
+      - US_161 |67.58Mb
+      - US_172 |67.23Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
