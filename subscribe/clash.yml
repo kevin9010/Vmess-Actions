@@ -5,117 +5,101 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: AU_26 |34.73Mb, server: xg18.leifengkeji.live, port: 6666, type: trojan, password: 752a9404-c729-485e-8ea5-acb3f4fc8180, skip-cert-verify: true, udp: true}
-  - {name: FR_60 |51.75Mb, server: 51.89.42.154, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/120211331422}}
-  - {name: KR_83 |30.75Mb, server: hg18.leifengkeji.live, port: 6666, type: trojan, password: 752a9404-c729-485e-8ea5-acb3f4fc8180, skip-cert-verify: true, udp: true}
-  - {name: NL_90 |53.14Mb, server: content-provider23.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: Sp3eDVp, skip-cert-verify: true, udp: true}
-  - {name: US_177 |72.52Mb, server: 98.126.215.15, port: 19231, type: trojan, password: 012fc57b-69e5-3924-9da4-d6ac132c5fc9, skip-cert-verify: true, udp: true}
-  - {name: US_179 |30.69Mb, server: 150.230.96.103, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, skip-cert-verify: true, udp: true}
-  - {name: US_180 |88.47Mb, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
-  - {name: US_181 |30.06Mb, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, skip-cert-verify: true, udp: true}
-  - {name: US_190 |36.83Mb, server: xg7.leifengkeji.live, port: 10023, type: trojan, password: 752a9404-c729-485e-8ea5-acb3f4fc8180, skip-cert-verify: true, udp: true}
+  - {name: FR_65 |51.49Mb, server: 51.89.42.154, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/120211331422}}
+  - {name: KR_85 |30.75Mb, server: hg18.leifengkeji.live, port: 6666, type: trojan, password: 752a9404-c729-485e-8ea5-acb3f4fc8180, skip-cert-verify: true, udp: true}
+  - {name: US_158 |64.79Mb, server: 23.230.146.254, port: 1258, type: vmess, uuid: edeb41cc-a76a-47f2-fa96-b9141e66a2b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: US_161 |82.94Mb, server: unus01.ajdkjaljdj.xyz, port: 1082, type: vmess, uuid: 95e9fda1-dc48-3bbd-8a15-e6528882ea3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: "%7B%22Host%22:%22live.bilibili.com%22%7D", network: ws, ws-opts: {path: /6, headers: {Host: unus01.ajdkjaljdj.xyz}}}
+  - {name: US_163 |32.24Mb, server: 152.69.197.60, port: 1069, type: vmess, uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: US_173 |70.61Mb, server: 98.126.215.15, port: 19231, type: trojan, password: 012fc57b-69e5-3924-9da4-d6ac132c5fc9, skip-cert-verify: true, udp: true}
+  - {name: US_185 |30.57Mb, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - AU_26 |34.73Mb
-      - FR_60 |51.75Mb
-      - KR_83 |30.75Mb
-      - NL_90 |53.14Mb
-      - US_177 |72.52Mb
-      - US_179 |30.69Mb
-      - US_180 |88.47Mb
-      - US_181 |30.06Mb
-      - US_190 |36.83Mb
+      - FR_65 |51.49Mb
+      - KR_85 |30.75Mb
+      - US_158 |64.79Mb
+      - US_161 |82.94Mb
+      - US_163 |32.24Mb
+      - US_173 |70.61Mb
+      - US_185 |30.57Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - AU_26 |34.73Mb
-      - FR_60 |51.75Mb
-      - KR_83 |30.75Mb
-      - NL_90 |53.14Mb
-      - US_177 |72.52Mb
-      - US_179 |30.69Mb
-      - US_180 |88.47Mb
-      - US_181 |30.06Mb
-      - US_190 |36.83Mb
+      - FR_65 |51.49Mb
+      - KR_85 |30.75Mb
+      - US_158 |64.79Mb
+      - US_161 |82.94Mb
+      - US_163 |32.24Mb
+      - US_173 |70.61Mb
+      - US_185 |30.57Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - AU_26 |34.73Mb
-      - FR_60 |51.75Mb
-      - KR_83 |30.75Mb
-      - NL_90 |53.14Mb
-      - US_177 |72.52Mb
-      - US_179 |30.69Mb
-      - US_180 |88.47Mb
-      - US_181 |30.06Mb
-      - US_190 |36.83Mb
+      - FR_65 |51.49Mb
+      - KR_85 |30.75Mb
+      - US_158 |64.79Mb
+      - US_161 |82.94Mb
+      - US_163 |32.24Mb
+      - US_173 |70.61Mb
+      - US_185 |30.57Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - AU_26 |34.73Mb
-      - FR_60 |51.75Mb
-      - KR_83 |30.75Mb
-      - NL_90 |53.14Mb
-      - US_177 |72.52Mb
-      - US_179 |30.69Mb
-      - US_180 |88.47Mb
-      - US_181 |30.06Mb
-      - US_190 |36.83Mb
+      - FR_65 |51.49Mb
+      - KR_85 |30.75Mb
+      - US_158 |64.79Mb
+      - US_161 |82.94Mb
+      - US_163 |32.24Mb
+      - US_173 |70.61Mb
+      - US_185 |30.57Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - AU_26 |34.73Mb
-      - FR_60 |51.75Mb
-      - KR_83 |30.75Mb
-      - NL_90 |53.14Mb
-      - US_177 |72.52Mb
-      - US_179 |30.69Mb
-      - US_180 |88.47Mb
-      - US_181 |30.06Mb
-      - US_190 |36.83Mb
+      - FR_65 |51.49Mb
+      - KR_85 |30.75Mb
+      - US_158 |64.79Mb
+      - US_161 |82.94Mb
+      - US_163 |32.24Mb
+      - US_173 |70.61Mb
+      - US_185 |30.57Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - AU_26 |34.73Mb
-      - FR_60 |51.75Mb
-      - KR_83 |30.75Mb
-      - NL_90 |53.14Mb
-      - US_177 |72.52Mb
-      - US_179 |30.69Mb
-      - US_180 |88.47Mb
-      - US_181 |30.06Mb
-      - US_190 |36.83Mb
+      - FR_65 |51.49Mb
+      - KR_85 |30.75Mb
+      - US_158 |64.79Mb
+      - US_161 |82.94Mb
+      - US_163 |32.24Mb
+      - US_173 |70.61Mb
+      - US_185 |30.57Mb
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - AU_26 |34.73Mb
-      - FR_60 |51.75Mb
-      - KR_83 |30.75Mb
-      - NL_90 |53.14Mb
-      - US_177 |72.52Mb
-      - US_179 |30.69Mb
-      - US_180 |88.47Mb
-      - US_181 |30.06Mb
-      - US_190 |36.83Mb
+      - FR_65 |51.49Mb
+      - KR_85 |30.75Mb
+      - US_158 |64.79Mb
+      - US_161 |82.94Mb
+      - US_163 |32.24Mb
+      - US_173 |70.61Mb
+      - US_185 |30.57Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -138,15 +122,13 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - AU_26 |34.73Mb
-      - FR_60 |51.75Mb
-      - KR_83 |30.75Mb
-      - NL_90 |53.14Mb
-      - US_177 |72.52Mb
-      - US_179 |30.69Mb
-      - US_180 |88.47Mb
-      - US_181 |30.06Mb
-      - US_190 |36.83Mb
+      - FR_65 |51.49Mb
+      - KR_85 |30.75Mb
+      - US_158 |64.79Mb
+      - US_161 |82.94Mb
+      - US_163 |32.24Mb
+      - US_173 |70.61Mb
+      - US_185 |30.57Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
