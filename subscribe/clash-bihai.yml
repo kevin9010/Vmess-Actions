@@ -6,8 +6,7 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: "NULL", server: "NULL", port: 11708, type: ssr, cipher: aes-256-cfb, password: "sEscPBiAD9K$&@79", protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: ""}
-  - {name: US_37 |89.51Mb, server: 129.146.242.130, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
-  - {name: US_39 |90.31Mb, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
+  - {name: AU_01 |30.62Mb, server: hg1.leifengkeji.live, port: 48899, type: trojan, password: 752a9404-c729-485e-8ea5-acb3f4fc8180, skip-cert-verify: true, udp: true}
   - {name: NULL 2, server: "NULL", port: 11708, type: ssr, cipher: aes-256-cfb, password: "sEscPBiAD9K$&@79", protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: ""}
 proxy-groups:
   - name: 🚀 节点选择
@@ -16,8 +15,7 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - "NULL"
-      - US_37 |89.51Mb
-      - US_39 |90.31Mb
+      - AU_01 |30.62Mb
       - NULL 2
   - name: ♻️ 自动选择
     type: url-test
@@ -26,8 +24,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "NULL"
-      - US_37 |89.51Mb
-      - US_39 |90.31Mb
+      - AU_01 |30.62Mb
       - NULL 2
   - name: 🌍 国外媒体
     type: select
@@ -36,8 +33,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - "NULL"
-      - US_37 |89.51Mb
-      - US_39 |90.31Mb
+      - AU_01 |30.62Mb
       - NULL 2
   - name: 📲 电报信息
     type: select
@@ -45,8 +41,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - "NULL"
-      - US_37 |89.51Mb
-      - US_39 |90.31Mb
+      - AU_01 |30.62Mb
       - NULL 2
   - name: Ⓜ️ 微软服务
     type: select
@@ -54,8 +49,7 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 节点选择
       - "NULL"
-      - US_37 |89.51Mb
-      - US_39 |90.31Mb
+      - AU_01 |30.62Mb
       - NULL 2
   - name: 🍎 苹果服务
     type: select
@@ -63,8 +57,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - "NULL"
-      - US_37 |89.51Mb
-      - US_39 |90.31Mb
+      - AU_01 |30.62Mb
       - NULL 2
   - name: 📢 谷歌FCM
     type: select
@@ -73,8 +66,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - "NULL"
-      - US_37 |89.51Mb
-      - US_39 |90.31Mb
+      - AU_01 |30.62Mb
       - NULL 2
   - name: 🎯 全球直连
     type: select
@@ -99,8 +91,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - "NULL"
-      - US_37 |89.51Mb
-      - US_39 |90.31Mb
+      - AU_01 |30.62Mb
       - NULL 2
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
