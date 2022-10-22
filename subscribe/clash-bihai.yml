@@ -6,9 +6,8 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: "NULL", server: "NULL", port: 11708, type: ssr, cipher: aes-256-cfb, password: "sEscPBiAD9K$&@79", protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: ""}
-  - {name: US_47 |90.31Mb, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
-  - {name: US_53 |80.01Mb, server: 129.146.190.42, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, skip-cert-verify: true, udp: true}
   - {name: NULL 2, server: "NULL", port: 11708, type: ssr, cipher: aes-256-cfb, password: "sEscPBiAD9K$&@79", protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: ""}
+  - {name: NULL 3, server: "NULL", port: 11708, type: ssr, cipher: aes-256-cfb, password: "sEscPBiAD9K$&@79", protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: ""}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -16,9 +15,8 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - "NULL"
-      - US_47 |90.31Mb
-      - US_53 |80.01Mb
       - NULL 2
+      - NULL 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -26,9 +24,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "NULL"
-      - US_47 |90.31Mb
-      - US_53 |80.01Mb
       - NULL 2
+      - NULL 3
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -36,36 +33,32 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - "NULL"
-      - US_47 |90.31Mb
-      - US_53 |80.01Mb
       - NULL 2
+      - NULL 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "NULL"
-      - US_47 |90.31Mb
-      - US_53 |80.01Mb
       - NULL 2
+      - NULL 3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - "NULL"
-      - US_47 |90.31Mb
-      - US_53 |80.01Mb
       - NULL 2
+      - NULL 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "NULL"
-      - US_47 |90.31Mb
-      - US_53 |80.01Mb
       - NULL 2
+      - NULL 3
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -73,9 +66,8 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - "NULL"
-      - US_47 |90.31Mb
-      - US_53 |80.01Mb
       - NULL 2
+      - NULL 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -99,9 +91,8 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - "NULL"
-      - US_47 |90.31Mb
-      - US_53 |80.01Mb
       - NULL 2
+      - NULL 3
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
