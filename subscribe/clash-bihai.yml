@@ -5,17 +5,12 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US_93 |53.44Mb, server: 23.105.199.160, port: 23166, type: vmess, uuid: f1cda9da-c859-4f26-f609-a2e8837cc9b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: glc.hruqoaw.cn}
-  - {name: US_94 |52.27Mb, server: 23.105.199.160, port: 25078, type: vmess, uuid: 964f9b2b-7ff1-4026-d4a9-41b824f4b3bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 120.241.144.71}
-  - {name: CA_02 |149.52Mb, server: 172.105.4.32, port: 10005, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
-  - {name: GB_64 |44.71Mb, server: 139.162.196.68, port: 10002, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
-  - {name: JP_66 |31.84Mb, server: 172.105.226.62, port: 10001, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
-  - {name: JP_67 |32.27Mb, server: 139.162.74.122, port: 10001, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
-  - {name: JP_68 |32.97Mb, server: 172.105.237.183, port: 10001, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
-  - {name: JP_69 |31.11Mb, server: 172.105.238.12, port: 10002, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
-  - {name: US_98 |78.83Mb, server: 45.33.109.181, port: 10003, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
-  - {name: US_100 |59.56Mb, server: 139.144.183.244, port: 10030, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
-  - {name: US_101 |56.54Mb, server: 165.22.4.188, port: 10003, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
+  - {name: US_61 |42.66Mb, server: 23.105.199.160, port: 23166, type: vmess, uuid: f1cda9da-c859-4f26-f609-a2e8837cc9b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: glc.hruqoaw.cn}
+  - {name: US_66 |64.89Mb, server: 23.105.199.160, port: 25078, type: vmess, uuid: 964f9b2b-7ff1-4026-d4a9-41b824f4b3bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 120.241.144.71}
+  - {name: DE_25 |53.04Mb, server: freeflkf.big234.com, port: 8866, type: trojan, password: c8387c14-3f48-4267-9499-73ef363471f9, skip-cert-verify: true, udp: true}
+  - {name: JP_38 |32.52Mb, server: 172.105.237.183, port: 10001, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
+  - {name: JP_39 |31.47Mb, server: 172.105.226.62, port: 10001, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
+  - {name: US_69 |255.41Mb, server: 165.22.4.188, port: 10003, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
   - {name: "NULL", server: "NULL", port: 11708, type: ssr, cipher: aes-256-cfb, password: "sEscPBiAD9K$&@79", protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: ""}
 proxy-groups:
   - name: 🚀 节点选择
@@ -23,17 +18,12 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - US_93 |53.44Mb
-      - US_94 |52.27Mb
-      - CA_02 |149.52Mb
-      - GB_64 |44.71Mb
-      - JP_66 |31.84Mb
-      - JP_67 |32.27Mb
-      - JP_68 |32.97Mb
-      - JP_69 |31.11Mb
-      - US_98 |78.83Mb
-      - US_100 |59.56Mb
-      - US_101 |56.54Mb
+      - US_61 |42.66Mb
+      - US_66 |64.89Mb
+      - DE_25 |53.04Mb
+      - JP_38 |32.52Mb
+      - JP_39 |31.47Mb
+      - US_69 |255.41Mb
       - "NULL"
   - name: ♻️ 自动选择
     type: url-test
@@ -41,17 +31,12 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - US_93 |53.44Mb
-      - US_94 |52.27Mb
-      - CA_02 |149.52Mb
-      - GB_64 |44.71Mb
-      - JP_66 |31.84Mb
-      - JP_67 |32.27Mb
-      - JP_68 |32.97Mb
-      - JP_69 |31.11Mb
-      - US_98 |78.83Mb
-      - US_100 |59.56Mb
-      - US_101 |56.54Mb
+      - US_61 |42.66Mb
+      - US_66 |64.89Mb
+      - DE_25 |53.04Mb
+      - JP_38 |32.52Mb
+      - JP_39 |31.47Mb
+      - US_69 |255.41Mb
       - "NULL"
   - name: 🌍 国外媒体
     type: select
@@ -59,68 +44,48 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_93 |53.44Mb
-      - US_94 |52.27Mb
-      - CA_02 |149.52Mb
-      - GB_64 |44.71Mb
-      - JP_66 |31.84Mb
-      - JP_67 |32.27Mb
-      - JP_68 |32.97Mb
-      - JP_69 |31.11Mb
-      - US_98 |78.83Mb
-      - US_100 |59.56Mb
-      - US_101 |56.54Mb
+      - US_61 |42.66Mb
+      - US_66 |64.89Mb
+      - DE_25 |53.04Mb
+      - JP_38 |32.52Mb
+      - JP_39 |31.47Mb
+      - US_69 |255.41Mb
       - "NULL"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - US_93 |53.44Mb
-      - US_94 |52.27Mb
-      - CA_02 |149.52Mb
-      - GB_64 |44.71Mb
-      - JP_66 |31.84Mb
-      - JP_67 |32.27Mb
-      - JP_68 |32.97Mb
-      - JP_69 |31.11Mb
-      - US_98 |78.83Mb
-      - US_100 |59.56Mb
-      - US_101 |56.54Mb
+      - US_61 |42.66Mb
+      - US_66 |64.89Mb
+      - DE_25 |53.04Mb
+      - JP_38 |32.52Mb
+      - JP_39 |31.47Mb
+      - US_69 |255.41Mb
       - "NULL"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - US_93 |53.44Mb
-      - US_94 |52.27Mb
-      - CA_02 |149.52Mb
-      - GB_64 |44.71Mb
-      - JP_66 |31.84Mb
-      - JP_67 |32.27Mb
-      - JP_68 |32.97Mb
-      - JP_69 |31.11Mb
-      - US_98 |78.83Mb
-      - US_100 |59.56Mb
-      - US_101 |56.54Mb
+      - US_61 |42.66Mb
+      - US_66 |64.89Mb
+      - DE_25 |53.04Mb
+      - JP_38 |32.52Mb
+      - JP_39 |31.47Mb
+      - US_69 |255.41Mb
       - "NULL"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - US_93 |53.44Mb
-      - US_94 |52.27Mb
-      - CA_02 |149.52Mb
-      - GB_64 |44.71Mb
-      - JP_66 |31.84Mb
-      - JP_67 |32.27Mb
-      - JP_68 |32.97Mb
-      - JP_69 |31.11Mb
-      - US_98 |78.83Mb
-      - US_100 |59.56Mb
-      - US_101 |56.54Mb
+      - US_61 |42.66Mb
+      - US_66 |64.89Mb
+      - DE_25 |53.04Mb
+      - JP_38 |32.52Mb
+      - JP_39 |31.47Mb
+      - US_69 |255.41Mb
       - "NULL"
   - name: 📢 谷歌FCM
     type: select
@@ -128,17 +93,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_93 |53.44Mb
-      - US_94 |52.27Mb
-      - CA_02 |149.52Mb
-      - GB_64 |44.71Mb
-      - JP_66 |31.84Mb
-      - JP_67 |32.27Mb
-      - JP_68 |32.97Mb
-      - JP_69 |31.11Mb
-      - US_98 |78.83Mb
-      - US_100 |59.56Mb
-      - US_101 |56.54Mb
+      - US_61 |42.66Mb
+      - US_66 |64.89Mb
+      - DE_25 |53.04Mb
+      - JP_38 |32.52Mb
+      - JP_39 |31.47Mb
+      - US_69 |255.41Mb
       - "NULL"
   - name: 🎯 全球直连
     type: select
@@ -162,17 +122,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_93 |53.44Mb
-      - US_94 |52.27Mb
-      - CA_02 |149.52Mb
-      - GB_64 |44.71Mb
-      - JP_66 |31.84Mb
-      - JP_67 |32.27Mb
-      - JP_68 |32.97Mb
-      - JP_69 |31.11Mb
-      - US_98 |78.83Mb
-      - US_100 |59.56Mb
-      - US_101 |56.54Mb
+      - US_61 |42.66Mb
+      - US_66 |64.89Mb
+      - DE_25 |53.04Mb
+      - JP_38 |32.52Mb
+      - JP_39 |31.47Mb
+      - US_69 |255.41Mb
       - "NULL"
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
@@ -206,6 +161,7 @@ rules:
  - DOMAIN-SUFFIX,routerlogin.com,🎯 全球直连
  - DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
  - DOMAIN-SUFFIX,zte.home,🎯 全球直连
+ - DOMAIN-SUFFIX,tplogin.cn,🎯 全球直连
  - DOMAIN-SUFFIX,ol.epicgames.com,🎯 全球直连
  - DOMAIN-SUFFIX,dizhensubao.getui.com,🎯 全球直连
  - DOMAIN,dl.google.com,🎯 全球直连
@@ -225,6 +181,7 @@ rules:
  - DOMAIN,tracking.miui.com,🎯 全球直连
  - DOMAIN,app.adjust.com,🎯 全球直连
  - DOMAIN,bdtj.tagtic.cn,🎯 全球直连
+ - DOMAIN,rewards.hypixel.net,🎯 全球直连
  - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
  - DOMAIN-KEYWORD,admaster,🛑 全球拦截
  - DOMAIN-KEYWORD,adsage,🛑 全球拦截
@@ -2073,6 +2030,7 @@ rules:
  - DOMAIN-SUFFIX,aiv-cdn.net,🌍 国外媒体
  - DOMAIN-SUFFIX,aiv-delivery.net,🌍 国外媒体
  - DOMAIN-SUFFIX,amazon.jobs,🌍 国外媒体
+ - DOMAIN-SUFFIX,amazonuniversity.jobs,🌍 国外媒体
  - DOMAIN-SUFFIX,amazonvideo.com,🌍 国外媒体
  - DOMAIN-SUFFIX,media-amazon.com,🌍 国外媒体
  - DOMAIN-SUFFIX,pv-cdn.net,🌍 国外媒体
@@ -2302,18 +2260,18 @@ rules:
  - DOMAIN-SUFFIX,twitch-ext.rootonline.de,🌍 国外媒体
  - DOMAIN-SUFFIX,twitch.tv,🌍 国外媒体
  - DOMAIN-SUFFIX,twitchcdn.net,🌍 国外媒体
+ - PROCESS-NAME,com.viu.pad,🌍 国外媒体
+ - PROCESS-NAME,com.viu.phone,🌍 国外媒体
+ - PROCESS-NAME,com.vuclip.viu,🌍 国外媒体
  - DOMAIN,api.viu.now.com,🌍 国外媒体
  - DOMAIN,d1k2us671qcoau.cloudfront.net,🌍 国外媒体
  - DOMAIN,d2anahhhmp1ffz.cloudfront.net,🌍 国外媒体
  - DOMAIN,dfp6rglgjqszk.cloudfront.net,🌍 国外媒体
- - DOMAIN-SUFFIX,bootstrapcdn.com,🌍 国外媒体
- - DOMAIN-SUFFIX,cloudfront.net,🌍 国外媒体
  - DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com,🌍 国外媒体
- - DOMAIN-SUFFIX,firebaseio.com,🌍 国外媒体
- - DOMAIN-SUFFIX,jwpcdn.com,🌍 国外媒体
- - DOMAIN-SUFFIX,jwplayer.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net,🌍 国外媒体
+ - DOMAIN-SUFFIX,d2anahhhmp1ffz.cloudfront.net,🌍 国外媒体
+ - DOMAIN-SUFFIX,dfp6rglgjqszk.cloudfront.net,🌍 国外媒体
  - DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com,🌍 国外媒体
- - DOMAIN-SUFFIX,nowe.com,🌍 国外媒体
  - DOMAIN-SUFFIX,viu.com,🌍 国外媒体
  - DOMAIN-SUFFIX,viu.now.com,🌍 国外媒体
  - DOMAIN-SUFFIX,viu.tv,🌍 国外媒体
@@ -2743,6 +2701,8 @@ rules:
  - DOMAIN-SUFFIX,icntv.xyz,🚀 节点选择
  - DOMAIN-SUFFIX,flzbcdn.xyz,🚀 节点选择
  - DOMAIN-SUFFIX,ocnttv.com,🚀 节点选择
+ - DOMAIN-SUFFIX,vikacg.com,🚀 节点选择
+ - DOMAIN-SUFFIX,picjs.xyz,🚀 节点选择
  - DOMAIN-SUFFIX,13th.tech,🎯 全球直连
  - DOMAIN-SUFFIX,423down.com,🎯 全球直连
  - DOMAIN-SUFFIX,bokecc.com,🎯 全球直连
