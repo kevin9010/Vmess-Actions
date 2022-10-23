@@ -5,10 +5,9 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US_69 |66.35Mb, server: 23.105.199.160, port: 25078, type: vmess, uuid: 964f9b2b-7ff1-4026-d4a9-41b824f4b3bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 120.241.144.71}
-  - {name: US_70 |73.67Mb, server: 23.105.199.160, port: 23166, type: vmess, uuid: f1cda9da-c859-4f26-f609-a2e8837cc9b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: glc.hruqoaw.cn}
-  - {name: DE_29 |52.60Mb, server: freeflkf.big234.com, port: 8866, type: trojan, password: c8387c14-3f48-4267-9499-73ef363471f9, skip-cert-verify: true, udp: true}
-  - {name: JP_42 |31.31Mb, server: jp2.sanfen001.pics, port: 443, type: trojan, password: d45e6245-926b-4283-8c72-91e229d6c5f5, skip-cert-verify: true, udp: true}
+  - {name: US_76 |66.35Mb, server: 23.105.199.160, port: 25078, type: vmess, uuid: 964f9b2b-7ff1-4026-d4a9-41b824f4b3bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 120.241.144.71}
+  - {name: US_79 |64.73Mb, server: 154.31.48.98, port: 11003, type: vmess, uuid: 140b58a5-8ff9-4c49-8323-63da9309daa4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: DE_39 |51.10Mb, server: freeflkf.big234.com, port: 8866, type: trojan, password: c8387c14-3f48-4267-9499-73ef363471f9, skip-cert-verify: true, udp: true}
   - {name: "NULL", server: "NULL", port: 11708, type: ssr, cipher: aes-256-cfb, password: "sEscPBiAD9K$&@79", protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: ""}
 proxy-groups:
   - name: 🚀 节点选择
@@ -16,10 +15,9 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - US_69 |66.35Mb
-      - US_70 |73.67Mb
-      - DE_29 |52.60Mb
-      - JP_42 |31.31Mb
+      - US_76 |66.35Mb
+      - US_79 |64.73Mb
+      - DE_39 |51.10Mb
       - "NULL"
   - name: ♻️ 自动选择
     type: url-test
@@ -27,10 +25,9 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - US_69 |66.35Mb
-      - US_70 |73.67Mb
-      - DE_29 |52.60Mb
-      - JP_42 |31.31Mb
+      - US_76 |66.35Mb
+      - US_79 |64.73Mb
+      - DE_39 |51.10Mb
       - "NULL"
   - name: 🌍 国外媒体
     type: select
@@ -38,40 +35,36 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_69 |66.35Mb
-      - US_70 |73.67Mb
-      - DE_29 |52.60Mb
-      - JP_42 |31.31Mb
+      - US_76 |66.35Mb
+      - US_79 |64.73Mb
+      - DE_39 |51.10Mb
       - "NULL"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - US_69 |66.35Mb
-      - US_70 |73.67Mb
-      - DE_29 |52.60Mb
-      - JP_42 |31.31Mb
+      - US_76 |66.35Mb
+      - US_79 |64.73Mb
+      - DE_39 |51.10Mb
       - "NULL"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - US_69 |66.35Mb
-      - US_70 |73.67Mb
-      - DE_29 |52.60Mb
-      - JP_42 |31.31Mb
+      - US_76 |66.35Mb
+      - US_79 |64.73Mb
+      - DE_39 |51.10Mb
       - "NULL"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - US_69 |66.35Mb
-      - US_70 |73.67Mb
-      - DE_29 |52.60Mb
-      - JP_42 |31.31Mb
+      - US_76 |66.35Mb
+      - US_79 |64.73Mb
+      - DE_39 |51.10Mb
       - "NULL"
   - name: 📢 谷歌FCM
     type: select
@@ -79,10 +72,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_69 |66.35Mb
-      - US_70 |73.67Mb
-      - DE_29 |52.60Mb
-      - JP_42 |31.31Mb
+      - US_76 |66.35Mb
+      - US_79 |64.73Mb
+      - DE_39 |51.10Mb
       - "NULL"
   - name: 🎯 全球直连
     type: select
@@ -106,10 +98,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_69 |66.35Mb
-      - US_70 |73.67Mb
-      - DE_29 |52.60Mb
-      - JP_42 |31.31Mb
+      - US_76 |66.35Mb
+      - US_79 |64.73Mb
+      - DE_39 |51.10Mb
       - "NULL"
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
