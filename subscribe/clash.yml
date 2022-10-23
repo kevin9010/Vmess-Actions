@@ -5,53 +5,125 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US_54 |54.29Mb, server: 23.105.199.160, port: 23166, type: vmess, uuid: f1cda9da-c859-4f26-f609-a2e8837cc9b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: glc.hruqoaw.cn}
+  - {name: GB_64 |44.71Mb, server: 139.162.196.68, port: 10002, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
+  - {name: JP_66 |31.84Mb, server: 172.105.226.62, port: 10001, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
+  - {name: JP_67 |32.27Mb, server: 139.162.74.122, port: 10001, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
+  - {name: JP_68 |32.97Mb, server: 172.105.237.183, port: 10001, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
+  - {name: JP_69 |31.11Mb, server: 172.105.238.12, port: 10002, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
+  - {name: US_93 |53.44Mb, server: 23.105.199.160, port: 23166, type: vmess, uuid: f1cda9da-c859-4f26-f609-a2e8837cc9b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: glc.hruqoaw.cn}
+  - {name: US_94 |52.27Mb, server: 23.105.199.160, port: 25078, type: vmess, uuid: 964f9b2b-7ff1-4026-d4a9-41b824f4b3bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 120.241.144.71}
+  - {name: US_98 |78.83Mb, server: 45.33.109.181, port: 10003, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
+  - {name: US_100 |59.56Mb, server: 139.144.183.244, port: 10030, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
+  - {name: US_101 |56.54Mb, server: 165.22.4.188, port: 10003, type: trojan, password: ca98d907-57b1-4eab-b272-6eb248b71084, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - US_54 |54.29Mb
+      - GB_64 |44.71Mb
+      - JP_66 |31.84Mb
+      - JP_67 |32.27Mb
+      - JP_68 |32.97Mb
+      - JP_69 |31.11Mb
+      - US_93 |53.44Mb
+      - US_94 |52.27Mb
+      - US_98 |78.83Mb
+      - US_100 |59.56Mb
+      - US_101 |56.54Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - US_54 |54.29Mb
+      - GB_64 |44.71Mb
+      - JP_66 |31.84Mb
+      - JP_67 |32.27Mb
+      - JP_68 |32.97Mb
+      - JP_69 |31.11Mb
+      - US_93 |53.44Mb
+      - US_94 |52.27Mb
+      - US_98 |78.83Mb
+      - US_100 |59.56Mb
+      - US_101 |56.54Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_54 |54.29Mb
+      - GB_64 |44.71Mb
+      - JP_66 |31.84Mb
+      - JP_67 |32.27Mb
+      - JP_68 |32.97Mb
+      - JP_69 |31.11Mb
+      - US_93 |53.44Mb
+      - US_94 |52.27Mb
+      - US_98 |78.83Mb
+      - US_100 |59.56Mb
+      - US_101 |56.54Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - US_54 |54.29Mb
+      - GB_64 |44.71Mb
+      - JP_66 |31.84Mb
+      - JP_67 |32.27Mb
+      - JP_68 |32.97Mb
+      - JP_69 |31.11Mb
+      - US_93 |53.44Mb
+      - US_94 |52.27Mb
+      - US_98 |78.83Mb
+      - US_100 |59.56Mb
+      - US_101 |56.54Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - US_54 |54.29Mb
+      - GB_64 |44.71Mb
+      - JP_66 |31.84Mb
+      - JP_67 |32.27Mb
+      - JP_68 |32.97Mb
+      - JP_69 |31.11Mb
+      - US_93 |53.44Mb
+      - US_94 |52.27Mb
+      - US_98 |78.83Mb
+      - US_100 |59.56Mb
+      - US_101 |56.54Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - US_54 |54.29Mb
+      - GB_64 |44.71Mb
+      - JP_66 |31.84Mb
+      - JP_67 |32.27Mb
+      - JP_68 |32.97Mb
+      - JP_69 |31.11Mb
+      - US_93 |53.44Mb
+      - US_94 |52.27Mb
+      - US_98 |78.83Mb
+      - US_100 |59.56Mb
+      - US_101 |56.54Mb
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_54 |54.29Mb
+      - GB_64 |44.71Mb
+      - JP_66 |31.84Mb
+      - JP_67 |32.27Mb
+      - JP_68 |32.97Mb
+      - JP_69 |31.11Mb
+      - US_93 |53.44Mb
+      - US_94 |52.27Mb
+      - US_98 |78.83Mb
+      - US_100 |59.56Mb
+      - US_101 |56.54Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -74,7 +146,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_54 |54.29Mb
+      - GB_64 |44.71Mb
+      - JP_66 |31.84Mb
+      - JP_67 |32.27Mb
+      - JP_68 |32.97Mb
+      - JP_69 |31.11Mb
+      - US_93 |53.44Mb
+      - US_94 |52.27Mb
+      - US_98 |78.83Mb
+      - US_100 |59.56Mb
+      - US_101 |56.54Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
