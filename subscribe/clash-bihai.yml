@@ -6,9 +6,10 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: "NULL", server: "NULL", port: 11708, type: ssr, cipher: aes-256-cfb, password: "sEscPBiAD9K$&@79", protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: ""}
-  - {name: JP_17 |30.43Mb, server: jp2.sanfen001.pics, port: 443, type: trojan, password: d45e6245-926b-4283-8c72-91e229d6c5f5, skip-cert-verify: true, udp: true}
-  - {name: NL_19 |56.61Mb, server: content-provider23.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: Sp3eDVp, skip-cert-verify: true, udp: true}
-  - {name: US_42 |88.20Mb, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
+  - {name: JP_111 |31.73Mb, server: jp2.sanfen001.pics, port: 443, type: trojan, password: d45e6245-926b-4283-8c72-91e229d6c5f5, skip-cert-verify: true, udp: true}
+  - {name: NL_118 |39.01Mb, server: 185.212.200.75, port: 443, type: trojan, password: Sp3eDVp, skip-cert-verify: true, udp: true}
+  - {name: NL_119 |40.06Mb, server: content-provider23.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: Sp3eDVp, skip-cert-verify: true, udp: true}
+  - {name: US_166 |85.37Mb, server: us1.sanfen001.pics, port: 443, type: trojan, password: d45e6245-926b-4283-8c72-91e229d6c5f5, skip-cert-verify: true, udp: true}
   - {name: NULL 2, server: "NULL", port: 11708, type: ssr, cipher: aes-256-cfb, password: "sEscPBiAD9K$&@79", protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: ""}
 proxy-groups:
   - name: 🚀 节点选择
@@ -17,9 +18,10 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - "NULL"
-      - JP_17 |30.43Mb
-      - NL_19 |56.61Mb
-      - US_42 |88.20Mb
+      - JP_111 |31.73Mb
+      - NL_118 |39.01Mb
+      - NL_119 |40.06Mb
+      - US_166 |85.37Mb
       - NULL 2
   - name: ♻️ 自动选择
     type: url-test
@@ -28,9 +30,10 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "NULL"
-      - JP_17 |30.43Mb
-      - NL_19 |56.61Mb
-      - US_42 |88.20Mb
+      - JP_111 |31.73Mb
+      - NL_118 |39.01Mb
+      - NL_119 |40.06Mb
+      - US_166 |85.37Mb
       - NULL 2
   - name: 🌍 国外媒体
     type: select
@@ -39,9 +42,10 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - "NULL"
-      - JP_17 |30.43Mb
-      - NL_19 |56.61Mb
-      - US_42 |88.20Mb
+      - JP_111 |31.73Mb
+      - NL_118 |39.01Mb
+      - NL_119 |40.06Mb
+      - US_166 |85.37Mb
       - NULL 2
   - name: 📲 电报信息
     type: select
@@ -49,9 +53,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - "NULL"
-      - JP_17 |30.43Mb
-      - NL_19 |56.61Mb
-      - US_42 |88.20Mb
+      - JP_111 |31.73Mb
+      - NL_118 |39.01Mb
+      - NL_119 |40.06Mb
+      - US_166 |85.37Mb
       - NULL 2
   - name: Ⓜ️ 微软服务
     type: select
@@ -59,9 +64,10 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 节点选择
       - "NULL"
-      - JP_17 |30.43Mb
-      - NL_19 |56.61Mb
-      - US_42 |88.20Mb
+      - JP_111 |31.73Mb
+      - NL_118 |39.01Mb
+      - NL_119 |40.06Mb
+      - US_166 |85.37Mb
       - NULL 2
   - name: 🍎 苹果服务
     type: select
@@ -69,9 +75,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - "NULL"
-      - JP_17 |30.43Mb
-      - NL_19 |56.61Mb
-      - US_42 |88.20Mb
+      - JP_111 |31.73Mb
+      - NL_118 |39.01Mb
+      - NL_119 |40.06Mb
+      - US_166 |85.37Mb
       - NULL 2
   - name: 📢 谷歌FCM
     type: select
@@ -80,9 +87,10 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - "NULL"
-      - JP_17 |30.43Mb
-      - NL_19 |56.61Mb
-      - US_42 |88.20Mb
+      - JP_111 |31.73Mb
+      - NL_118 |39.01Mb
+      - NL_119 |40.06Mb
+      - US_166 |85.37Mb
       - NULL 2
   - name: 🎯 全球直连
     type: select
@@ -107,9 +115,10 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - "NULL"
-      - JP_17 |30.43Mb
-      - NL_19 |56.61Mb
-      - US_42 |88.20Mb
+      - JP_111 |31.73Mb
+      - NL_118 |39.01Mb
+      - NL_119 |40.06Mb
+      - US_166 |85.37Mb
       - NULL 2
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
