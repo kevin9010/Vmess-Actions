@@ -5,117 +5,85 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: NL_105 |39.01Mb, server: 185.212.200.75, port: 443, type: trojan, password: Sp3eDVp, skip-cert-verify: true, udp: true}
-  - {name: NO_112 |36.27Mb, server: 138.124.183.216, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
-  - {name: US_195 |36.73Mb, server: 23.230.146.254, port: 1258, type: vmess, uuid: edeb41cc-a76a-47f2-fa96-b9141e66a2b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: US_197 |77.23Mb, server: 154.31.48.98, port: 11003, type: vmess, uuid: 140b58a5-8ff9-4c49-8323-63da9309daa4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: US_200 |34.03Mb, server: 138.2.15.23, port: 46370, type: vmess, uuid: 998151e5-0bc5-4377-e390-c41bb26fdd0c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: US_201 |71.40Mb, server: 67.21.72.41, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.17080100.xyz, network: ws, ws-opts: {path: /path/173418141123}}
-  - {name: US_204 |59.92Mb, server: studynew.cn, port: 51340, type: vmess, uuid: bb84725a-f726-4bcb-8131-44df12094005, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dengqingbo, headers: {Host: studynew.cn}}}
-  - {name: US_207 |75.80Mb, server: 67.21.72.44, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.48816626.xyz, network: ws, ws-opts: {path: /path/120208301422}}
-  - {name: ZA_236 |73.15Mb, server: 156.240.120.13, port: 57661, type: vmess, uuid: f360b24a-7b07-49be-9a16-d676c517974f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: NO_109 |35.91Mb, server: 138.124.183.216, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
+  - {name: US_186 |51.15Mb, server: 67.21.72.44, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.48816626.xyz, network: ws, ws-opts: {path: /path/120208301422}}
+  - {name: US_189 |76.18Mb, server: 154.31.48.98, port: 11003, type: vmess, uuid: 140b58a5-8ff9-4c49-8323-63da9309daa4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: US_193 |72.72Mb, server: 67.21.72.41, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.17080100.xyz, network: ws, ws-opts: {path: /path/173418141123}}
+  - {name: US_198 |44.34Mb, server: studynew.cn, port: 51340, type: vmess, uuid: bb84725a-f726-4bcb-8131-44df12094005, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dengqingbo, headers: {Host: studynew.cn}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - NL_105 |39.01Mb
-      - NO_112 |36.27Mb
-      - US_195 |36.73Mb
-      - US_197 |77.23Mb
-      - US_200 |34.03Mb
-      - US_201 |71.40Mb
-      - US_204 |59.92Mb
-      - US_207 |75.80Mb
-      - ZA_236 |73.15Mb
+      - NO_109 |35.91Mb
+      - US_186 |51.15Mb
+      - US_189 |76.18Mb
+      - US_193 |72.72Mb
+      - US_198 |44.34Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - NL_105 |39.01Mb
-      - NO_112 |36.27Mb
-      - US_195 |36.73Mb
-      - US_197 |77.23Mb
-      - US_200 |34.03Mb
-      - US_201 |71.40Mb
-      - US_204 |59.92Mb
-      - US_207 |75.80Mb
-      - ZA_236 |73.15Mb
+      - NO_109 |35.91Mb
+      - US_186 |51.15Mb
+      - US_189 |76.18Mb
+      - US_193 |72.72Mb
+      - US_198 |44.34Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - NL_105 |39.01Mb
-      - NO_112 |36.27Mb
-      - US_195 |36.73Mb
-      - US_197 |77.23Mb
-      - US_200 |34.03Mb
-      - US_201 |71.40Mb
-      - US_204 |59.92Mb
-      - US_207 |75.80Mb
-      - ZA_236 |73.15Mb
+      - NO_109 |35.91Mb
+      - US_186 |51.15Mb
+      - US_189 |76.18Mb
+      - US_193 |72.72Mb
+      - US_198 |44.34Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - NL_105 |39.01Mb
-      - NO_112 |36.27Mb
-      - US_195 |36.73Mb
-      - US_197 |77.23Mb
-      - US_200 |34.03Mb
-      - US_201 |71.40Mb
-      - US_204 |59.92Mb
-      - US_207 |75.80Mb
-      - ZA_236 |73.15Mb
+      - NO_109 |35.91Mb
+      - US_186 |51.15Mb
+      - US_189 |76.18Mb
+      - US_193 |72.72Mb
+      - US_198 |44.34Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - NL_105 |39.01Mb
-      - NO_112 |36.27Mb
-      - US_195 |36.73Mb
-      - US_197 |77.23Mb
-      - US_200 |34.03Mb
-      - US_201 |71.40Mb
-      - US_204 |59.92Mb
-      - US_207 |75.80Mb
-      - ZA_236 |73.15Mb
+      - NO_109 |35.91Mb
+      - US_186 |51.15Mb
+      - US_189 |76.18Mb
+      - US_193 |72.72Mb
+      - US_198 |44.34Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - NL_105 |39.01Mb
-      - NO_112 |36.27Mb
-      - US_195 |36.73Mb
-      - US_197 |77.23Mb
-      - US_200 |34.03Mb
-      - US_201 |71.40Mb
-      - US_204 |59.92Mb
-      - US_207 |75.80Mb
-      - ZA_236 |73.15Mb
+      - NO_109 |35.91Mb
+      - US_186 |51.15Mb
+      - US_189 |76.18Mb
+      - US_193 |72.72Mb
+      - US_198 |44.34Mb
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - NL_105 |39.01Mb
-      - NO_112 |36.27Mb
-      - US_195 |36.73Mb
-      - US_197 |77.23Mb
-      - US_200 |34.03Mb
-      - US_201 |71.40Mb
-      - US_204 |59.92Mb
-      - US_207 |75.80Mb
-      - ZA_236 |73.15Mb
+      - NO_109 |35.91Mb
+      - US_186 |51.15Mb
+      - US_189 |76.18Mb
+      - US_193 |72.72Mb
+      - US_198 |44.34Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -138,15 +106,11 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - NL_105 |39.01Mb
-      - NO_112 |36.27Mb
-      - US_195 |36.73Mb
-      - US_197 |77.23Mb
-      - US_200 |34.03Mb
-      - US_201 |71.40Mb
-      - US_204 |59.92Mb
-      - US_207 |75.80Mb
-      - ZA_236 |73.15Mb
+      - NO_109 |35.91Mb
+      - US_186 |51.15Mb
+      - US_189 |76.18Mb
+      - US_193 |72.72Mb
+      - US_198 |44.34Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
