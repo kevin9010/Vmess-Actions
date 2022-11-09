@@ -5,77 +5,109 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: FR_103 |43.48Mb, server: 146.19.230.241, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
-  - {name: US_235 |73.29Mb, server: 67.21.72.44, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.48816626.xyz, network: ws, ws-opts: {path: /path/120208301422}}
-  - {name: US_241 |71.54Mb, server: 67.21.72.41, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.17080100.xyz, network: ws, ws-opts: {path: /path/173418141123}}
-  - {name: US_245 |54.58Mb, server: 107.173.83.214, port: 37541, type: vmess, uuid: ef59a586-0532-4763-f353-948eb413f00d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: FR_98 |55.67Mb, server: 146.19.230.241, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
+  - {name: US_214 |73.70Mb, server: 67.21.72.44, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.48816626.xyz, network: ws, ws-opts: {path: /path/120208301422}}
+  - {name: US_215 |72.61Mb, server: 67.21.72.41, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.17080100.xyz, network: ws, ws-opts: {path: /path/173418141123}}
+  - {name: US_219 |56.25Mb, server: 107.173.83.214, port: 37541, type: vmess, uuid: ef59a586-0532-4763-f353-948eb413f00d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: US_240 |87.65Mb, server: 129.146.242.130, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
+  - {name: US_248 |91.10Mb, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
+  - {name: US_249 |89.52Mb, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, skip-cert-verify: true, udp: true}
+  - {name: US_251 |89.73Mb, server: 129.146.190.42, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - FR_103 |43.48Mb
-      - US_235 |73.29Mb
-      - US_241 |71.54Mb
-      - US_245 |54.58Mb
+      - FR_98 |55.67Mb
+      - US_214 |73.70Mb
+      - US_215 |72.61Mb
+      - US_219 |56.25Mb
+      - US_240 |87.65Mb
+      - US_248 |91.10Mb
+      - US_249 |89.52Mb
+      - US_251 |89.73Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - FR_103 |43.48Mb
-      - US_235 |73.29Mb
-      - US_241 |71.54Mb
-      - US_245 |54.58Mb
+      - FR_98 |55.67Mb
+      - US_214 |73.70Mb
+      - US_215 |72.61Mb
+      - US_219 |56.25Mb
+      - US_240 |87.65Mb
+      - US_248 |91.10Mb
+      - US_249 |89.52Mb
+      - US_251 |89.73Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - FR_103 |43.48Mb
-      - US_235 |73.29Mb
-      - US_241 |71.54Mb
-      - US_245 |54.58Mb
+      - FR_98 |55.67Mb
+      - US_214 |73.70Mb
+      - US_215 |72.61Mb
+      - US_219 |56.25Mb
+      - US_240 |87.65Mb
+      - US_248 |91.10Mb
+      - US_249 |89.52Mb
+      - US_251 |89.73Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - FR_103 |43.48Mb
-      - US_235 |73.29Mb
-      - US_241 |71.54Mb
-      - US_245 |54.58Mb
+      - FR_98 |55.67Mb
+      - US_214 |73.70Mb
+      - US_215 |72.61Mb
+      - US_219 |56.25Mb
+      - US_240 |87.65Mb
+      - US_248 |91.10Mb
+      - US_249 |89.52Mb
+      - US_251 |89.73Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - FR_103 |43.48Mb
-      - US_235 |73.29Mb
-      - US_241 |71.54Mb
-      - US_245 |54.58Mb
+      - FR_98 |55.67Mb
+      - US_214 |73.70Mb
+      - US_215 |72.61Mb
+      - US_219 |56.25Mb
+      - US_240 |87.65Mb
+      - US_248 |91.10Mb
+      - US_249 |89.52Mb
+      - US_251 |89.73Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - FR_103 |43.48Mb
-      - US_235 |73.29Mb
-      - US_241 |71.54Mb
-      - US_245 |54.58Mb
+      - FR_98 |55.67Mb
+      - US_214 |73.70Mb
+      - US_215 |72.61Mb
+      - US_219 |56.25Mb
+      - US_240 |87.65Mb
+      - US_248 |91.10Mb
+      - US_249 |89.52Mb
+      - US_251 |89.73Mb
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - FR_103 |43.48Mb
-      - US_235 |73.29Mb
-      - US_241 |71.54Mb
-      - US_245 |54.58Mb
+      - FR_98 |55.67Mb
+      - US_214 |73.70Mb
+      - US_215 |72.61Mb
+      - US_219 |56.25Mb
+      - US_240 |87.65Mb
+      - US_248 |91.10Mb
+      - US_249 |89.52Mb
+      - US_251 |89.73Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -98,10 +130,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - FR_103 |43.48Mb
-      - US_235 |73.29Mb
-      - US_241 |71.54Mb
-      - US_245 |54.58Mb
+      - FR_98 |55.67Mb
+      - US_214 |73.70Mb
+      - US_215 |72.61Mb
+      - US_219 |56.25Mb
+      - US_240 |87.65Mb
+      - US_248 |91.10Mb
+      - US_249 |89.52Mb
+      - US_251 |89.73Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
