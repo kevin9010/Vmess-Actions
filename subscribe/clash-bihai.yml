@@ -5,15 +5,17 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CH_51 |48.83Mb, server: www.kehuai.tk, port: 443, type: vmess, uuid: 353b3a7d-28d2-4e4b-9633-1c90f23b6514, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.kehuai.tk, network: ws, ws-opts: {path: /, headers: {Host: www.kehuai.tk}}}
-  - {name: US_251 |67.71Mb, server: 67.21.72.44, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.48816626.xyz, network: ws, ws-opts: {path: /path/120208301422}}
-  - {name: US_254 |70.57Mb, server: 67.21.72.41, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.17080100.xyz, network: ws, ws-opts: {path: /path/173418141123}}
-  - {name: US_256 |72.30Mb, server: 150.230.41.9, port: 23292, type: vmess, uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 1002hk1326.tfzhc.top}
-  - {name: FR_112 |54.64Mb, server: 146.19.230.241, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
-  - {name: US_267 |60.83Mb, server: youtube-bai-piao-wang-zhe-usa.98848.xyz, port: 443, type: trojan, password: d1478689-439c-4590-b7ce-36e786a02dc3, skip-cert-verify: true, udp: true}
+  - {name: CH_51 |42.55Mb, server: www.kehuai.tk, port: 443, type: vmess, uuid: 353b3a7d-28d2-4e4b-9633-1c90f23b6514, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.kehuai.tk, network: ws, ws-opts: {path: /, headers: {Host: www.kehuai.tk}}}
+  - {name: US_249 |50.03Mb, server: 129.159.41.233, port: 32586, type: vmess, uuid: 341a9182-c423-499c-c46e-d17838b29037, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: US_251 |71.25Mb, server: 67.21.72.44, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.48816626.xyz, network: ws, ws-opts: {path: /path/120208301422}}
+  - {name: US_254 |43.65Mb, server: 67.21.72.41, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.17080100.xyz, network: ws, ws-opts: {path: /path/173418141123}}
+  - {name: US_256 |64.58Mb, server: 150.230.41.9, port: 23292, type: vmess, uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 1002hk1326.tfzhc.top}
+  - {name: DE_94 |46.72Mb, server: 188.40.251.19, port: 443, type: trojan, password: origin, skip-cert-verify: true, udp: true}
+  - {name: FR_112 |54.57Mb, server: 146.19.230.241, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
+  - {name: US_267 |62.20Mb, server: youtube-bai-piao-wang-zhe-usa.98848.xyz, port: 443, type: trojan, password: d1478689-439c-4590-b7ce-36e786a02dc3, skip-cert-verify: true, udp: true}
   - {name: US_273 |271.09Mb, server: 3.82.24.191, port: 54661, type: trojan, password: f7e12f49-13f8-4a08-92f8-7f4e25021c9f, skip-cert-verify: true, udp: true}
-  - {name: US_285 |66.15Mb, server: 107.181.161.163, port: 443, type: trojan, password: d1478689-439c-4590-b7ce-36e786a02dc3, skip-cert-verify: true, udp: true}
-  - {name: US_292 |86.28Mb, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
+  - {name: US_285 |60.22Mb, server: 107.181.161.163, port: 443, type: trojan, password: d1478689-439c-4590-b7ce-36e786a02dc3, skip-cert-verify: true, udp: true}
+  - {name: US_292 |87.59Mb, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
   - {name: "NULL", server: "NULL", port: 11708, type: ssr, cipher: aes-256-cfb, password: "sEscPBiAD9K$&@79", protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: ""}
 proxy-groups:
   - name: 🚀 节点选择
@@ -21,15 +23,17 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - CH_51 |48.83Mb
-      - US_251 |67.71Mb
-      - US_254 |70.57Mb
-      - US_256 |72.30Mb
-      - FR_112 |54.64Mb
-      - US_267 |60.83Mb
+      - CH_51 |42.55Mb
+      - US_249 |50.03Mb
+      - US_251 |71.25Mb
+      - US_254 |43.65Mb
+      - US_256 |64.58Mb
+      - DE_94 |46.72Mb
+      - FR_112 |54.57Mb
+      - US_267 |62.20Mb
       - US_273 |271.09Mb
-      - US_285 |66.15Mb
-      - US_292 |86.28Mb
+      - US_285 |60.22Mb
+      - US_292 |87.59Mb
       - "NULL"
   - name: ♻️ 自动选择
     type: url-test
@@ -37,15 +41,17 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - CH_51 |48.83Mb
-      - US_251 |67.71Mb
-      - US_254 |70.57Mb
-      - US_256 |72.30Mb
-      - FR_112 |54.64Mb
-      - US_267 |60.83Mb
+      - CH_51 |42.55Mb
+      - US_249 |50.03Mb
+      - US_251 |71.25Mb
+      - US_254 |43.65Mb
+      - US_256 |64.58Mb
+      - DE_94 |46.72Mb
+      - FR_112 |54.57Mb
+      - US_267 |62.20Mb
       - US_273 |271.09Mb
-      - US_285 |66.15Mb
-      - US_292 |86.28Mb
+      - US_285 |60.22Mb
+      - US_292 |87.59Mb
       - "NULL"
   - name: 🌍 国外媒体
     type: select
@@ -53,60 +59,68 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CH_51 |48.83Mb
-      - US_251 |67.71Mb
-      - US_254 |70.57Mb
-      - US_256 |72.30Mb
-      - FR_112 |54.64Mb
-      - US_267 |60.83Mb
+      - CH_51 |42.55Mb
+      - US_249 |50.03Mb
+      - US_251 |71.25Mb
+      - US_254 |43.65Mb
+      - US_256 |64.58Mb
+      - DE_94 |46.72Mb
+      - FR_112 |54.57Mb
+      - US_267 |62.20Mb
       - US_273 |271.09Mb
-      - US_285 |66.15Mb
-      - US_292 |86.28Mb
+      - US_285 |60.22Mb
+      - US_292 |87.59Mb
       - "NULL"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - CH_51 |48.83Mb
-      - US_251 |67.71Mb
-      - US_254 |70.57Mb
-      - US_256 |72.30Mb
-      - FR_112 |54.64Mb
-      - US_267 |60.83Mb
+      - CH_51 |42.55Mb
+      - US_249 |50.03Mb
+      - US_251 |71.25Mb
+      - US_254 |43.65Mb
+      - US_256 |64.58Mb
+      - DE_94 |46.72Mb
+      - FR_112 |54.57Mb
+      - US_267 |62.20Mb
       - US_273 |271.09Mb
-      - US_285 |66.15Mb
-      - US_292 |86.28Mb
+      - US_285 |60.22Mb
+      - US_292 |87.59Mb
       - "NULL"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - CH_51 |48.83Mb
-      - US_251 |67.71Mb
-      - US_254 |70.57Mb
-      - US_256 |72.30Mb
-      - FR_112 |54.64Mb
-      - US_267 |60.83Mb
+      - CH_51 |42.55Mb
+      - US_249 |50.03Mb
+      - US_251 |71.25Mb
+      - US_254 |43.65Mb
+      - US_256 |64.58Mb
+      - DE_94 |46.72Mb
+      - FR_112 |54.57Mb
+      - US_267 |62.20Mb
       - US_273 |271.09Mb
-      - US_285 |66.15Mb
-      - US_292 |86.28Mb
+      - US_285 |60.22Mb
+      - US_292 |87.59Mb
       - "NULL"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - CH_51 |48.83Mb
-      - US_251 |67.71Mb
-      - US_254 |70.57Mb
-      - US_256 |72.30Mb
-      - FR_112 |54.64Mb
-      - US_267 |60.83Mb
+      - CH_51 |42.55Mb
+      - US_249 |50.03Mb
+      - US_251 |71.25Mb
+      - US_254 |43.65Mb
+      - US_256 |64.58Mb
+      - DE_94 |46.72Mb
+      - FR_112 |54.57Mb
+      - US_267 |62.20Mb
       - US_273 |271.09Mb
-      - US_285 |66.15Mb
-      - US_292 |86.28Mb
+      - US_285 |60.22Mb
+      - US_292 |87.59Mb
       - "NULL"
   - name: 📢 谷歌FCM
     type: select
@@ -114,15 +128,17 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CH_51 |48.83Mb
-      - US_251 |67.71Mb
-      - US_254 |70.57Mb
-      - US_256 |72.30Mb
-      - FR_112 |54.64Mb
-      - US_267 |60.83Mb
+      - CH_51 |42.55Mb
+      - US_249 |50.03Mb
+      - US_251 |71.25Mb
+      - US_254 |43.65Mb
+      - US_256 |64.58Mb
+      - DE_94 |46.72Mb
+      - FR_112 |54.57Mb
+      - US_267 |62.20Mb
       - US_273 |271.09Mb
-      - US_285 |66.15Mb
-      - US_292 |86.28Mb
+      - US_285 |60.22Mb
+      - US_292 |87.59Mb
       - "NULL"
   - name: 🎯 全球直连
     type: select
@@ -146,15 +162,17 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CH_51 |48.83Mb
-      - US_251 |67.71Mb
-      - US_254 |70.57Mb
-      - US_256 |72.30Mb
-      - FR_112 |54.64Mb
-      - US_267 |60.83Mb
+      - CH_51 |42.55Mb
+      - US_249 |50.03Mb
+      - US_251 |71.25Mb
+      - US_254 |43.65Mb
+      - US_256 |64.58Mb
+      - DE_94 |46.72Mb
+      - FR_112 |54.57Mb
+      - US_267 |62.20Mb
       - US_273 |271.09Mb
-      - US_285 |66.15Mb
-      - US_292 |86.28Mb
+      - US_285 |60.22Mb
+      - US_292 |87.59Mb
       - "NULL"
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
