@@ -5,69 +5,165 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: CH_50 |50.85Mb, server: www.liuyiyang19891222.tk, port: 443, type: vmess, uuid: ad48ebeb-f949-472b-9717-e8c8f0f7984d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.liuyiyang19891222.tk, network: ws, ws-opts: {path: /, headers: {Host: www.liuyiyang19891222.tk}}}
+  - {name: US_265 |74.63Mb, server: 67.21.72.44, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.48816626.xyz, network: ws, ws-opts: {path: /path/120208301422}}
+  - {name: US_266 |75.05Mb, server: 67.21.72.41, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.17080100.xyz, network: ws, ws-opts: {path: /path/173418141123}}
+  - {name: CA_46 |130.14Mb, server: 149.56.141.11, port: 443, type: trojan, password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158, skip-cert-verify: true, udp: true}
+  - {name: CA_48 |85.96Mb, server: cat1.sshocean.net, port: 443, type: trojan, password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158, skip-cert-verify: true, udp: true}
+  - {name: FR_132 |58.43Mb, server: 146.19.230.241, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
+  - {name: JP_154 |31.06Mb, server: official.tokyometropolis.kharkov.ua, port: 2053, type: trojan, password: 96983eb4-c8f1-316e-ab00-500014ed3d8b, skip-cert-verify: true, udp: true}
+  - {name: JP_155 |30.91Mb, server: official.tokyometropolis.ivano-frankivsk.ua, port: 2053, type: trojan, password: 96983eb4-c8f1-316e-ab00-500014ed3d8b, skip-cert-verify: true, udp: true}
+  - {name: JP_156 |31.00Mb, server: official.tokyometropolis.kherson.ua, port: 2053, type: trojan, password: 96983eb4-c8f1-316e-ab00-500014ed3d8b, skip-cert-verify: true, udp: true}
+  - {name: US_277 |90.04Mb, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
+  - {name: US_279 |68.41Mb, server: 107.181.161.163, port: 443, type: trojan, password: d1478689-439c-4590-b7ce-36e786a02dc3, skip-cert-verify: true, udp: true}
+  - {name: US_280 |82.82Mb, server: b-t.us.hyperlinkvpn.xyz, port: 50500, type: trojan, password: dacbc926-ea36-4be2-9f52-f343d353a2de, skip-cert-verify: true, udp: true}
+  - {name: US_283 |79.26Mb, server: 129.146.242.130, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
+  - {name: US_300 |75.74Mb, server: youtube-bai-piao-wang-zhe-usa.98848.xyz, port: 443, type: trojan, password: d1478689-439c-4590-b7ce-36e786a02dc3, skip-cert-verify: true, udp: true}
   - {name: "NULL", server: "NULL", port: 11708, type: ssr, cipher: aes-256-cfb, password: "sEscPBiAD9K$&@79", protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: ""}
-  - {name: NULL 2, server: "NULL", port: 11708, type: ssr, cipher: aes-256-cfb, password: "sEscPBiAD9K$&@79", protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: ""}
-  - {name: NULL 3, server: "NULL", port: 11708, type: ssr, cipher: aes-256-cfb, password: "sEscPBiAD9K$&@79", protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: ""}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - CH_50 |50.85Mb
+      - US_265 |74.63Mb
+      - US_266 |75.05Mb
+      - CA_46 |130.14Mb
+      - CA_48 |85.96Mb
+      - FR_132 |58.43Mb
+      - JP_154 |31.06Mb
+      - JP_155 |30.91Mb
+      - JP_156 |31.00Mb
+      - US_277 |90.04Mb
+      - US_279 |68.41Mb
+      - US_280 |82.82Mb
+      - US_283 |79.26Mb
+      - US_300 |75.74Mb
       - "NULL"
-      - NULL 2
-      - NULL 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - CH_50 |50.85Mb
+      - US_265 |74.63Mb
+      - US_266 |75.05Mb
+      - CA_46 |130.14Mb
+      - CA_48 |85.96Mb
+      - FR_132 |58.43Mb
+      - JP_154 |31.06Mb
+      - JP_155 |30.91Mb
+      - JP_156 |31.00Mb
+      - US_277 |90.04Mb
+      - US_279 |68.41Mb
+      - US_280 |82.82Mb
+      - US_283 |79.26Mb
+      - US_300 |75.74Mb
       - "NULL"
-      - NULL 2
-      - NULL 3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - CH_50 |50.85Mb
+      - US_265 |74.63Mb
+      - US_266 |75.05Mb
+      - CA_46 |130.14Mb
+      - CA_48 |85.96Mb
+      - FR_132 |58.43Mb
+      - JP_154 |31.06Mb
+      - JP_155 |30.91Mb
+      - JP_156 |31.00Mb
+      - US_277 |90.04Mb
+      - US_279 |68.41Mb
+      - US_280 |82.82Mb
+      - US_283 |79.26Mb
+      - US_300 |75.74Mb
       - "NULL"
-      - NULL 2
-      - NULL 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - CH_50 |50.85Mb
+      - US_265 |74.63Mb
+      - US_266 |75.05Mb
+      - CA_46 |130.14Mb
+      - CA_48 |85.96Mb
+      - FR_132 |58.43Mb
+      - JP_154 |31.06Mb
+      - JP_155 |30.91Mb
+      - JP_156 |31.00Mb
+      - US_277 |90.04Mb
+      - US_279 |68.41Mb
+      - US_280 |82.82Mb
+      - US_283 |79.26Mb
+      - US_300 |75.74Mb
       - "NULL"
-      - NULL 2
-      - NULL 3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - CH_50 |50.85Mb
+      - US_265 |74.63Mb
+      - US_266 |75.05Mb
+      - CA_46 |130.14Mb
+      - CA_48 |85.96Mb
+      - FR_132 |58.43Mb
+      - JP_154 |31.06Mb
+      - JP_155 |30.91Mb
+      - JP_156 |31.00Mb
+      - US_277 |90.04Mb
+      - US_279 |68.41Mb
+      - US_280 |82.82Mb
+      - US_283 |79.26Mb
+      - US_300 |75.74Mb
       - "NULL"
-      - NULL 2
-      - NULL 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - CH_50 |50.85Mb
+      - US_265 |74.63Mb
+      - US_266 |75.05Mb
+      - CA_46 |130.14Mb
+      - CA_48 |85.96Mb
+      - FR_132 |58.43Mb
+      - JP_154 |31.06Mb
+      - JP_155 |30.91Mb
+      - JP_156 |31.00Mb
+      - US_277 |90.04Mb
+      - US_279 |68.41Mb
+      - US_280 |82.82Mb
+      - US_283 |79.26Mb
+      - US_300 |75.74Mb
       - "NULL"
-      - NULL 2
-      - NULL 3
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - CH_50 |50.85Mb
+      - US_265 |74.63Mb
+      - US_266 |75.05Mb
+      - CA_46 |130.14Mb
+      - CA_48 |85.96Mb
+      - FR_132 |58.43Mb
+      - JP_154 |31.06Mb
+      - JP_155 |30.91Mb
+      - JP_156 |31.00Mb
+      - US_277 |90.04Mb
+      - US_279 |68.41Mb
+      - US_280 |82.82Mb
+      - US_283 |79.26Mb
+      - US_300 |75.74Mb
       - "NULL"
-      - NULL 2
-      - NULL 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -90,9 +186,21 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - CH_50 |50.85Mb
+      - US_265 |74.63Mb
+      - US_266 |75.05Mb
+      - CA_46 |130.14Mb
+      - CA_48 |85.96Mb
+      - FR_132 |58.43Mb
+      - JP_154 |31.06Mb
+      - JP_155 |30.91Mb
+      - JP_156 |31.00Mb
+      - US_277 |90.04Mb
+      - US_279 |68.41Mb
+      - US_280 |82.82Mb
+      - US_283 |79.26Mb
+      - US_300 |75.74Mb
       - "NULL"
-      - NULL 2
-      - NULL 3
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
