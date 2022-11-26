@@ -5,189 +5,237 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: DE_245 |149.61Mb, server: 5.161.105.171, port: 3389, type: vmess, uuid: 06d52c29-1230-49a7-8fa6-66dbc9749a95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 5.161.105.171, network: ws, ws-opts: {path: /}}
-  - {name: US_449 |80.05Mb, server: 67.21.72.44, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.48816626.xyz, network: ws, ws-opts: {path: /path/120208301422}}
-  - {name: US_450 |72.81Mb, server: 67.21.72.41, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.17080100.xyz, network: ws, ws-opts: {path: /path/173418141123}}
-  - {name: GB_271 |65.22Mb, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: true, udp: true}
-  - {name: GB_273 |40.01Mb, server: 132.145.51.172, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: true, udp: true}
-  - {name: NL_339 |52.01Mb, server: content-provider13.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: Sp3eDVp, skip-cert-verify: true, udp: true}
-  - {name: NL_340 |47.92Mb, server: 5.255.103.209, port: 443, type: trojan, password: 3dacbaa8-784b-430c-9c1e-57d33648981d, skip-cert-verify: true, udp: true}
-  - {name: US_407 |90.18Mb, server: 129.146.135.157, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
-  - {name: US_459 |65.98Mb, server: 129.146.255.158, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
-  - {name: US_463 |35.37Mb, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
-  - {name: US_484 |61.82Mb, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
-  - {name: US_492 |71.08Mb, server: 60.72img.xyz, port: 443, type: trojan, password: 81d93f62-15a2-4994-adb9-0b5d906aac7e, skip-cert-verify: true, udp: true}
-  - {name: US_497 |96.11Mb, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
-  - {name: US_499 |40.51Mb, server: 129.146.242.130, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, skip-cert-verify: true, udp: true}
-  - {name: US_501 |32.23Mb, server: 150.230.96.103, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, skip-cert-verify: true, udp: true}
-  - {name: US_508 |31.60Mb, server: 150.230.217.213, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, skip-cert-verify: true, udp: true}
-  - {name: NL_330 |60.75Mb, server: 94.102.57.163, port: 11708, type: ssr, cipher: aes-256-cfb, password: "sEscPBiAD9K$&@79", protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: ""}
-  - {name: NL_338 |65.83Mb, server: 94.102.57.163, port: 11708, type: ssr, cipher: aes-256-cfb, password: "sEscPBiAD9K$&@79", protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: ""}
+  - {name: CH_37 |36.36Mb, server: www.liuyiyang19891222.tk, port: 443, type: vmess, uuid: ad48ebeb-f949-472b-9717-e8c8f0f7984d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.liuyiyang19891222.tk, network: ws, ws-opts: {path: /, headers: {Host: www.liuyiyang19891222.tk}}}
+  - {name: CH_38 |50.41Mb, server: www.kehuai.tk, port: 443, type: vmess, uuid: 353b3a7d-28d2-4e4b-9633-1c90f23b6514, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: www.kehuai.tk, network: ws, ws-opts: {path: /, headers: {Host: www.kehuai.tk}}}
+  - {name: FR_284 |31.18Mb, server: 51.75.188.6, port: 443, type: vmess, uuid: b2737260-b925-4434-9ca1-6116fa8ab83c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: node1.wblogw1.tk, network: ws, ws-opts: {path: /cw21sadd3}}
+  - {name: US_490 |32.58Mb, server: 138.2.44.211, port: 20081, type: vmess, uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: US_492 |73.36Mb, server: 67.21.72.44, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.48816626.xyz, network: ws, ws-opts: {path: /path/120208301422}}
+  - {name: US_494 |73.48Mb, server: 67.21.72.41, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.17080100.xyz, network: ws, ws-opts: {path: /path/173418141123}}
+  - {name: US_495 |64.24Mb, server: 23.105.199.160, port: 25078, type: vmess, uuid: 964f9b2b-7ff1-4026-d4a9-41b824f4b3bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 120.241.144.71}
+  - {name: GB_297 |57.94Mb, server: 132.145.51.172, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: true, udp: true}
+  - {name: GB_298 |66.43Mb, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, skip-cert-verify: true, udp: true}
+  - {name: JP_345 |31.91Mb, server: 168.138.43.89, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, skip-cert-verify: true, udp: true}
+  - {name: JP_348 |31.51Mb, server: 168.138.44.176, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, skip-cert-verify: true, udp: true}
+  - {name: JP_350 |31.60Mb, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, skip-cert-verify: true, udp: true}
+  - {name: NL_371 |47.92Mb, server: 5.255.103.209, port: 443, type: trojan, password: 3dacbaa8-784b-430c-9c1e-57d33648981d, skip-cert-verify: true, udp: true}
+  - {name: NL_372 |59.59Mb, server: content-provider13.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: Sp3eDVp, skip-cert-verify: true, udp: true}
+  - {name: US_443 |89.99Mb, server: 129.146.135.157, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
+  - {name: US_505 |73.77Mb, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
+  - {name: US_525 |44.68Mb, server: 60.72img.xyz, port: 443, type: trojan, password: 81d93f62-15a2-4994-adb9-0b5d906aac7e, skip-cert-verify: true, udp: true}
+  - {name: US_528 |52.68Mb, server: 129.146.255.158, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, skip-cert-verify: true, udp: true}
+  - {name: US_538 |84.72Mb, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
+  - {name: US_540 |30.87Mb, server: 150.230.96.103, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, skip-cert-verify: true, udp: true}
+  - {name: US_544 |33.18Mb, server: 150.230.217.213, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, skip-cert-verify: true, udp: true}
+  - {name: JP_332 |32.05Mb, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: NL_361 |70.01Mb, server: 94.102.57.163, port: 11708, type: ssr, cipher: aes-256-cfb, password: "sEscPBiAD9K$&@79", protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: ""}
+  - {name: NL_370 |58.91Mb, server: 94.102.57.163, port: 11708, type: ssr, cipher: aes-256-cfb, password: "sEscPBiAD9K$&@79", protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: ""}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - DE_245 |149.61Mb
-      - US_449 |80.05Mb
-      - US_450 |72.81Mb
-      - GB_271 |65.22Mb
-      - GB_273 |40.01Mb
-      - NL_339 |52.01Mb
-      - NL_340 |47.92Mb
-      - US_407 |90.18Mb
-      - US_459 |65.98Mb
-      - US_463 |35.37Mb
-      - US_484 |61.82Mb
-      - US_492 |71.08Mb
-      - US_497 |96.11Mb
-      - US_499 |40.51Mb
-      - US_501 |32.23Mb
-      - US_508 |31.60Mb
-      - NL_330 |60.75Mb
-      - NL_338 |65.83Mb
+      - CH_37 |36.36Mb
+      - CH_38 |50.41Mb
+      - FR_284 |31.18Mb
+      - US_490 |32.58Mb
+      - US_492 |73.36Mb
+      - US_494 |73.48Mb
+      - US_495 |64.24Mb
+      - GB_297 |57.94Mb
+      - GB_298 |66.43Mb
+      - JP_345 |31.91Mb
+      - JP_348 |31.51Mb
+      - JP_350 |31.60Mb
+      - NL_371 |47.92Mb
+      - NL_372 |59.59Mb
+      - US_443 |89.99Mb
+      - US_505 |73.77Mb
+      - US_525 |44.68Mb
+      - US_528 |52.68Mb
+      - US_538 |84.72Mb
+      - US_540 |30.87Mb
+      - US_544 |33.18Mb
+      - JP_332 |32.05Mb
+      - NL_361 |70.01Mb
+      - NL_370 |58.91Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - DE_245 |149.61Mb
-      - US_449 |80.05Mb
-      - US_450 |72.81Mb
-      - GB_271 |65.22Mb
-      - GB_273 |40.01Mb
-      - NL_339 |52.01Mb
-      - NL_340 |47.92Mb
-      - US_407 |90.18Mb
-      - US_459 |65.98Mb
-      - US_463 |35.37Mb
-      - US_484 |61.82Mb
-      - US_492 |71.08Mb
-      - US_497 |96.11Mb
-      - US_499 |40.51Mb
-      - US_501 |32.23Mb
-      - US_508 |31.60Mb
-      - NL_330 |60.75Mb
-      - NL_338 |65.83Mb
+      - CH_37 |36.36Mb
+      - CH_38 |50.41Mb
+      - FR_284 |31.18Mb
+      - US_490 |32.58Mb
+      - US_492 |73.36Mb
+      - US_494 |73.48Mb
+      - US_495 |64.24Mb
+      - GB_297 |57.94Mb
+      - GB_298 |66.43Mb
+      - JP_345 |31.91Mb
+      - JP_348 |31.51Mb
+      - JP_350 |31.60Mb
+      - NL_371 |47.92Mb
+      - NL_372 |59.59Mb
+      - US_443 |89.99Mb
+      - US_505 |73.77Mb
+      - US_525 |44.68Mb
+      - US_528 |52.68Mb
+      - US_538 |84.72Mb
+      - US_540 |30.87Mb
+      - US_544 |33.18Mb
+      - JP_332 |32.05Mb
+      - NL_361 |70.01Mb
+      - NL_370 |58.91Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - DE_245 |149.61Mb
-      - US_449 |80.05Mb
-      - US_450 |72.81Mb
-      - GB_271 |65.22Mb
-      - GB_273 |40.01Mb
-      - NL_339 |52.01Mb
-      - NL_340 |47.92Mb
-      - US_407 |90.18Mb
-      - US_459 |65.98Mb
-      - US_463 |35.37Mb
-      - US_484 |61.82Mb
-      - US_492 |71.08Mb
-      - US_497 |96.11Mb
-      - US_499 |40.51Mb
-      - US_501 |32.23Mb
-      - US_508 |31.60Mb
-      - NL_330 |60.75Mb
-      - NL_338 |65.83Mb
+      - CH_37 |36.36Mb
+      - CH_38 |50.41Mb
+      - FR_284 |31.18Mb
+      - US_490 |32.58Mb
+      - US_492 |73.36Mb
+      - US_494 |73.48Mb
+      - US_495 |64.24Mb
+      - GB_297 |57.94Mb
+      - GB_298 |66.43Mb
+      - JP_345 |31.91Mb
+      - JP_348 |31.51Mb
+      - JP_350 |31.60Mb
+      - NL_371 |47.92Mb
+      - NL_372 |59.59Mb
+      - US_443 |89.99Mb
+      - US_505 |73.77Mb
+      - US_525 |44.68Mb
+      - US_528 |52.68Mb
+      - US_538 |84.72Mb
+      - US_540 |30.87Mb
+      - US_544 |33.18Mb
+      - JP_332 |32.05Mb
+      - NL_361 |70.01Mb
+      - NL_370 |58.91Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - DE_245 |149.61Mb
-      - US_449 |80.05Mb
-      - US_450 |72.81Mb
-      - GB_271 |65.22Mb
-      - GB_273 |40.01Mb
-      - NL_339 |52.01Mb
-      - NL_340 |47.92Mb
-      - US_407 |90.18Mb
-      - US_459 |65.98Mb
-      - US_463 |35.37Mb
-      - US_484 |61.82Mb
-      - US_492 |71.08Mb
-      - US_497 |96.11Mb
-      - US_499 |40.51Mb
-      - US_501 |32.23Mb
-      - US_508 |31.60Mb
-      - NL_330 |60.75Mb
-      - NL_338 |65.83Mb
+      - CH_37 |36.36Mb
+      - CH_38 |50.41Mb
+      - FR_284 |31.18Mb
+      - US_490 |32.58Mb
+      - US_492 |73.36Mb
+      - US_494 |73.48Mb
+      - US_495 |64.24Mb
+      - GB_297 |57.94Mb
+      - GB_298 |66.43Mb
+      - JP_345 |31.91Mb
+      - JP_348 |31.51Mb
+      - JP_350 |31.60Mb
+      - NL_371 |47.92Mb
+      - NL_372 |59.59Mb
+      - US_443 |89.99Mb
+      - US_505 |73.77Mb
+      - US_525 |44.68Mb
+      - US_528 |52.68Mb
+      - US_538 |84.72Mb
+      - US_540 |30.87Mb
+      - US_544 |33.18Mb
+      - JP_332 |32.05Mb
+      - NL_361 |70.01Mb
+      - NL_370 |58.91Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - DE_245 |149.61Mb
-      - US_449 |80.05Mb
-      - US_450 |72.81Mb
-      - GB_271 |65.22Mb
-      - GB_273 |40.01Mb
-      - NL_339 |52.01Mb
-      - NL_340 |47.92Mb
-      - US_407 |90.18Mb
-      - US_459 |65.98Mb
-      - US_463 |35.37Mb
-      - US_484 |61.82Mb
-      - US_492 |71.08Mb
-      - US_497 |96.11Mb
-      - US_499 |40.51Mb
-      - US_501 |32.23Mb
-      - US_508 |31.60Mb
-      - NL_330 |60.75Mb
-      - NL_338 |65.83Mb
+      - CH_37 |36.36Mb
+      - CH_38 |50.41Mb
+      - FR_284 |31.18Mb
+      - US_490 |32.58Mb
+      - US_492 |73.36Mb
+      - US_494 |73.48Mb
+      - US_495 |64.24Mb
+      - GB_297 |57.94Mb
+      - GB_298 |66.43Mb
+      - JP_345 |31.91Mb
+      - JP_348 |31.51Mb
+      - JP_350 |31.60Mb
+      - NL_371 |47.92Mb
+      - NL_372 |59.59Mb
+      - US_443 |89.99Mb
+      - US_505 |73.77Mb
+      - US_525 |44.68Mb
+      - US_528 |52.68Mb
+      - US_538 |84.72Mb
+      - US_540 |30.87Mb
+      - US_544 |33.18Mb
+      - JP_332 |32.05Mb
+      - NL_361 |70.01Mb
+      - NL_370 |58.91Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - DE_245 |149.61Mb
-      - US_449 |80.05Mb
-      - US_450 |72.81Mb
-      - GB_271 |65.22Mb
-      - GB_273 |40.01Mb
-      - NL_339 |52.01Mb
-      - NL_340 |47.92Mb
-      - US_407 |90.18Mb
-      - US_459 |65.98Mb
-      - US_463 |35.37Mb
-      - US_484 |61.82Mb
-      - US_492 |71.08Mb
-      - US_497 |96.11Mb
-      - US_499 |40.51Mb
-      - US_501 |32.23Mb
-      - US_508 |31.60Mb
-      - NL_330 |60.75Mb
-      - NL_338 |65.83Mb
+      - CH_37 |36.36Mb
+      - CH_38 |50.41Mb
+      - FR_284 |31.18Mb
+      - US_490 |32.58Mb
+      - US_492 |73.36Mb
+      - US_494 |73.48Mb
+      - US_495 |64.24Mb
+      - GB_297 |57.94Mb
+      - GB_298 |66.43Mb
+      - JP_345 |31.91Mb
+      - JP_348 |31.51Mb
+      - JP_350 |31.60Mb
+      - NL_371 |47.92Mb
+      - NL_372 |59.59Mb
+      - US_443 |89.99Mb
+      - US_505 |73.77Mb
+      - US_525 |44.68Mb
+      - US_528 |52.68Mb
+      - US_538 |84.72Mb
+      - US_540 |30.87Mb
+      - US_544 |33.18Mb
+      - JP_332 |32.05Mb
+      - NL_361 |70.01Mb
+      - NL_370 |58.91Mb
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - DE_245 |149.61Mb
-      - US_449 |80.05Mb
-      - US_450 |72.81Mb
-      - GB_271 |65.22Mb
-      - GB_273 |40.01Mb
-      - NL_339 |52.01Mb
-      - NL_340 |47.92Mb
-      - US_407 |90.18Mb
-      - US_459 |65.98Mb
-      - US_463 |35.37Mb
-      - US_484 |61.82Mb
-      - US_492 |71.08Mb
-      - US_497 |96.11Mb
-      - US_499 |40.51Mb
-      - US_501 |32.23Mb
-      - US_508 |31.60Mb
-      - NL_330 |60.75Mb
-      - NL_338 |65.83Mb
+      - CH_37 |36.36Mb
+      - CH_38 |50.41Mb
+      - FR_284 |31.18Mb
+      - US_490 |32.58Mb
+      - US_492 |73.36Mb
+      - US_494 |73.48Mb
+      - US_495 |64.24Mb
+      - GB_297 |57.94Mb
+      - GB_298 |66.43Mb
+      - JP_345 |31.91Mb
+      - JP_348 |31.51Mb
+      - JP_350 |31.60Mb
+      - NL_371 |47.92Mb
+      - NL_372 |59.59Mb
+      - US_443 |89.99Mb
+      - US_505 |73.77Mb
+      - US_525 |44.68Mb
+      - US_528 |52.68Mb
+      - US_538 |84.72Mb
+      - US_540 |30.87Mb
+      - US_544 |33.18Mb
+      - JP_332 |32.05Mb
+      - NL_361 |70.01Mb
+      - NL_370 |58.91Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -210,24 +258,30 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - DE_245 |149.61Mb
-      - US_449 |80.05Mb
-      - US_450 |72.81Mb
-      - GB_271 |65.22Mb
-      - GB_273 |40.01Mb
-      - NL_339 |52.01Mb
-      - NL_340 |47.92Mb
-      - US_407 |90.18Mb
-      - US_459 |65.98Mb
-      - US_463 |35.37Mb
-      - US_484 |61.82Mb
-      - US_492 |71.08Mb
-      - US_497 |96.11Mb
-      - US_499 |40.51Mb
-      - US_501 |32.23Mb
-      - US_508 |31.60Mb
-      - NL_330 |60.75Mb
-      - NL_338 |65.83Mb
+      - CH_37 |36.36Mb
+      - CH_38 |50.41Mb
+      - FR_284 |31.18Mb
+      - US_490 |32.58Mb
+      - US_492 |73.36Mb
+      - US_494 |73.48Mb
+      - US_495 |64.24Mb
+      - GB_297 |57.94Mb
+      - GB_298 |66.43Mb
+      - JP_345 |31.91Mb
+      - JP_348 |31.51Mb
+      - JP_350 |31.60Mb
+      - NL_371 |47.92Mb
+      - NL_372 |59.59Mb
+      - US_443 |89.99Mb
+      - US_505 |73.77Mb
+      - US_525 |44.68Mb
+      - US_528 |52.68Mb
+      - US_538 |84.72Mb
+      - US_540 |30.87Mb
+      - US_544 |33.18Mb
+      - JP_332 |32.05Mb
+      - NL_361 |70.01Mb
+      - NL_370 |58.91Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
